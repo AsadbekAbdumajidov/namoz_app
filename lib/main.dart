@@ -13,6 +13,7 @@ Future main() async {
   await Hive.openBox("check");
   await Hive.openBox("region");
   await Hive.openBox("tasbehSanoq");
+  print("test for commit");
   runApp(const MyApp());
 }
 
