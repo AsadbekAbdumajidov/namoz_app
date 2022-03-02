@@ -26,7 +26,7 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
       valueListenable: Hive.box("myBoolean").listenable(),
       builder: (context, box, __) {
         return GridView.builder(
-          padding: const EdgeInsets.only(top: 8),
+          padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.01),
           scrollDirection: Axis.vertical,
           physics: const BouncingScrollPhysics(),
           itemCount: ServiceIslam.datas![0]['timings'].length,
@@ -35,9 +35,9 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
             crossAxisCount: 1,
           ),
           itemBuilder: (_, __) => Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15),
+            padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.height * 0.02),
             child: Container(
-              margin: const EdgeInsets.symmetric(vertical: 8),
+              margin:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.01),
               decoration: BoxDecoration(
                 color: Colors.white,
                 boxShadow: [
@@ -53,7 +53,7 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
                 ),
               ),
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+                padding:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.035),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

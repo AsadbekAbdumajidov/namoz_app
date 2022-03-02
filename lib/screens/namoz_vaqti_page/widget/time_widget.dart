@@ -34,7 +34,9 @@ class _NamozVaqtiTimeState extends State<NamozVaqtiTime> {
         border: Border.all(width: 0.5, color: Colors.black38),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 3),
+        padding: EdgeInsets.symmetric(
+            horizontal: MediaQuery.of(context).size.height * 0.02,
+            vertical: MediaQuery.of(context).size.height * 0.005),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [

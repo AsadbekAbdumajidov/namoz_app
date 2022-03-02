@@ -18,13 +18,11 @@ class _WidgetDetaState extends State<WidgetDate> {
       width: MediaQuery.of(context).size.width * 0.15,
       decoration: BoxDecoration(
           color: color(widget.index),
-          borderRadius: BorderRadius.only(
-              bottomLeft: widget.index! == 27
-                  ? const Radius.circular(20)
-                  : const Radius.circular(0)),
+          borderRadius:const BorderRadius.only(
+              ),
           border: Border.all(width: 0.5, color: Colors.black54)),
       child: Padding(
-        padding: const EdgeInsets.only(left: 10),
+        padding: EdgeInsets.only(left: MediaQuery.of(context).size.height * 0.01),
         child: Text(
           ServiceIslam.datas![widget.index!]["date"]["readable"]
               .toString()

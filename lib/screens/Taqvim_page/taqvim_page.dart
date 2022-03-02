@@ -67,7 +67,7 @@ class _TaqvimPageState extends State<TaqvimPage> {
       ),
       actions: [
         Padding(
-          padding: const EdgeInsets.only(right: 10),
+          padding:  EdgeInsets.only(right: MediaQuery.of(context).size.width * 0.02),
           child: IconButton(
             onPressed: () {
               Navigator.pushNamed(context, '/haqimizda');

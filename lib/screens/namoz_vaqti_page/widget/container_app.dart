@@ -40,7 +40,7 @@ class _ForAppContainerState extends State<ForAppContainer> {
               width: MediaQuery.of(context).size.width,
               color: const Color.fromRGBO(238, 238, 238, 1),
               child: Padding(
-                padding: const EdgeInsets.only(top: 35),
+                padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.04),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -59,7 +59,7 @@ class _ForAppContainerState extends State<ForAppContainer> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
+                      padding:  EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.005),
                       child: Text(
                         Data.boshMenu[0].toString(),
                         style: const TextStyle(

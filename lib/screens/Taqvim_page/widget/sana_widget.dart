@@ -17,15 +17,15 @@ class _SanaWidgetState extends State<SanaWidget> {
         
           border: Border.all(width: 0.5, color: Colors.black54),
           borderRadius: const BorderRadius.only(topLeft: Radius.circular(30))),
-      child: const Padding(
-        padding: EdgeInsets.only(left: 2),
+      child:  Padding(
+        padding: EdgeInsets.only(left: MediaQuery.of(context).size.height * 0.002),
         child: Center(
           child: Text(
             "Sana",
             style: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
-                fontSize: 20,
+                fontSize: MediaQuery.of(context).size.height * 0.023,
                 fontFamily: 'fonts'),
           ),
         ),
