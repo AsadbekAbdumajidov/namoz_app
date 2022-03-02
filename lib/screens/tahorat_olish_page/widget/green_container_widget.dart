@@ -15,7 +15,7 @@ class _GreenContainerWidgetState extends State<GreenContainerWidget> {
   Widget build(BuildContext context) {
     return SlideInLeft(
       child: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.79,
+        height: MediaQuery.of(context).size.height * 0.77,
         width: MediaQuery.of(context).size.width,
         child: Container(
           width: MediaQuery.of(context).size.width,
@@ -37,7 +37,8 @@ class _GreenContainerWidgetState extends State<GreenContainerWidget> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 12),
+                padding: EdgeInsets.symmetric(
+                    vertical: MediaQuery.of(context).size.height * 0.013),
                 child: Text(
                   DataTahoratOlish.title[DataTahoratOlish.son],
                   style: const TextStyle(

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/data/data_tahorat_olish.dart';
 
+import 'duo_widget.dart';
+
 class OqContainerWidget extends StatefulWidget {
   const OqContainerWidget({Key? key}) : super(key: key);
 
@@ -12,7 +14,7 @@ class _OqContainerWidgetState extends State<OqContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.71,
+      height: MediaQuery.of(context).size.height * 0.69,
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -29,7 +31,7 @@ class _OqContainerWidgetState extends State<OqContainerWidget> {
             : const BouncingScrollPhysics(),
         itemExtent: DataTahoratOlish.son != 9
             ? MediaQuery.of(context).size.height * 0.71
-            : MediaQuery.of(context).size.height * 0.89,
+            : MediaQuery.of(context).size.height * 0.87,
         itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return Padding(
@@ -59,7 +61,7 @@ class _OqContainerWidgetState extends State<OqContainerWidget> {
                         fontFamily: "balo"),
                   ),
                 ),
-                // DataTahoratOlish.son != 9 ? Container() : const DuoWidget(),
+                DataTahoratOlish.son != 9 ? Container() : const DuoWidget(),
               ],
             ),
           );

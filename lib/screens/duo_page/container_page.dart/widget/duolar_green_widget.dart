@@ -43,7 +43,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
                   ),
                 ),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.78,
+                  height: MediaQuery.of(context).size.height * 0.77,
                   width: MediaQuery.of(context).size.width * 0.9,
                   decoration: const BoxDecoration(
                     color: Colors.white,
