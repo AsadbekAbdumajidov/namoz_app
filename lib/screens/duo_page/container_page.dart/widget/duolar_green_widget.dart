@@ -14,10 +14,12 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
+      padding: EdgeInsets.symmetric(
+          horizontal: MediaQuery.of(context).size.width * 0.04,
+          vertical: MediaQuery.of(context).size.width * 0.03),
       child: SlideInLeft(
         child: SizedBox(
-          height: MediaQuery.of(context).size.height * 0.86,
+          height: MediaQuery.of(context).size.height * 0.85,
           width: MediaQuery.of(context).size.width,
           child: Container(
             width: MediaQuery.of(context).size.width,
@@ -31,15 +33,16 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 15),
+                  padding: EdgeInsets.symmetric(
+                      vertical: MediaQuery.of(context).size.width * 0.03),
                   child: Text(
                     Duolar.duolar[widget.index!]["name"].toString(),
-                    style: const TextStyle(
+                    style:  TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20,
+                        fontSize: MediaQuery.of(context).size.height * 0.024,
                         fontFamily: 'balo'),
-                        maxLines: 1,
+                    maxLines: 1,
                   ),
                 ),
                 Container(
@@ -55,12 +58,14 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
                     ),
                   ),
                   child: ListView.builder(
-                    padding:const EdgeInsets.all(0),
+                    padding: const EdgeInsets.all(0),
                     itemCount: 1,
                     itemBuilder: (_, __) {
                       return Padding(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 15, vertical: 15),
+                        padding: EdgeInsets.symmetric(
+                            horizontal:
+                                MediaQuery.of(context).size.width * 0.03,
+                            vertical: MediaQuery.of(context).size.width * 0.04),
                         child: Column(
                           children: [
                             Text(

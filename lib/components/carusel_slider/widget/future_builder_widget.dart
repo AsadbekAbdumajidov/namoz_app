@@ -40,7 +40,7 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
           } else {
             ServiceModul.timesAdd();
             return Padding(
-              padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.03, vertical: 10),
+              padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.035, vertical: MediaQuery.of(context).size.width * 0.025),
               child: Stack(
                 children: [
                   Row(

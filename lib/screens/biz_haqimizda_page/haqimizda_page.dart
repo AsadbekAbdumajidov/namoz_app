@@ -54,13 +54,13 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                 children: [
                   Container(
                     color: const Color.fromRGBO(238, 238, 238, 1),
-                    height: MediaQuery.of(context).size.height * 0.87,
+                    height: MediaQuery.of(context).size.height * 0.885,
                     width: MediaQuery.of(context).size.width * 1,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
-                          height: MediaQuery.of(context).size.height * 0.6,
+                          height: MediaQuery.of(context).size.height * 0.7,
                           width: MediaQuery.of(context).size.width,
                           color: Colors.transparent,
                           child: Column(

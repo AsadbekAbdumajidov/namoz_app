@@ -37,7 +37,7 @@ class _IslomState extends State<Islam> {
               children: [
                 Carusel(region: ayniRegion),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.690,
+                  height: MediaQuery.of(context).size.height * 0.74,
                   color: const Color.fromRGBO(175, 200, 197, 1),
                   child: const HomeBuuilder(),
                 ),
@@ -70,7 +70,9 @@ class _IslomState extends State<Islam> {
             setState(() {});
           },
           child: Padding(
-            padding: const EdgeInsets.only(left: 8, right: 4),
+            padding: EdgeInsets.only(
+                left: MediaQuery.of(context).size.height * 0.01,
+                right: MediaQuery.of(context).size.height * 0.005),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
@@ -118,7 +120,8 @@ class _IslomState extends State<Islam> {
           },
         ),
         Padding(
-          padding: const EdgeInsets.only(right: 5),
+          padding:
+              EdgeInsets.only(right: MediaQuery.of(context).size.width * 0.007),
           child: IconButton(
             onPressed: () {
               Navigator.pushNamed(context, '/haqimizda');
