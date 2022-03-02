@@ -11,8 +11,8 @@ class _LinkWidgetState extends State<LinkWidget> {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      bottom: 50,
-      right: 20,
+      bottom: MediaQuery.of(context).size.height * 0.1,
+      right: MediaQuery.of(context).size.width * 0.05,
       child: Column(
         children: [
           Container(
@@ -25,12 +25,12 @@ class _LinkWidgetState extends State<LinkWidget> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 20),
+            padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.025),
             child: SizedBox(
               height: MediaQuery.of(context).size.height * 0.05,
               width: MediaQuery.of(context).size.width * 0.9,
               child: Padding(
-                padding: const EdgeInsets.only(top: 10),
+                padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.01),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

@@ -12,17 +12,20 @@ class _DasturHaqidaWidgetState extends State<DasturHaqidaWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 5, left: 10),
+      padding: EdgeInsets.only(
+          top: MediaQuery.of(context).size.height * 0.015,
+          left: MediaQuery.of(context).size.height * 0.015),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Icon(Icons.warning_amber_outlined),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 5),
+            padding: EdgeInsets.symmetric(
+                horizontal: MediaQuery.of(context).size.height * 0.01),
             child: Text(
               DataAboutPage.dasturHaqida.toString(),
-              style: const TextStyle(
-                  color: Colors.black, fontSize: 16, fontFamily: 'balo'),
+              style:  TextStyle(
+                  color: Colors.black, fontSize: MediaQuery.of(context).size.height * 0.02, fontFamily: 'balo'),
             ),
           ),
         ],

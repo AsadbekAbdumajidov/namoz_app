@@ -17,7 +17,7 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.73,
+      height: MediaQuery.of(context).size.height * 0.72,
       width: MediaQuery.of(context).size.width * 0.9,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -44,7 +44,7 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
             return Column(
               children: [
                 SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.078,
+                  height: MediaQuery.of(context).size.height * 0.07,
                   width: MediaQuery.of(context).size.width,
                   child: Row(
                     children: [

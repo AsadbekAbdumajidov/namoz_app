@@ -9,7 +9,7 @@ class ContainerGreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height * 0.86,
+      height: MediaQuery.of(context).size.height * 0.85,
       width: MediaQuery.of(context).size.width,
       child: Container(
         width: MediaQuery.of(context).size.width,
@@ -22,27 +22,29 @@ class ContainerGreenWidget extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 10),
+              padding: EdgeInsets.only(
+                  top: MediaQuery.of(context).size.height * 0.01),
               child: Text(
                 ConstIslam.dataAniqla(),
-                style: const TextStyle(
+                style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: 24,
+                    fontSize: MediaQuery.of(context).size.width * 0.06,
                     fontFamily: 'balo'),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 15),
+              padding: EdgeInsets.symmetric(
+                  horizontal: MediaQuery.of(context).size.width * 0.03),
               child: Row(
-                mainAxisAlignment:MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     ServiceIslam.datas![0]["date"]["gregorian"]["month"]["en"],
-                    style: const TextStyle(
+                    style:  TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 24,
+                        fontSize: MediaQuery.of(context).size.width * 0.06,
                         fontFamily: 'balo'),
                   ),
                   Row(
@@ -52,15 +54,15 @@ class ContainerGreenWidget extends StatelessWidget {
                         icon: Icon(
                           Icons.calendar_view_day,
                           color: Colors.cyan.shade100,
-                          size: 30,
+                          size: MediaQuery.of(context).size.width * 0.07,
                         ),
                       ),
-                      const Text(
+                       Text(
                         "Bugun",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 18,
+                            fontSize: MediaQuery.of(context).size.width * 0.046,
                             fontFamily: 'balo'),
                       ),
                       IconButton(
@@ -68,15 +70,15 @@ class ContainerGreenWidget extends StatelessWidget {
                         icon: Icon(
                           Icons.calendar_view_day,
                           color: Colors.yellow.shade100,
-                          size: 30,
+                          size: MediaQuery.of(context).size.width * 0.07,
                         ),
                       ),
-                      const Text(
+                       Text(
                         "Juma",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 18,
+                            fontSize: MediaQuery.of(context).size.width * 0.046,
                             fontFamily: 'balo'),
                       ),
                     ],

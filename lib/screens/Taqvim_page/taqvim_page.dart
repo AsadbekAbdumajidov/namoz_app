@@ -18,14 +18,14 @@ class _TaqvimPageState extends State<TaqvimPage> {
             backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
             appBar: barApp(context),
             body: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
+              padding: EdgeInsets.symmetric(
+                  horizontal: MediaQuery.of(context).size.width * 0.04,
+                  vertical: MediaQuery.of(context).size.width * 0.01),
               child: Column(
                 children: [
                   SlideInLeft(
-                    child:  const ContainerGreenWidget(),
-                          
-                        ),
-                  
+                    child: const ContainerGreenWidget(),
+                  ),
                 ],
               ),
             ),
@@ -40,7 +40,9 @@ class _TaqvimPageState extends State<TaqvimPage> {
       toolbarHeight: MediaQuery.of(context).size.height * 0.07,
       centerTitle: true,
       leading: Padding(
-        padding: const EdgeInsets.only(top: 5, left: 15),
+        padding: EdgeInsets.only(
+            top: MediaQuery.of(context).size.width * 0.01,
+            left: MediaQuery.of(context).size.width * 0.03),
         child: InkWell(
           onTap: () {
             Navigator.pushNamed(context, '/home');

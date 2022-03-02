@@ -54,13 +54,13 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                 children: [
                   Container(
                     color: const Color.fromRGBO(238, 238, 238, 1),
-                    height: MediaQuery.of(context).size.height * 0.9,
+                    height: MediaQuery.of(context).size.height * 0.87,
                     width: MediaQuery.of(context).size.width * 1,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
-                          height: MediaQuery.of(context).size.height * 0.7,
+                          height: MediaQuery.of(context).size.height * 0.6,
                           width: MediaQuery.of(context).size.width,
                           color: Colors.transparent,
                           child: Column(
@@ -77,7 +77,7 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                           decoration: const BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage("assets/images/maschid.jpg"),
-                                fit: BoxFit.contain),
+                                fit: BoxFit.cover),
                           ),
                         )
                       ],

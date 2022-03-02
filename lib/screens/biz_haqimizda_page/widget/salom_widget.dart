@@ -12,7 +12,7 @@ class _SalomWidgetState extends State<SalomWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.only(top: 25),
+        padding:  EdgeInsets.only(top:  MediaQuery.of(context).size.height * 0.02,),
         child: Text(
           DataAboutPage.salom.toString(),
           style: const TextStyle(
