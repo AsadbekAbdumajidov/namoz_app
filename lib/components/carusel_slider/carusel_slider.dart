@@ -39,7 +39,7 @@ class _CaruselState extends State<Carusel> {
           height: MediaQuery.of(context).size.height * 0.18,
           enlargeCenterPage: true,
           autoPlayCurve: Curves.linear,
-          autoPlayInterval: const Duration(seconds: 8),
+          autoPlayInterval: const Duration(seconds: 7),
         ),
       ),
     );
