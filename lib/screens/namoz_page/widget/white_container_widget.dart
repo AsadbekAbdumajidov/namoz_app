@@ -13,7 +13,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.71,
+      height: MediaQuery.of(context).size.height * 0.685,
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -30,7 +30,9 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
         itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+            padding: EdgeInsets.symmetric(
+                horizontal: MediaQuery.of(context).size.width * 0.03,
+                vertical: MediaQuery.of(context).size.height * 0.02),
             child: Column(
               children: [
                 Container(
@@ -45,7 +47,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 30),
+                  padding: EdgeInsets.only(top:  MediaQuery.of(context).size.height * 0.02),
                   child: Text(
                     DataNamoz.text[DataNamoz.son].toString(),
                     style: const TextStyle(

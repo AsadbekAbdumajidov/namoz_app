@@ -21,13 +21,14 @@ class _NamozState extends State<Namoz> {
           backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
           appBar: appBarim(context),
           body: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15),
+            padding: EdgeInsets.symmetric(
+                horizontal: MediaQuery.of(context).size.width * 0.05),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 SlideInLeft(
                   child: SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.79,
+                    height: MediaQuery.of(context).size.height * 0.76,
                     width: MediaQuery.of(context).size.width,
                     child: Container(
                       width: MediaQuery.of(context).size.width,
@@ -49,7 +50,9 @@ class _NamozState extends State<Namoz> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            padding: EdgeInsets.symmetric(
+                                vertical:
+                                    MediaQuery.of(context).size.width * 0.02),
                             child: Text(
                               DataNamoz.title[DataNamoz.son],
                               style: const TextStyle(

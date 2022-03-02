@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:namoz_najotdir/components/carusel_slider/widget/date_widget.dart';
-import 'package:namoz_najotdir/components/carusel_slider/widget/kalima_widget.dart';
 import 'package:namoz_najotdir/components/carusel_slider/widget/vaqt_widget.dart';
 import 'package:namoz_najotdir/services/service_islam.dart';
 import 'package:namoz_najotdir/services/service_modul_add.dart';
@@ -41,7 +40,7 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
           } else {
             ServiceModul.timesAdd();
             return Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+              padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.03, vertical: 10),
               child: Stack(
                 children: [
                   Row(
@@ -52,7 +51,7 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
                       VaqtWidget(index: widget.index),
                     ],
                   ),
-                  KalimaWidget(index: widget.index),
+                  // KalimaWidget(index: widget.index),
                 ],
               ),
             );

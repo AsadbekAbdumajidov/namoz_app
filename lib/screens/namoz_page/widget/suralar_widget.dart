@@ -22,7 +22,7 @@ class _SuralarWidgetState extends State<SuralarWidget> {
           return Column(
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 10),
+                padding:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.005),
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border.all(

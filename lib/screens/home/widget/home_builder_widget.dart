@@ -15,8 +15,8 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
       scrollDirection: Axis.vertical,
       physics: const BouncingScrollPhysics(),
       itemCount: Data.boshMenu.length,
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        mainAxisExtent: 200,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        mainAxisExtent: MediaQuery.of(context).size.height * 0.243,
         crossAxisCount: 2,
       ),
       itemBuilder: (_, __) => InkWell(
@@ -29,16 +29,16 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
           margin: const EdgeInsets.all(20),
           height: MediaQuery.of(context).size.height * 0.8,
           width: MediaQuery.of(context).size.height * 0.1,
-          decoration:  BoxDecoration(
+          decoration: BoxDecoration(
             color: Colors.white,
             boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.5),
-            spreadRadius: 2,
-            blurRadius: 7,
-            offset: const Offset(0, 5),
-          ),
-        ],
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.5),
+                spreadRadius: 2,
+                blurRadius: 7,
+                offset: const Offset(0, 5),
+              ),
+            ],
             borderRadius: const BorderRadius.all(
               Radius.circular(15),
             ),
@@ -54,13 +54,15 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
                         image: AssetImage(Data.boshMenuIcons[__]),
                         fit: BoxFit.cover)),
               ),
-              Text(
-                Data.boshMenu[__],
-                style: const TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 17),
-                maxLines: 1,
+              Center(
+                child: Text(
+                  Data.boshMenu[__],
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontSize: MediaQuery.of(context).size.height * 0.022),
+                  maxLines: 1,
+                ),
               ),
             ],
           ),

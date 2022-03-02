@@ -37,7 +37,7 @@ class _IslomState extends State<Islam> {
               children: [
                 Carusel(region: ayniRegion),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.7095,
+                  height: MediaQuery.of(context).size.height * 0.690,
                   color: const Color.fromRGBO(175, 200, 197, 1),
                   child: const HomeBuuilder(),
                 ),

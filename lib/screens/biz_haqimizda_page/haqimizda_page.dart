@@ -22,7 +22,9 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
             toolbarHeight: MediaQuery.of(context).size.height * 0.07,
             centerTitle: true,
             leading: Padding(
-              padding: const EdgeInsets.only(top: 5, left: 15),
+              padding: EdgeInsets.only(
+                  top: MediaQuery.of(context).size.height * 0.006,
+                  left: MediaQuery.of(context).size.width * 0.023),
               child: InkWell(
                 onTap: () {
                   Navigator.pushNamed(context, '/home');

@@ -22,9 +22,9 @@ class _VaqtWidgetState extends State<VaqtWidget> {
           children: [
             Text(
               ServiceModul.times[widget.index!][0].toString(),
-              style: const TextStyle(
+              style:  TextStyle(
                   color: Colors.white,
-                  fontSize: 16,
+                  fontSize: MediaQuery.of(context).size.height * 0.025,
                   fontWeight: FontWeight.bold),
             ),
             Text(
