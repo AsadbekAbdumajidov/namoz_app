@@ -62,56 +62,56 @@ class _TasbehState extends State<Tasbeh> {
                                         children: [
                                           Text(
                                             sozlar().toString(),
-                                            style: const TextStyle(
+                                            style:  TextStyle(
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.bold,
                                                 fontFamily: 'balo',
-                                                fontSize: 30),
+                                                fontSize: MediaQuery.of(context).size.height * 0.035),
                                           ),
                                           Text(
                                             arabtilida().toString(),
-                                            style: const TextStyle(
+                                            style: TextStyle(
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.bold,
                                                 fontFamily: 'balo',
-                                                fontSize: 30),
+                                                fontSize: MediaQuery.of(context).size.height * 0.035),
                                           ),
                                         ],
                                       ),
-                                      const Padding(
+                                       Padding(
                                         padding: EdgeInsets.symmetric(
-                                            horizontal: 20),
-                                        child: Divider(
+                                            horizontal: MediaQuery.of(context).size.width * 0.1),
+                                        child:const Divider(
                                           color:
                                               Color.fromRGBO(12, 114, 100, 1),
                                         ),
                                       ),
                                       Padding(
-                                        padding: const EdgeInsets.symmetric(
-                                            horizontal: 35),
+                                        padding:  EdgeInsets.symmetric(
+                                            horizontal: MediaQuery.of(context).size.width * 0.1),
                                         child: Row(
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               "Umumiy:  ${Hive.box("tasbehSanoq").values.toList()[0].toString()}",
-                                              style: const TextStyle(
+                                              style: TextStyle(
                                                   color: Colors.black,
                                                   fontWeight: FontWeight.bold,
-                                                  fontSize: 20),
+                                                  fontSize: MediaQuery.of(context).size.height * 0.027),
                                             ),
                                             InkWell(
                                               onTap: () {
                                                 Hive.box("tasbehSanoq")
                                                     .put(0, son = 0);
                                               },
-                                              child: const CircleAvatar(
-                                                backgroundColor: Color.fromRGBO(
+                                              child: CircleAvatar(
+                                                backgroundColor: const Color.fromRGBO(
                                                     238, 238, 238, 100),
                                                 child: Center(
                                                   child: Icon(
                                                     Icons.autorenew_sharp,
-                                                    size: 30,
+                                                    size: MediaQuery.of(context).size.height * 0.035,
                                                     color: Colors.black,
                                                   ),
                                                 ),
@@ -139,9 +139,9 @@ class _TasbehState extends State<Tasbeh> {
                           child: Center(
                             child: Text(
                               "$sanoq",
-                              style: const TextStyle(
-                                fontSize: 90,
-                                color: Color.fromRGBO(238, 238, 238, 80),
+                              style:  TextStyle(
+                                fontSize: MediaQuery.of(context).size.height * 0.16,
+                                color: const Color.fromRGBO(238, 238, 238, 80),
                               ),
                             ),
                           ),
@@ -166,10 +166,10 @@ class _TasbehState extends State<Tasbeh> {
                                 }
                               });
                             },
-                            icon: const Icon(
+                            icon:  Icon(
                               Icons.fingerprint_rounded,
-                              size: 180,
-                              color: Color.fromRGBO(238, 238, 238, 120),
+                              size: MediaQuery.of(context).size.height * 0.22,
+                              color:const Color.fromRGBO(238, 238, 238, 120),
                             ),
                           ),
                         ),
