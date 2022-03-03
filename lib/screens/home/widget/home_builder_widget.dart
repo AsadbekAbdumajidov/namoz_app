@@ -60,7 +60,7 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
                   style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.height * 0.022),
+                      fontSize: MediaQuery.of(context).size.height * 0.02),
                   maxLines: 1,
                 ),
               ),

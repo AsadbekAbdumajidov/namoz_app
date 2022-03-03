@@ -23,7 +23,7 @@ class _TasbehState extends State<Tasbeh> {
 
   @override
   Widget build(BuildContext context) {
-    return SlideInUp(
+    return FadeInUp(
       child: Scaffold(
         body: Column(
           children: [

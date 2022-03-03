@@ -29,19 +29,21 @@ class _IslomState extends State<Islam> {
           child: ValueListenableBuilder(
         valueListenable: Hive.box("region").listenable(),
         builder: (context, box, __) {
-          return Scaffold(
-            backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
-            appBar: appBarim(),
-            drawer: const DrawerMenu(),
-            body: Column(
-              children: [
-                Carusel(region: ayniRegion),
-                Container(
-                  height: MediaQuery.of(context).size.height * 0.74,
-                  color: const Color.fromRGBO(175, 200, 197, 1),
-                  child: const HomeBuuilder(),
-                ),
-              ],
+          return FadeInUp(
+            child: Scaffold(
+              backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+              appBar: appBarim(),
+              drawer: const DrawerMenu(),
+              body: Column(
+                children: [
+                  Carusel(region: ayniRegion),
+                  Container(
+                    height: MediaQuery.of(context).size.height * 0.74,
+                    color: const Color.fromRGBO(175, 200, 197, 1),
+                    child: const HomeBuuilder(),
+                  ),
+                ],
+              ),
             ),
           );
         },
