@@ -3,6 +3,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
 import 'package:namoz_najotdir/routes/router.dart';
 import 'package:timezone/data/latest.dart' as tz;
+import 'package:flutter/services.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,7 +14,10 @@ Future main() async {
   await Hive.openBox("check");
   await Hive.openBox("region");
   await Hive.openBox("tasbehSanoq");
-  runApp(const MyApp());
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitDown,DeviceOrientation.portraitUp])
+      .then((_) {
+    runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatelessWidget {

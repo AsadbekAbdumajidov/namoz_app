@@ -14,7 +14,7 @@ class _WidgetDetaState extends State<WidgetDate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.08,
+      height: MediaQuery.of(context).size.height * 0.07,
       width: MediaQuery.of(context).size.width * 0.15,
       decoration: BoxDecoration(
           color: color(widget.index),
@@ -27,10 +27,10 @@ class _WidgetDetaState extends State<WidgetDate> {
           ServiceIslam.datas![widget.index!]["date"]["readable"]
               .toString()
               .substring(0, 6),
-          style: const TextStyle(
+          style:  TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
-              fontSize: 20,
+              fontSize: MediaQuery.of(context).size.width * 0.05,
               fontFamily: 'fonts'),
         ),
       ),

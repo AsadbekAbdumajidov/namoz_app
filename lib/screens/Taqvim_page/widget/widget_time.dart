@@ -16,7 +16,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
     return Row(
       children: [
         Container(
-          height: MediaQuery.of(context).size.height * 0.08,
+          height: MediaQuery.of(context).size.height * 0.07,
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -38,7 +38,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.08,
+          height: MediaQuery.of(context).size.height * 0.07,
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -60,7 +60,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.08,
+          height: MediaQuery.of(context).size.height * 0.07,
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -82,7 +82,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.08,
+          height: MediaQuery.of(context).size.height * 0.07,
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -104,7 +104,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.08,
+          height: MediaQuery.of(context).size.height * 0.07,
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
