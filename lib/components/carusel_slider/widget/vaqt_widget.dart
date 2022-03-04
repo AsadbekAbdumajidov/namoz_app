@@ -24,7 +24,7 @@ class _VaqtWidgetState extends State<VaqtWidget> {
               ServiceModul.times[widget.index!][0].toString(),
               style:  TextStyle(
                   color: Colors.white,
-                  fontSize: MediaQuery.of(context).size.height * 0.025,
+                  fontSize: MediaQuery.of(context).size.height * 0.024,
                   fontWeight: FontWeight.bold),
             ),
             Text(

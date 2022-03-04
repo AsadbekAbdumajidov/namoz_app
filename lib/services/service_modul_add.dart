@@ -26,10 +26,10 @@ class ServiceModul {
     return NamozVaqtiModul(
         saharlikVaqti: ["Saharlik vaqti", saharlikAniqla()],
         bomdod: ["Bomdod", bomdodAniqla()],
-        quyoshChiqishi: ["Quyosh chiqishi", quyoshChiqishiniAniqla()],
+        quyoshChiqishi: ["Quyosh chiqish", quyoshChiqishiniAniqla()],
         peshin: ["Peshin", peshiAniqla()],
         asr: ["Asr", asrAniqla()],
-        quyoshBotishi: ["Quyosh botishi", quyoshBotishiAniqla()],
+        quyoshBotishi: ["Quyosh botish", quyoshBotishiAniqla()],
         shom: ["Shom", shomAniqla()],
         xufton: ["Xufton", xuftonAniqla()],
         yarimTun: ["Yarim tun", yarimtunAniqla()]);
