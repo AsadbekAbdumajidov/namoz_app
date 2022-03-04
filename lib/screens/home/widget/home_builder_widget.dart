@@ -12,6 +12,8 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
+      padding: EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.05
+      ),
       scrollDirection: Axis.vertical,
       physics: const BouncingScrollPhysics(),
       itemCount: Data.boshMenu.length,
