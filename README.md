@@ -7,7 +7,7 @@ A new Flutter project.
 # Applicationda sahifalari rasmlarda: 
 
 
- <img src="https://i.ibb.co/tC1cnhM/4.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157986424-7000863f-052a-4d5f-a66b-7a341ae1cf1f.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Login Page auth
