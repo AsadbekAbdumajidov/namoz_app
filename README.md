@@ -10,7 +10,6 @@ A new Flutter project.
  ### Menyu sahifasi
  </br>
  </br>
-
  <img src="https://user-images.githubusercontent.com/95922380/157986687-a230afa6-c7ae-40b9-adaa-3e226cb199ea.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
