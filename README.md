@@ -51,25 +51,25 @@ Mening birinchi manfatli ilovam.
  <img src="https://user-images.githubusercontent.com/95922380/157987478-cacb449b-fd83-4964-88d1-04fc5077d116.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Profile Page 
+ ### Namoz oqishni orgatuvchi sahifa
  </br>
  </br>
 
- <img src="https://i.ibb.co/FzMm6WG/11.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157987575-d84707d5-26a5-4af2-abcc-cc1f6795309c.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Comment Page
+ ### Tahorat olishni orgatuvchi sahifa
  </br>
  </br>
 
-  <img src="https://i.ibb.co/ysybmXD/12.jpg"
+  <img src="https://user-images.githubusercontent.com/95922380/157987632-7a8e3a78-00be-467b-98a3-fbcacd2b8706.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Statistics Page
+ ### 6 diniy Kalima sahifasi
  </br>
  </br>
 
- <img src="https://i.ibb.co/Gx5ZTTV/13.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157987705-689800ed-11d0-4664-a1d0-08fb2f19c88e.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Statistics Page 2
