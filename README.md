@@ -1,6 +1,6 @@
 # namoz_najotdir
 
-A new Flutter project.
+Mening birinchi manfatli ilovam.
 
 ### Kirish sahifasi
  <img src="https://user-images.githubusercontent.com/95922380/157986424-7000863f-052a-4d5f-a66b-7a341ae1cf1f.png"
