@@ -51,39 +51,39 @@ Mening birinchi manfatli ilovam.
  <img src="https://user-images.githubusercontent.com/95922380/157987478-cacb449b-fd83-4964-88d1-04fc5077d116.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Namoz oqishni orgatuvchi sahifa
+  </br>
  </br>
- </br>
+### Namoz oqishni orgatuvchi sahifa
 
  <img src="https://user-images.githubusercontent.com/95922380/157987575-d84707d5-26a5-4af2-abcc-cc1f6795309c.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Tahorat olishni orgatuvchi sahifa
  </br>
  </br>
-
+### Tahorat olishni orgatuvchi sahifa
+ 
   <img src="https://user-images.githubusercontent.com/95922380/157987632-7a8e3a78-00be-467b-98a3-fbcacd2b8706.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
+ </br>
+ </br>
  ### 6 diniy Kalima sahifasi
- </br>
- </br>
 
  <img src="https://user-images.githubusercontent.com/95922380/157987705-689800ed-11d0-4664-a1d0-08fb2f19c88e.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Statistics Page 2
+  </br>
  </br>
- </br>
+### 101 Hadis sahifasi
 
-  <img src="https://i.ibb.co/wcDCTPK/14.jpg"
+  <img src="https://user-images.githubusercontent.com/95922380/157987833-09d19cda-e94f-4923-9e38-3fb95a00387e.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Calendar Page
  </br>
  </br>
+ ### Allohning 99 ismlari sahifasi
 
-  <img src="https://i.ibb.co/PgRqkW4/15.jpg"
+  <img src="https://user-images.githubusercontent.com/95922380/157987893-82fda997-66c6-4c52-a4bb-1a44a080b225.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Feed Page
