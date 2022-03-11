@@ -39,16 +39,16 @@ Mening birinchi manfatli ilovam.
      style="float: left; margin-right: 10px;" width="200" />
   </br>
  </br>
-### Favourite Page
+### Taqvim sahifasi
 
- <img src="https://i.ibb.co/LPFxRZ9/9.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157987431-2b9c1cb4-b649-4806-b557-b9aa9ea01f93.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
   </br>
  </br>
-### Chat page
+### Tasbeh sahifasi
 
- <img src="https://i.ibb.co/XjBQQpS/10.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157987478-cacb449b-fd83-4964-88d1-04fc5077d116.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Profile Page 
