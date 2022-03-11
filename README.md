@@ -22,7 +22,8 @@ Mening birinchi manfatli ilovam.
      style="float: left; margin-right: 10px;" width="200" />
 
 </br>
- </br>
+</br>
+ 
 ### Namoz vaqtlari sahifasi
 
  <img src="https://user-images.githubusercontent.com/95922380/157987052-6ff905aa-c553-404f-a4e1-7421e45e893e.png"
