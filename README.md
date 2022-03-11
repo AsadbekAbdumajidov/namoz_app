@@ -5,26 +5,7 @@ A new Flutter project.
 </br>
 </br>
 # Applicationda sahifalari rasmlarda: 
-<img src="https://i.ibb.co/fF1K4JN/1.jpg"
-     alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200" />
- ### Intro Page
- </br>
- </br>
 
- <img src="https://i.ibb.co/nkMQjkv/2.jpg"
-     alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200"/>
- ### Intro page 2
- </br>
- </br>
-
-  <img src="https://i.ibb.co/MBFcHm4/3.jpg"
-     alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200"/>
- ### Login
- </br>
- </br>
 
  <img src="https://i.ibb.co/tC1cnhM/4.jpg"
      alt="Onboarding page"
