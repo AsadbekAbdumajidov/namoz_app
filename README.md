@@ -2,21 +2,6 @@
 
 A new Flutter project.
 
-# team_application
-# Marvie App
-
-A new Flutter project.
-Flutterda jamoamiz bilan qilgan applicationimiz.   
-
-## Getting Started
-## Dastur Haqida
-### Dasturning ishlash holati 👇
-
-This project is a starting point for a Flutter application.
-# Video
-
-A few resources to get you started if this is your first Flutter project:
-[![IMAGE ALT TEXT HERE](https://i.ibb.co/Tccm741/screen-marvie.png)](https://youtu.be/ZWHKI8Y3xKs)
 </br>
 </br>
 # Applicationda sahifalari rasmlarda: 
