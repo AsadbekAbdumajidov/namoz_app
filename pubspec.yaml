@@ -50,6 +50,7 @@ dependencies:
   flutter_native_timezone: ^2.0.0
   rxdart: ^0.27.3
   provider: ^6.0.2
+  url_launcher: ^6.0.20
 
 dev_dependencies:
   hive_generator: 

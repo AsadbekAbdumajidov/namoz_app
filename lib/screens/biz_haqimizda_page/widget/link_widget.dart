@@ -25,22 +25,19 @@ class _LinkWidgetState extends State<LinkWidget> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.025),
+            padding: EdgeInsets.only(
+                top: MediaQuery.of(context).size.height * 0.025),
             child: SizedBox(
               height: MediaQuery.of(context).size.height * 0.05,
               width: MediaQuery.of(context).size.width * 0.9,
               child: Padding(
-                padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.01),
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height * 0.01),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      height: MediaQuery.of(context).size.height * 0.05,
-                      width: MediaQuery.of(context).size.width * 0.3,
-                      decoration: BoxDecoration(
-                          color: Colors.blueGrey.shade100,
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                    OutlinedButton(
+                      onPressed: () {},
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
@@ -56,13 +53,8 @@ class _LinkWidgetState extends State<LinkWidget> {
                         ],
                       ),
                     ),
-                    Container(
-                      height: MediaQuery.of(context).size.height * 0.05,
-                      width: MediaQuery.of(context).size.width * 0.3,
-                      decoration: BoxDecoration(
-                          color: Colors.blueGrey.shade100,
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                    OutlinedButton(
+                      onPressed: () {},
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
@@ -85,12 +77,11 @@ class _LinkWidgetState extends State<LinkWidget> {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 25),
-            child: Container(
-              height: MediaQuery.of(context).size.height * 0.04,
-              width: MediaQuery.of(context).size.width * 0.3,
-              decoration: BoxDecoration(
-                  color: Colors.blueGrey.shade600,
-                  borderRadius: const BorderRadius.all(Radius.circular(10))),
+            child: OutlinedButton(style: OutlinedButton.styleFrom(
+                    backgroundColor: Colors.blueGrey.shade100,
+                   
+                  ),
+              onPressed: () {},
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
