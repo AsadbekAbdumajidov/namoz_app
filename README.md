@@ -20,18 +20,20 @@ Mening birinchi manfatli ilovam.
   <img src="https://user-images.githubusercontent.com/95922380/157986854-facba36f-3fc9-4d39-bb69-58474f7c664d.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Namoz vaqtlari sahifasi
+
+</br>
  </br>
- </br>
+### Namoz vaqtlari sahifasi
 
  <img src="https://user-images.githubusercontent.com/95922380/157987052-6ff905aa-c553-404f-a4e1-7421e45e893e.png"
      alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200" />
- ### Qibla aniqlovchi sahifa
+     style="float: left; margin-right: 10px;" width="200" /
+      
+      </br>
  </br>
- </br>
-
-  <img src="https://user-images.githubusercontent.com/95922380/157987095-fc505ede-c384-4695-98eb-32734300168f.png"
+  
+### Qibla aniqlovchi sahifa
+<img src="https://user-images.githubusercontent.com/95922380/157987095-fc505ede-c384-4695-98eb-32734300168f.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Favourite Page
