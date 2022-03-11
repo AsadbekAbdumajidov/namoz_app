@@ -86,27 +86,18 @@ Mening birinchi manfatli ilovam.
   <img src="https://user-images.githubusercontent.com/95922380/157987893-82fda997-66c6-4c52-a4bb-1a44a080b225.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Feed Page
+  </br>
  </br>
- </br>
+### Duolar sahifasi
 
-  <img src="https://i.ibb.co/mrss9rt/16.jpg"
+  <img src="https://user-images.githubusercontent.com/95922380/157987971-79239ad0-af60-4418-829b-922ec7ee8264.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Feed Page 2
  </br>
  </br>
+ ### Biz haqimizda sahifa
 
-  <img src="https://i.ibb.co/HgCh77M/17.jpg"
+  <img src="https://user-images.githubusercontent.com/95922380/157988012-6d9ce2b5-77fb-48e1-953f-60c1ff6104d3.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Feed Page 3 
- </br>
- </br>
 
-  <img src="https://i.ibb.co/6wRB5h0/18.jpg"
-     alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200" />
- ### Feed Page 4
- </br>
- </br>
