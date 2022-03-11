@@ -2,16 +2,16 @@
 
 A new Flutter project.
 
-### Login Page auth
+### Kirish sahifasi
  <img src="https://user-images.githubusercontent.com/95922380/157986424-7000863f-052a-4d5f-a66b-7a341ae1cf1f.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
      
- ### Login Page auth
+ ### Menyu sahifasi
  </br>
  </br>
 
- <img src="https://i.ibb.co/9TTkbCb/5.jpg"
+ <img src="https://user-images.githubusercontent.com/95922380/157986687-a230afa6-c7ae-40b9-adaa-3e226cb199ea.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
  ### Onboarding page
