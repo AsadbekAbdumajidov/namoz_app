@@ -27,25 +27,25 @@ Mening birinchi manfatli ilovam.
 
  <img src="https://user-images.githubusercontent.com/95922380/157987052-6ff905aa-c553-404f-a4e1-7421e45e893e.png"
      alt="Onboarding page"
-     style="float: left; margin-right: 10px;" width="200" /
+     style="float: left; margin-right: 10px;" width="200" />
       
-      </br>
- </br>
+</br>
+</br>
   
 ### Qibla aniqlovchi sahifa
 <img src="https://user-images.githubusercontent.com/95922380/157987095-fc505ede-c384-4695-98eb-32734300168f.png"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Favourite Page
+  </br>
  </br>
- </br>
+### Favourite Page
 
  <img src="https://i.ibb.co/LPFxRZ9/9.jpg"
      alt="Onboarding page"
      style="float: left; margin-right: 10px;" width="200" />
- ### Chat page
+  </br>
  </br>
- </br>
+### Chat page
 
  <img src="https://i.ibb.co/XjBQQpS/10.jpg"
      alt="Onboarding page"
