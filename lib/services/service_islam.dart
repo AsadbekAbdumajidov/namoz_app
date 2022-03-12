@@ -7,17 +7,17 @@ import 'package:namoz_najotdir/screens/home/home_page.dart';
 import 'package:path_provider/path_provider.dart';
 
 class ServiceIslam {
-  
   static List? datas = [];
 
   static Future getIslamData() async {
     await openBox();
     var oy = DateTime.now().month;
+    var yil = DateTime.now().year;
     String regionim = ayniRegion;
     Response res;
     try {
       res = await Dio().get(
-          "https://api.aladhan.com/v1/calendarByCity?city=$regionim&country=Uzbekistan&method=0&month=$oy&year=2022&school=1");
+          "https://api.aladhan.com/v1/calendarByCity?city=$regionim&country=Uzbekistan&method=0&month=$oy&year=$yil&school=1");
       await putIslamData(res.data);
     } catch (e) {
       print("empty");
