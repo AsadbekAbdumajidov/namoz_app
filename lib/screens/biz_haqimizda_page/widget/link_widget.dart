@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/services/Service_link.dart';
 
 class LinkWidget extends StatefulWidget {
   const LinkWidget({Key? key}) : super(key: key);
@@ -37,7 +38,10 @@ class _LinkWidgetState extends State<LinkWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     OutlinedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        ServiceUrl.launchURL(
+                            "https://www.instagram.com/asadbek_dev/");
+                      },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
@@ -54,7 +58,10 @@ class _LinkWidgetState extends State<LinkWidget> {
                       ),
                     ),
                     OutlinedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        ServiceUrl.launchURL(
+                            "https://github.com/BekFlutterDev");
+                      },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
@@ -77,11 +84,13 @@ class _LinkWidgetState extends State<LinkWidget> {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 25),
-            child: OutlinedButton(style: OutlinedButton.styleFrom(
-                    backgroundColor: Colors.blueGrey.shade100,
-                   
-                  ),
-              onPressed: () {},
+            child: OutlinedButton(
+              style: OutlinedButton.styleFrom(
+                backgroundColor: Colors.blueGrey.shade100,
+              ),
+              onPressed: () {
+                ServiceUrl.launchURL("https://t.me/asadbek_blog1");
+              },
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [

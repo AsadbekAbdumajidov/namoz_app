@@ -24,8 +24,10 @@ class _DasturHaqidaWidgetState extends State<DasturHaqidaWidget> {
                 horizontal: MediaQuery.of(context).size.height * 0.01),
             child: Text(
               DataAboutPage.dasturHaqida.toString(),
-              style:  TextStyle(
-                  color: Colors.black, fontSize: MediaQuery.of(context).size.height * 0.02, fontFamily: 'balo'),
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: MediaQuery.of(context).size.height * 0.02,
+                  fontFamily: 'balo'),
             ),
           ),
         ],
