@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/services/show_banner.dart';
 
 class DrawerMenu extends StatefulWidget {
   const DrawerMenu({Key? key}) : super(key: key);
@@ -53,6 +54,20 @@ class _DrawerMenuState extends State<DrawerMenu> {
                           const Icon(Icons.help, color: Colors.white, size: 27),
                       title: const Text(
                         "Biz haqimizda",
+                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    color: Colors.transparent,
+                    child: ListTile(
+                      onTap: () {
+                        ShowBanner.showMyDialog(context);
+                      },
+                      leading: const Icon(Icons.exit_to_app,
+                          color: Colors.white, size: 27),
+                      title: const Text(
+                        "Chiqish",
                         style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),

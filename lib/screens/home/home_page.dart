@@ -91,7 +91,7 @@ class _IslomState extends State<Islam> {
                 onTap: () {
                   ayniRegion = RegionAniqla.region[index];
                   Hive.box("region").put(0, RegionAniqla.region[index]);
-                  print(Hive.box("region").values.toList()[0].toString());
+                  debugPrint(Hive.box("region").values.toList()[0].toString());
                   setState(() {});
                 },
                 child: SlideInUp(
