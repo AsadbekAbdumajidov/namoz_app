@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/services/service_share.dart';
 import 'package:namoz_najotdir/services/show_banner.dart';
 
 class DrawerMenu extends StatefulWidget {
@@ -43,6 +44,34 @@ class _DrawerMenuState extends State<DrawerMenu> {
                         image: DecorationImage(
                             image: AssetImage("assets/images/N1.png"),
                             fit: BoxFit.cover)),
+                  ),
+                  Card(
+                    color: Colors.transparent,
+                    child: ListTile(
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                      leading: const Icon(Icons.home_max_outlined,
+                          color: Colors.white, size: 27),
+                      title: const Text(
+                        "Asosiy",
+                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    color: Colors.transparent,
+                    child: ListTile(
+                      onTap: () {
+                        Servicesharre.share();
+                      },
+                      leading: const Icon(Icons.share,
+                          color: Colors.white, size: 27),
+                      title: const Text(
+                        "Ulashish",
+                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      ),
+                    ),
                   ),
                   Card(
                     color: Colors.transparent,
