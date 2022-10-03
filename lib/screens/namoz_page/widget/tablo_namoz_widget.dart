@@ -5,7 +5,7 @@ class TabloNamozwidget extends StatefulWidget {
   const TabloNamozwidget({Key? key}) : super(key: key);
 
   @override
-  _TabloNamozwidgetState createState() => _TabloNamozwidgetState();
+  State<TabloNamozwidget> createState() => _TabloNamozwidgetState();
 }
 
 class _TabloNamozwidgetState extends State<TabloNamozwidget> {

@@ -6,7 +6,7 @@ class WidgetKun extends StatefulWidget {
   const WidgetKun({Key? key, this.index}) : super(key: key);
 
   @override
-  _WidgetKunState createState() => _WidgetKunState();
+  State<WidgetKun>  createState() => _WidgetKunState();
 }
 
 class _WidgetKunState extends State<WidgetKun> {

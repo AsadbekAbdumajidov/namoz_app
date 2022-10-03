@@ -8,10 +8,10 @@ class TahoratOlish extends StatefulWidget {
   const TahoratOlish({Key? key}) : super(key: key);
 
   @override
-  _NamozState createState() => _NamozState();
+  State<TahoratOlish> createState() => _TahoratOlishState();
 }
 
-class _NamozState extends State<TahoratOlish> {
+class _TahoratOlishState extends State<TahoratOlish> {
   @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
@@ -22,7 +22,7 @@ class _NamozState extends State<TahoratOlish> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               // ! const qoyilsa ushu filedagi malumot satstate bolmaydi
-              GreenContainerWidget(),
+              const GreenContainerWidget(),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10),
                 child: Row(
@@ -48,7 +48,7 @@ class _NamozState extends State<TahoratOlish> {
                             ),
                           ),
                     // ! const qoyilsa ushu filedagi malumot satstate bolmaydi
-                    TabloWidget(),
+                    const TabloWidget(),
                     DataTahoratOlish.son == 9
                         ? Container()
                         : CircleAvatar(
@@ -87,6 +87,7 @@ class _NamozState extends State<TahoratOlish> {
         child: CircleAvatar(
             backgroundColor: Colors.white,
             child: IconButton(
+              splashRadius: 30,
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },

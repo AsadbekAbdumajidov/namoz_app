@@ -7,7 +7,7 @@ class DuolarGreenWidget extends StatefulWidget {
   const DuolarGreenWidget({Key? key, this.index}) : super(key: key);
 
   @override
-  _GreenConWidgetState createState() => _GreenConWidgetState();
+  State<DuolarGreenWidget> createState() => _GreenConWidgetState();
 }
 
 class _GreenConWidgetState extends State<DuolarGreenWidget> {

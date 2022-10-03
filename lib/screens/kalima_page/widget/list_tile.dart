@@ -6,7 +6,7 @@ class ListTileWidget extends StatefulWidget {
   const ListTileWidget({Key? key, this.index}) : super(key: key);
 
   @override
-  _ListTileWidgetState createState() => _ListTileWidgetState();
+  State<ListTileWidget> createState() => _ListTileWidgetState();
 }
 
 class _ListTileWidgetState extends State<ListTileWidget> {

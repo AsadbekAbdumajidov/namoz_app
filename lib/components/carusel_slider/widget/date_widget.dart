@@ -7,7 +7,7 @@ class DateWidget extends StatefulWidget {
   const DateWidget({Key? key, this.tanlanganRegion}) : super(key: key);
 
   @override
-  _DateWidgetState createState() => _DateWidgetState();
+  State<DateWidget> createState() => _DateWidgetState();
 }
 
 class _DateWidgetState extends State<DateWidget> {

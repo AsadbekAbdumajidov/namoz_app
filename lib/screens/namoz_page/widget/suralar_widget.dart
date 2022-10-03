@@ -5,7 +5,7 @@ class SuralarWidget extends StatefulWidget {
   const SuralarWidget({Key? key}) : super(key: key);
 
   @override
-  _SuralarWidgetState createState() => _SuralarWidgetState();
+  State<SuralarWidget> createState() => _SuralarWidgetState();
 }
 
 class _SuralarWidgetState extends State<SuralarWidget> {

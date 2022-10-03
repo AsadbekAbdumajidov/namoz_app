@@ -5,7 +5,7 @@ class ForAppCont extends StatefulWidget {
   const ForAppCont({Key? key}) : super(key: key);
 
   @override
-  _ForAppContState createState() => _ForAppContState();
+  State<ForAppCont> createState() => _ForAppContState();
 }
 
 class _ForAppContState extends State<ForAppCont> {

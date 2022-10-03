@@ -2,15 +2,15 @@ import 'dart:math' show pi;
 import 'package:flutter/material.dart';
 import 'package:flutter_qiblah/flutter_qiblah.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:namoz_najotdir/screens/qiblah/widget/loadingIndicator.dart';
+import 'package:namoz_najotdir/screens/qiblah/widget/loading_indicator.dart';
 
 class StreemWidget extends StatelessWidget {
   const StreemWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final _compassSvg = SvgPicture.asset('assets/images/compass.svg');
-    final _needleSvg = SvgPicture.asset(
+    final compassSvg = SvgPicture.asset('assets/images/compass.svg');
+    final needleSvg = SvgPicture.asset(
       'assets/images/compas1.svg',
       fit: BoxFit.contain,
       height: MediaQuery.of(context).size.height * 0.3,
@@ -30,12 +30,12 @@ class StreemWidget extends StatelessWidget {
             children: [
               Transform.rotate(
                 angle: (qiblahDirection.direction * (pi / 180) * -1),
-                child: _compassSvg,
+                child: compassSvg,
               ),
               Transform.rotate(
                 angle: (qiblahDirection.qiblah * (pi / 180) * -1),
                 alignment: Alignment.center,
-                child: _needleSvg,
+                child: needleSvg,
               ),
               Positioned(
                 bottom: 5,

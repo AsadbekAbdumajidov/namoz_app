@@ -5,7 +5,7 @@ class DuoWidget extends StatefulWidget {
   const DuoWidget({Key? key}) : super(key: key);
 
   @override
-  _DuoWidgetState createState() => _DuoWidgetState();
+  State<DuoWidget> createState() => _DuoWidgetState();
 }
 
 class _DuoWidgetState extends State<DuoWidget> {

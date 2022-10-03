@@ -5,7 +5,7 @@ class TabloWidget extends StatefulWidget {
   const TabloWidget({Key? key}) : super(key: key);
 
   @override
-  _TabloWidgetState createState() => _TabloWidgetState();
+  State<TabloWidget> createState() => _TabloWidgetState();
 }
 
 class _TabloWidgetState extends State<TabloWidget> {

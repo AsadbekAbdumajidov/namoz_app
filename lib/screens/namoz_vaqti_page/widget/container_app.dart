@@ -11,7 +11,7 @@ class ForAppContainer extends StatefulWidget {
   const ForAppContainer({Key? key}) : super(key: key);
 
   @override
-  _ForAppContainerState createState() => _ForAppContainerState();
+  State<ForAppContainer> createState() => _ForAppContainerState();
 }
 
 class _ForAppContainerState extends State<ForAppContainer> {

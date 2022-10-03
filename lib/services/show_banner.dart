@@ -9,7 +9,7 @@ class ShowBanner {
         builder: (context) {
           return AlertDialog(
             title: const Text(
-              "Ispancha so'zlashgich",
+              "Namoz najotdir",
               style: TextStyle(color: Colors.black, fontFamily: "book"),
             ),
             content: const Text("Ilovadan chiqishni hohlaysizmi ?",

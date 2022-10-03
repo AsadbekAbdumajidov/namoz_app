@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:namoz_najotdir/services/Service_link.dart';
+import 'package:namoz_najotdir/services/service_link.dart';
 
 class LinkWidget extends StatefulWidget {
   const LinkWidget({Key? key}) : super(key: key);
 
   @override
-  _LinkWidgetState createState() => _LinkWidgetState();
+  State<LinkWidget> createState() => _LinkWidgetState();
 }
 
 class _LinkWidgetState extends State<LinkWidget> {
@@ -60,7 +60,7 @@ class _LinkWidgetState extends State<LinkWidget> {
                     OutlinedButton(
                       onPressed: () {
                         ServiceUrl.launchURL(
-                            "https://github.com/BekFlutterDev");
+                            "https://github.com/AsadbekAbdumajidov");
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

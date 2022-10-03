@@ -53,7 +53,7 @@ class Date {
      this.gregorian,
      this.hijri,
   });
-@HiveField(0)
+  @HiveField(0)
   String? readable;
   @HiveField(1)
   String? timestamp;
@@ -310,7 +310,7 @@ class Location {
      this.latitude,
      this.longitude,
   });
-@HiveField(0)
+  @HiveField(0)
   double? latitude;
   @HiveField(2)
   double? longitude;

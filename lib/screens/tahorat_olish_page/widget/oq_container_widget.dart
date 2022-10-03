@@ -7,7 +7,7 @@ class OqContainerWidget extends StatefulWidget {
   const OqContainerWidget({Key? key}) : super(key: key);
 
   @override
-  _OqContainerWidgetState createState() => _OqContainerWidgetState();
+  State<OqContainerWidget> createState() => _OqContainerWidgetState();
 }
 
 class _OqContainerWidgetState extends State<OqContainerWidget> {

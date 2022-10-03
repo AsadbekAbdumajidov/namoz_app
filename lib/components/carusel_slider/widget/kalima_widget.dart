@@ -6,7 +6,7 @@ class KalimaWidget extends StatefulWidget {
   const KalimaWidget({Key? key, this.index}) : super(key: key);
 
   @override
-  _KalimaWidgetState createState() => _KalimaWidgetState();
+   State<KalimaWidget> createState() => _KalimaWidgetState();
 }
 
 class _KalimaWidgetState extends State<KalimaWidget> {

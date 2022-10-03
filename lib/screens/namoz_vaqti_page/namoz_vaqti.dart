@@ -10,7 +10,7 @@ class NamozVaqti extends StatefulWidget {
   const NamozVaqti({Key? key}) : super(key: key);
 
   @override
-  _NamozVaqtiState createState() => _NamozVaqtiState();
+  State<NamozVaqti> createState() => _NamozVaqtiState();
 }
 
 class _NamozVaqtiState extends State<NamozVaqti> {

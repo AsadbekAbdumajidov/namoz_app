@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_qiblah/flutter_qiblah.dart';
 
-import 'widget/loadingIndicator.dart';
-import 'widget/qiblahMaps.dart';
+import 'widget/loading_indicator.dart';
+import 'widget/qiblah_maps.dart';
 import 'widget/qiblahcompas.dart';
 
 class KiblahPage extends StatefulWidget {

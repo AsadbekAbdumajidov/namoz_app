@@ -7,7 +7,7 @@ class HadisPage extends StatefulWidget {
   const HadisPage({Key? key}) : super(key: key);
 
   @override
-  _HadisPageState createState() => _HadisPageState();
+  State<HadisPage> createState() => _HadisPageState();
 }
 
 class _HadisPageState extends State<HadisPage> {
@@ -54,14 +54,19 @@ class _HadisPageState extends State<HadisPage> {
           centerTitle: true,
           leading: Padding(
             padding: const EdgeInsets.only(top: 5, left: 15),
-            child:  CircleAvatar(
-                backgroundColor: Colors.white,
-                child: IconButton(onPressed: (){Navigator.pushNamed(context, '/home');}, icon:const Icon(
-                  Icons.arrow_back_ios_new,
-                  color: Color.fromRGBO(12, 114, 100, 1),
-                  size: 25,
-                ),)
+            child: CircleAvatar(
+            backgroundColor: Colors.white,
+            child: IconButton(
+              splashRadius: 30,
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
+              },
+              icon: const Icon(
+                Icons.arrow_back_ios_new,
+                color: Color.fromRGBO(12, 114, 100, 1),
+                size: 25,
               ),
+            )),
             ),
           
           title: Text(

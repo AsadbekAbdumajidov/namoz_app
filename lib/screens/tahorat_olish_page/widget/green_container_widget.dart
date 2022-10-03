@@ -7,7 +7,7 @@ class GreenContainerWidget extends StatefulWidget {
   const GreenContainerWidget({Key? key}) : super(key: key);
 
   @override
-  _GreenContainerWidgetState createState() => _GreenContainerWidgetState();
+  State<GreenContainerWidget> createState() => _GreenContainerWidgetState();
 }
 
 class _GreenContainerWidgetState extends State<GreenContainerWidget> {
@@ -49,7 +49,7 @@ class _GreenContainerWidgetState extends State<GreenContainerWidget> {
                 ),
               ),
               // ! const qoyilsa ushu filedagi malumot satstate bolmaydi
-              OqContainerWidget(),
+              const OqContainerWidget(),
             ],
           ),
         ),

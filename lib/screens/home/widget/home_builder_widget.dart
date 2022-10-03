@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/data/data.dart';
+import 'package:namoz_najotdir/services/service_islam.dart';
 
 class HomeBuuilder extends StatefulWidget {
   const HomeBuuilder({Key? key}) : super(key: key);
 
   @override
-  _HomeBuuilderState createState() => _HomeBuuilderState();
+  State<HomeBuuilder> createState() => _HomeBuuilderState();
 }
 
 class _HomeBuuilderState extends State<HomeBuuilder> {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.04
-      ),
+      shrinkWrap: true,
+      padding:
+          EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.04),
       scrollDirection: Axis.vertical,
       physics: const BouncingScrollPhysics(),
       itemCount: Data.boshMenu.length,
@@ -21,55 +23,61 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
         mainAxisExtent: MediaQuery.of(context).size.height * 0.243,
         crossAxisCount: 2,
       ),
-      itemBuilder: (_, __) => InkWell(
-        onTap: () {
-          setState(() {
-            navigator(__);
-          });
-        },
-        child: Container(
-          margin: const EdgeInsets.all(20),
-          height: MediaQuery.of(context).size.height * 0.8,
-          width: MediaQuery.of(context).size.height * 0.1,
-          decoration: BoxDecoration(
-            color: Colors.white,
-            boxShadow: [
-              BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
-                spreadRadius: 2,
-                blurRadius: 7,
-                offset: const Offset(0, 5),
-              ),
-            ],
-            borderRadius: const BorderRadius.all(
-              Radius.circular(15),
-            ),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Container(
-                height: MediaQuery.of(context).size.height * 0.12,
-                width: MediaQuery.of(context).size.height * 0.12,
+      itemBuilder: (_, __) => FutureBuilder(
+          future: ServiceIslam.getIslamData(),
+          builder: (BuildContext context, AsyncSnapshot snapshot) {
+            return InkWell(
+              onTap: () {
+                if (!snapshot.hasData) return;
+                setState(() {
+                  navigator(__);
+                });
+              },
+              child: Container(
+                margin: const EdgeInsets.all(20),
+                height: MediaQuery.of(context).size.height * 0.8,
+                width: MediaQuery.of(context).size.height * 0.1,
                 decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage(Data.boshMenuIcons[__]),
-                        fit: BoxFit.cover)),
-              ),
-              Center(
-                child: Text(
-                  Data.boshMenu[__],
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.height * 0.02),
-                  maxLines: 1,
+                  color: Colors.white,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 7,
+                      offset: const Offset(0, 5),
+                    ),
+                  ],
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(15),
+                  ),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Container(
+                      height: MediaQuery.of(context).size.height * 0.12,
+                      width: MediaQuery.of(context).size.height * 0.12,
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage(Data.boshMenuIcons[__]),
+                              fit: BoxFit.cover)),
+                    ),
+                    Center(
+                      child: Text(
+                        Data.boshMenu[__],
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize:
+                                MediaQuery.of(context).size.height * 0.02),
+                        maxLines: 1,
+                      ),
+                    ),
+                  ],
                 ),
               ),
-            ],
-          ),
-        ),
-      ),
+            );
+          }),
     );
   }
 

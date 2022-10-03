@@ -4,7 +4,7 @@ class SanaWidget extends StatefulWidget {
   const SanaWidget({Key? key}) : super(key: key);
 
   @override
-  _SanaWidgetState createState() => _SanaWidgetState();
+  State<SanaWidget> createState() => _SanaWidgetState();
 }
 
 class _SanaWidgetState extends State<SanaWidget> {

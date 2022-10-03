@@ -7,7 +7,7 @@ class WidgetBuilderIsmlar extends StatefulWidget {
   const WidgetBuilderIsmlar({Key? key}) : super(key: key);
 
   @override
-  _WidgetBuilderState createState() => _WidgetBuilderState();
+  State<WidgetBuilderIsmlar> createState() => _WidgetBuilderState();
 }
 
 class _WidgetBuilderState extends State<WidgetBuilderIsmlar> {

@@ -7,7 +7,7 @@ class WidgetBuilderHadis extends StatefulWidget {
   const WidgetBuilderHadis({Key? key}) : super(key: key);
 
   @override
-  _WidgetBuilderState createState() => _WidgetBuilderState();
+  State<WidgetBuilderHadis> createState() => _WidgetBuilderState();
 }
 
 class _WidgetBuilderState extends State<WidgetBuilderHadis> {

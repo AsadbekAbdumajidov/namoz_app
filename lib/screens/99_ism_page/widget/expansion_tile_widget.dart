@@ -7,7 +7,7 @@ class ExpansionTileWidget extends StatefulWidget {
   const ExpansionTileWidget({Key? key, this.indexOf}) : super(key: key);
 
   @override
-  _ExpansionTileWidgetState createState() => _ExpansionTileWidgetState();
+  State<ExpansionTileWidget> createState() => _ExpansionTileWidgetState();
 }
 
 class _ExpansionTileWidgetState extends State<ExpansionTileWidget> {

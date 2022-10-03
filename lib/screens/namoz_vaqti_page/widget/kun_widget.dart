@@ -6,7 +6,7 @@ class KunWidget extends StatefulWidget {
   const KunWidget({Key? key}) : super(key: key);
 
   @override
-  _KunWidgetState createState() => _KunWidgetState();
+  State<KunWidget> createState() => _KunWidgetState();
 }
 
 class _KunWidgetState extends State<KunWidget> {

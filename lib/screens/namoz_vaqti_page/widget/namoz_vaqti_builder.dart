@@ -10,7 +10,7 @@ class NamozVaqtiBuilder extends StatefulWidget {
   final String? title;
   const NamozVaqtiBuilder({Key? key, this.title}) : super(key: key);
   @override
-  _NamozVaqtiBuilderState createState() => _NamozVaqtiBuilderState();
+  State<NamozVaqtiBuilder> createState() => _NamozVaqtiBuilderState();
 }
 
 class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
@@ -29,7 +29,7 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
           padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.01),
           scrollDirection: Axis.vertical,
           physics: const BouncingScrollPhysics(),
-          itemCount: ServiceIslam.datas![0]['timings'].length,
+          itemCount: 9,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             mainAxisExtent: MediaQuery.of(context).size.height * 0.1,
             crossAxisCount: 1,

@@ -7,7 +7,7 @@ class TaqvimPage extends StatefulWidget {
   const TaqvimPage({Key? key}) : super(key: key);
 
   @override
-  _TaqvimPageState createState() => _TaqvimPageState();
+  State<TaqvimPage> createState() => _TaqvimPageState();
 }
 
 class _TaqvimPageState extends State<TaqvimPage> {
@@ -40,23 +40,22 @@ class _TaqvimPageState extends State<TaqvimPage> {
       toolbarHeight: MediaQuery.of(context).size.height * 0.07,
       centerTitle: true,
       leading: Padding(
-        padding: EdgeInsets.only(
-            top: MediaQuery.of(context).size.width * 0.01,
-            left: MediaQuery.of(context).size.width * 0.03),
-        child: InkWell(
-          onTap: () {
-            Navigator.pushNamed(context, '/home');
-          },
-          child: const CircleAvatar(
-            backgroundColor: Colors.white,
-            child: Icon(
-              Icons.arrow_back_ios_new,
-              color: Color.fromRGBO(12, 114, 100, 1),
-              size: 25,
+            padding: const EdgeInsets.only(top: 5, left: 15),
+            child: CircleAvatar(
+              backgroundColor: Colors.white,
+              child: IconButton(
+                splashRadius: 30,
+                onPressed: () {
+                  Navigator.pushNamed(context, '/home');
+                },
+                icon: const Icon(
+                  Icons.arrow_back_ios_new,
+                  color: Color.fromRGBO(12, 114, 100, 1),
+                  size: 25,
+                ),
+              ),
             ),
           ),
-        ),
-      ),
       title: Text(
         Data.boshMenu[2].toString(),
         style: const TextStyle(

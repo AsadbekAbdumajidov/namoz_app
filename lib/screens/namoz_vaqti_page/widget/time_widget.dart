@@ -8,7 +8,7 @@ class NamozVaqtiTime extends StatefulWidget {
   const NamozVaqtiTime({Key? key}) : super(key: key);
 
   @override
-  _NamozVaqtiTimeState createState() => _NamozVaqtiTimeState();
+  State<NamozVaqtiTime> createState() => _NamozVaqtiTimeState();
 }
 
 class _NamozVaqtiTimeState extends State<NamozVaqtiTime> {

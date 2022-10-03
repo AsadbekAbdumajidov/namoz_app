@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/components/carusel_slider/carusel_slider.dart';
 import 'package:namoz_najotdir/components/drawer_menu.dart';
+import 'package:namoz_najotdir/components/size_konfig.dart';
 import 'package:namoz_najotdir/data/region_data.dart';
 import 'package:namoz_najotdir/screens/home/widget/home_builder_widget.dart';
 
@@ -10,7 +11,7 @@ class Islam extends StatefulWidget {
   const Islam({Key? key}) : super(key: key);
 
   @override
-  _IslomState createState() => _IslomState();
+  State<Islam> createState() => _IslomState();
 }
 
 String ayniRegion = Hive.box("region").values.toList()[0];
@@ -29,20 +30,23 @@ class _IslomState extends State<Islam> {
           child: ValueListenableBuilder(
         valueListenable: Hive.box("region").listenable(),
         builder: (context, box, __) {
+          SizeConfig().init(context);
           return FadeInUp(
             child: Scaffold(
               backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
               appBar: appBarim(),
               drawer: const DrawerMenu(),
-              body: Column(
-                children: [
-                  Carusel(region: ayniRegion),
-                  Container(
-                    height: MediaQuery.of(context).size.height * 0.74,
-                    color: const Color.fromRGBO(175, 200, 197, 1),
-                    child: const HomeBuuilder(),
-                  ),
-                ],
+              body: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Carusel(region: ayniRegion),
+                    Container(
+                      height: he(637),
+                      color: const Color.fromRGBO(175, 200, 197, 1),
+                      child: const HomeBuuilder(),
+                    ),
+                  ],
+                ),
               ),
             ),
           );

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_qiblah/flutter_qiblah.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:namoz_najotdir/screens/qiblah/widget/loadingIndicator.dart';
-import 'package:namoz_najotdir/screens/qiblah/widget/locationError.dart';
+import 'package:namoz_najotdir/screens/qiblah/widget/loading_indicator.dart';
+import 'package:namoz_najotdir/screens/qiblah/widget/location_error.dart';
 class QiblahMaps extends StatefulWidget {
    static var meccaLatLong = const LatLng(21.422487, 39.826206);
   final meccaMarker = Marker(
@@ -17,7 +17,7 @@ class QiblahMaps extends StatefulWidget {
    QiblahMaps({Key? key}) : super(key: key);
 
   @override
-  _QiblahMapsState createState() => _QiblahMapsState();
+  State<QiblahMaps> createState() => _QiblahMapsState();
 }
 
 class _QiblahMapsState extends State<QiblahMaps> {

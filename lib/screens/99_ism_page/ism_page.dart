@@ -7,7 +7,7 @@ class IsmlarPage extends StatefulWidget {
   const IsmlarPage({Key? key}) : super(key: key);
 
   @override
-  _IsmlarPageState createState() => _IsmlarPageState();
+  State<IsmlarPage> createState() => _IsmlarPageState();
 }
 
 class _IsmlarPageState extends State<IsmlarPage> {
@@ -54,19 +54,19 @@ class _IsmlarPageState extends State<IsmlarPage> {
           centerTitle: true,
           leading: Padding(
             padding: const EdgeInsets.only(top: 5, left: 15),
-            child: InkWell(
-              onTap: () {
+            child: CircleAvatar(
+            backgroundColor: Colors.white,
+            child: IconButton(
+              splashRadius: 30,
+              onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },
-              child: const CircleAvatar(
-                backgroundColor: Colors.white,
-                child: Icon(
-                  Icons.arrow_back_ios_new,
-                  color: Color.fromRGBO(12, 114, 100, 1),
-                  size: 25,
-                ),
+              icon: const Icon(
+                Icons.arrow_back_ios_new,
+                color: Color.fromRGBO(12, 114, 100, 1),
+                size: 25,
               ),
-            ),
+            )),
           ),
           title: Text(
             Data.boshMenu[8].toString(),

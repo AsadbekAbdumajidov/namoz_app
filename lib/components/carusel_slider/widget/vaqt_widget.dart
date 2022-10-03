@@ -7,7 +7,7 @@ class VaqtWidget extends StatefulWidget {
   const VaqtWidget({Key? key, this.index}) : super(key: key);
 
   @override
-  _VaqtWidgetState createState() => _VaqtWidgetState();
+  State<VaqtWidget> createState() => _VaqtWidgetState();
 }
 
 class _VaqtWidgetState extends State<VaqtWidget> {

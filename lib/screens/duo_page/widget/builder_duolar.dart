@@ -7,7 +7,7 @@ class WidgetBuilderDuolar extends StatefulWidget {
   const WidgetBuilderDuolar({Key? key}) : super(key: key);
 
   @override
-  _WidgetBuilderDuolarState createState() => _WidgetBuilderDuolarState();
+  State<WidgetBuilderDuolar> createState() => _WidgetBuilderDuolarState();
 }
 
 class _WidgetBuilderDuolarState extends State<WidgetBuilderDuolar> {

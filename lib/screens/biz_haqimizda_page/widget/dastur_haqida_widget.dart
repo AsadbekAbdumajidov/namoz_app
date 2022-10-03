@@ -1,4 +1,7 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/components/size_konfig.dart';
 import 'package:namoz_najotdir/data/data_about_page.dart';
 
 class DasturHaqidaWidget extends StatefulWidget {
@@ -13,8 +16,8 @@ class _DasturHaqidaWidgetState extends State<DasturHaqidaWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(
-          top: MediaQuery.of(context).size.height * 0.015,
-          left: MediaQuery.of(context).size.height * 0.015),
+          top: he(12),
+          left: wi(12)),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

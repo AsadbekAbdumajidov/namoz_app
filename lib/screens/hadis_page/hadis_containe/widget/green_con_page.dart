@@ -7,7 +7,7 @@ class GreenConWidget extends StatefulWidget {
   const GreenConWidget({Key? key, this.index}) : super(key: key);
 
   @override
-  _GreenConWidgetState createState() => _GreenConWidgetState();
+  State<GreenConWidget> createState() => _GreenConWidgetState();
 }
 
 class _GreenConWidgetState extends State<GreenConWidget> {

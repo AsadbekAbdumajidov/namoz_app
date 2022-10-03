@@ -6,7 +6,7 @@ class WhiteContainerWidget extends StatefulWidget {
   const WhiteContainerWidget({Key? key}) : super(key: key);
 
   @override
-  _WhiteContainerWidgetState createState() => _WhiteContainerWidgetState();
+  State<WhiteContainerWidget> createState() => _WhiteContainerWidgetState();
 }
 
 class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {

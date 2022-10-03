@@ -11,14 +11,17 @@ class Notifications {
   static Future init({bool initScheduled = false}) async {
     AndroidInitializationSettings initializationSettingsAndroid =
         const AndroidInitializationSettings('@mipmap/ic_launcher');
-    IOSInitializationSettings initializationSettingsIOS =
-        const IOSInitializationSettings();
+    DarwinInitializationSettings initializationSettingsIOS =
+        const DarwinInitializationSettings();
     var initializationSettings = InitializationSettings(
         android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
     FlutterLocalNotificationsPlugin().initialize(
       initializationSettings,
-      onSelectNotification: (payload) async {
-        onNotifications.add(payload);
+      onDidReceiveBackgroundNotificationResponse: (payload) async {
+        onNotifications.add(payload.payload);
+      },
+      onDidReceiveNotificationResponse: (payload) async {
+        onNotifications.add(payload.payload);
       },
     );
 
@@ -39,9 +42,15 @@ class Notifications {
         channelDescription: "channel description",
         importance: Importance.max,
       ),
-      iOS: IOSNotificationDetails(),
+      iOS: DarwinNotificationDetails(
+        presentSound: true,
+        presentAlert: true,
+        presentBadge: true,
+        sound: 'default',
+      ),
     );
   }
+
   static showNotificationScheduled({
     required int id,
     String? title,
@@ -81,5 +90,4 @@ class Notifications {
             UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.dayOfWeekAndTime,
       );
-
 }

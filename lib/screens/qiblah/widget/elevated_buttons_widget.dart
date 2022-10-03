@@ -5,7 +5,7 @@ class ElevatedButtonWidget extends StatefulWidget {
   const ElevatedButtonWidget({Key? key}) : super(key: key);
 
   @override
-  _ElevatedNuttonWidgetState createState() => _ElevatedNuttonWidgetState();
+  State<ElevatedButtonWidget> createState() => _ElevatedNuttonWidgetState();
 }
 
 class _ElevatedNuttonWidgetState extends State<ElevatedButtonWidget> {

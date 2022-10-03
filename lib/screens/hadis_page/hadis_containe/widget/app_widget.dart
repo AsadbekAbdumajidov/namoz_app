@@ -5,7 +5,7 @@ class AppContainer extends StatefulWidget {
   const AppContainer({Key? key}) : super(key: key);
 
   @override
-  _AppContainerState createState() => _AppContainerState();
+  State<AppContainer> createState() => _AppContainerState();
 }
 
 class _AppContainerState extends State<AppContainer> {
@@ -22,18 +22,18 @@ class _AppContainerState extends State<AppContainer> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             CircleAvatar(
-                radius: 23,
-                backgroundColor: Colors.white,
-                child: IconButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/hadis');
-                  },
-                  icon: const Icon(
-                    Icons.arrow_back_ios_new,
-                    color: Color.fromRGBO(12, 114, 100, 1),
-                    size: 25,
-                  ),
-                )),
+            backgroundColor: Colors.white,
+            child: IconButton(
+              splashRadius: 30,
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
+              },
+              icon: const Icon(
+                Icons.arrow_back_ios_new,
+                color: Color.fromRGBO(12, 114, 100, 1),
+                size: 25,
+              ),
+            )),
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Text(

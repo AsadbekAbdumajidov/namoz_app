@@ -5,7 +5,7 @@ class TitleWidgetHadis extends StatefulWidget {
   const TitleWidgetHadis({Key? key, this.index}) : super(key: key);
 
   @override
-  _TitleWidgetState createState() => _TitleWidgetState();
+  State<TitleWidgetHadis> createState() => _TitleWidgetState();
 }
 
 class _TitleWidgetState extends State<TitleWidgetHadis> {

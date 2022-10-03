@@ -5,7 +5,7 @@ class AppContainerWidget extends StatefulWidget {
   const AppContainerWidget({Key? key}) : super(key: key);
 
   @override
-  _AppContainerState createState() => _AppContainerState();
+  State<AppContainerWidget> createState() => _AppContainerState();
 }
 
 class _AppContainerState extends State<AppContainerWidget> {
@@ -21,20 +21,19 @@ class _AppContainerState extends State<AppContainerWidget> {
           crossAxisAlignment: CrossAxisAlignment.end,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            InkWell(
-              onTap: () {
-                Navigator.pushNamed(context, '/duo');
+            CircleAvatar(
+            backgroundColor: Colors.white,
+            child: IconButton(
+              splashRadius: 30,
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
               },
-              child: const CircleAvatar(
-                radius: 23,
-                backgroundColor: Colors.white,
-                child: Icon(
-                  Icons.arrow_back_ios_new,
-                  color: Color.fromRGBO(12, 114, 100, 1),
-                  size: 25,
-                ),
+              icon: const Icon(
+                Icons.arrow_back_ios_new,
+                color: Color.fromRGBO(12, 114, 100, 1),
+                size: 25,
               ),
-            ),
+            )),
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Text(

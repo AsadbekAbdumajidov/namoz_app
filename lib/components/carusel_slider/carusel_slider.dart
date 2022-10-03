@@ -1,6 +1,9 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/components/carusel_slider/widget/future_builder_widget.dart';
+import 'package:namoz_najotdir/components/size_konfig.dart';
 
 class Carusel extends StatefulWidget {
   final String? region;
@@ -20,10 +23,10 @@ class _CaruselState extends State<Carusel> {
             image: AssetImage("assets/images/maschid.jpg"), fit: BoxFit.cover),
       ),
       child: CarouselSlider.builder(
+        
         itemCount: 9,
         itemBuilder: (_, __, pagev) {
           return Container(
-            width: MediaQuery.of(context).size.width * 0.8,
             decoration: const BoxDecoration(
               color: Color.fromRGBO(12, 114, 100, 60),
               borderRadius: BorderRadius.all(Radius.circular(15)),
@@ -36,7 +39,7 @@ class _CaruselState extends State<Carusel> {
         },
         options: CarouselOptions(
           autoPlay: true,
-          height: MediaQuery.of(context).size.height * 0.18,
+          height: he(175),
           enlargeCenterPage: true,
           autoPlayCurve: Curves.linear,
           autoPlayInterval: const Duration(seconds: 7),

@@ -7,7 +7,7 @@ class KalimaPage extends StatefulWidget {
   const KalimaPage({Key? key}) : super(key: key);
 
   @override
-  _KalimaPageState createState() => _KalimaPageState();
+  State<KalimaPage> createState() => _KalimaPageState();
 }
 
 class _KalimaPageState extends State<KalimaPage> {

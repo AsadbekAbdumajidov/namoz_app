@@ -7,7 +7,7 @@ class WidgetTimes extends StatefulWidget {
   const WidgetTimes({Key? key, this.index}) : super(key: key);
 
   @override
-  _WidgetTimesState createState() => _WidgetTimesState();
+  State<WidgetTimes> createState() => _WidgetTimesState();
 }
 
 class _WidgetTimesState extends State<WidgetTimes> {

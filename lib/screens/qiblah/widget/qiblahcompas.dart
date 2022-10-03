@@ -8,14 +8,14 @@ import 'package:namoz_najotdir/data/data.dart';
 import 'package:namoz_najotdir/screens/qiblah/widget/elevated_buttons_widget.dart';
 import 'package:namoz_najotdir/screens/qiblah/widget/qiblah_compas_widget.dart';
 
-import 'loadingIndicator.dart';
-import 'locationError.dart';
+import 'loading_indicator.dart';
+import 'location_error.dart';
 
 class QiblahCompass extends StatefulWidget {
   const QiblahCompass({Key? key}) : super(key: key);
 
   @override
-  _QiblahCompassState createState() => _QiblahCompassState();
+  State<QiblahCompass> createState() => _QiblahCompassState();
 }
 
 class _QiblahCompassState extends State<QiblahCompass> {
@@ -45,6 +45,7 @@ class _QiblahCompassState extends State<QiblahCompass> {
             child: CircleAvatar(
               backgroundColor: Colors.white,
               child: IconButton(
+                splashRadius: 30,
                 onPressed: () {
                   Navigator.pushNamed(context, '/home');
                 },
@@ -99,7 +100,7 @@ class _QiblahCompassState extends State<QiblahCompass> {
                       case LocationPermission.always:
                       case LocationPermission.whileInUse:
                         return const QiblahCompassWidget();
-    
+
                       case LocationPermission.denied:
                         return LocationErrorWidget(
                           error: "Location service permission denied",
@@ -110,7 +111,7 @@ class _QiblahCompassState extends State<QiblahCompass> {
                           error: "Location service Denied Forever !",
                           callback: _checkLocationStatus,
                         );
-    
+
                       default:
                         return Container();
                     }
@@ -154,10 +155,9 @@ class QiblahCompassWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return const Padding(
-      padding:  EdgeInsets.only(bottom: 50),
-      child:  StreemWidget(),
+      padding: EdgeInsets.only(bottom: 50),
+      child: StreemWidget(),
     );
   }
 }

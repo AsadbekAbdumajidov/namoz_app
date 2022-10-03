@@ -7,7 +7,7 @@ class WidgetDate extends StatefulWidget {
   const WidgetDate({Key? key, this.index}) : super(key: key);
 
   @override
-  _WidgetDetaState createState() => _WidgetDetaState();
+  State<WidgetDate> createState() => _WidgetDetaState();
 }
 
 class _WidgetDetaState extends State<WidgetDate> {

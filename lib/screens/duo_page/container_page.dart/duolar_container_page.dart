@@ -9,7 +9,7 @@ class DuolarContainer extends StatefulWidget {
    DuolarContainer({Key? key, this.index}) : super(key: key);
 
   @override
-  _DuolarContainerState createState() => _DuolarContainerState();
+  State<DuolarContainer> createState() => _DuolarContainerState();
 }
 
 class _DuolarContainerState extends State<DuolarContainer> {

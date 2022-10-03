@@ -4,7 +4,7 @@ class BoshPageUchun extends StatefulWidget {
   const BoshPageUchun({Key? key}) : super(key: key);
 
   @override
-  _BoshPageUchunState createState() => _BoshPageUchunState();
+  State<BoshPageUchun> createState() => _BoshPageUchunState();
 }
 
 class _BoshPageUchunState extends State<BoshPageUchun> {

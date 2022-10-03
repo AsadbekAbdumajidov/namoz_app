@@ -7,7 +7,7 @@ class DuoPage extends StatefulWidget {
   const DuoPage({Key? key}) : super(key: key);
 
   @override
-  _UstunlarPageState createState() => _UstunlarPageState();
+  State<DuoPage> createState() => _UstunlarPageState();
 }
 
 class _UstunlarPageState extends State<DuoPage> {
@@ -57,6 +57,7 @@ class _UstunlarPageState extends State<DuoPage> {
         child: CircleAvatar(
             backgroundColor: Colors.white,
             child: IconButton(
+              splashRadius: 30,
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },

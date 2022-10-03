@@ -11,7 +11,7 @@ class Namoz extends StatefulWidget {
   const Namoz({Key? key}) : super(key: key);
 
   @override
-  _NamozState createState() => _NamozState();
+  State<Namoz> createState() => _NamozState();
 }
 
 class _NamozState extends State<Namoz> {
@@ -132,6 +132,7 @@ class _NamozState extends State<Namoz> {
         child: CircleAvatar(
             backgroundColor: Colors.white,
             child: IconButton(
+              splashRadius: 30,
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },
@@ -154,6 +155,7 @@ class _NamozState extends State<Namoz> {
         Padding(
           padding: const EdgeInsets.only(right: 10),
           child: IconButton(
+            splashRadius: 30,
             onPressed: () {
               Navigator.pushNamed(context, '/haqimizda');
             },

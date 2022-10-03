@@ -9,7 +9,7 @@ class HadisContainer extends StatefulWidget {
   HadisContainer({Key? key,this.index}) : super(key: key);
 
   @override
-  _HadisContainerState createState() => _HadisContainerState();
+  State<HadisContainer> createState() => _HadisContainerState();
 }
 
 class _HadisContainerState extends State<HadisContainer> {

@@ -1,15 +1,15 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:namoz_najotdir/screens/biz_haqimizda_page/widget/dastur_haqida_widget.dart';
+import 'package:namoz_najotdir/components/size_konfig.dart';
+import 'package:namoz_najotdir/data/data_about_page.dart';
 import 'package:namoz_najotdir/screens/biz_haqimizda_page/widget/link_widget.dart';
-import 'package:namoz_najotdir/screens/biz_haqimizda_page/widget/ozim_haqimda_widget.dart';
-import 'package:namoz_najotdir/screens/biz_haqimizda_page/widget/salom_widget.dart';
+import 'package:namoz_najotdir/screens/biz_haqimizda_page/widget/text_widget.dart';
 
 class HaqimizdaPage extends StatefulWidget {
   const HaqimizdaPage({Key? key}) : super(key: key);
 
   @override
-  _HaqimizdaPageState createState() => _HaqimizdaPageState();
+  State<HaqimizdaPage> createState() => _HaqimizdaPageState();
 }
 
 class _HaqimizdaPageState extends State<HaqimizdaPage> {
@@ -19,26 +19,23 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
           appBar: AppBar(
             backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
             elevation: 0,
-            toolbarHeight: MediaQuery.of(context).size.height * 0.07,
             centerTitle: true,
             leading: Padding(
-              padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * 0.006,
-                  left: MediaQuery.of(context).size.width * 0.023),
-              child: InkWell(
-                onTap: () {
+            padding: const EdgeInsets.only(top: 5, left: 15),
+            child: CircleAvatar(
+              backgroundColor: Colors.white,
+              child: IconButton(
+                onPressed: () {
                   Navigator.pushNamed(context, '/home');
                 },
-                child: const CircleAvatar(
-                  backgroundColor: Colors.white,
-                  child: Icon(
-                    Icons.arrow_back_ios_new,
-                    color: Color.fromRGBO(12, 114, 100, 1),
-                    size: 25,
-                  ),
+                icon: const Icon(
+                  Icons.arrow_back_ios_new,
+                  color: Color.fromRGBO(12, 114, 100, 1),
+                  size: 25,
                 ),
               ),
             ),
+          ),
             title: const Text(
               "Biz haqimizda",
               style: TextStyle(
@@ -63,12 +60,29 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                           height: MediaQuery.of(context).size.height * 0.7,
                           width: MediaQuery.of(context).size.width,
                           color: Colors.transparent,
-                          child: Column(
-                            children: const [
-                              SalomWidget(),
-                              OzimHaqimdaWidget(),
-                              DasturHaqidaWidget(),
-                            ],
+                          child: Padding(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: wi(12), vertical: he(16)),
+                            child: Column(
+                              children: [
+                                Text(
+                                  DataAboutPage.salom.toString(),
+                                  style: const TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                      fontFamily: 'balo'),
+                                ),
+                                TextWidget(
+                                    title: DataAboutPage.ozimHaqimda.toString(),
+                                    icon: const Icon(
+                                        Icons.account_circle_outlined)),
+                                TextWidget(
+                                    title:
+                                        DataAboutPage.dasturHaqida.toString(),
+                                    icon: const Icon(
+                                        Icons.warning_amber_outlined)),
+                              ],
+                            ),
                           ),
                         ),
                         Container(
