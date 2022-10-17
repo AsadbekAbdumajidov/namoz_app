@@ -56,6 +56,12 @@ dependencies:
   flutter_exit_app: ^1.0.5
   flutter_share: ^2.0.0
   path_provider: ^2.0.11
+  audio_video_progress_bar: ^0.10.0
+  just_audio: ^0.9.29
+  just_audio_background: ^0.0.1-beta.7
+  audio_session: ^0.1.10
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
 
 dev_dependencies:
   hive_generator: 

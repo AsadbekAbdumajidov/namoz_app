@@ -1,8 +1,8 @@
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/intl.dart';
-import 'package:namoz_najotdir/models/islam_model.dart';
-import 'package:namoz_najotdir/services/service_islam.dart';
-import 'package:namoz_najotdir/services/service_modul_add.dart';
+import 'package:namoz_najotdir/core/models/islam_model.dart';
+import 'package:namoz_najotdir/core/services/service_islam.dart';
+import 'package:namoz_najotdir/core/services/service_modul_add.dart';
 
 class ConstIslam {
   // ! Register Adapter
