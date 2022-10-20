@@ -44,25 +44,26 @@ dependencies:
   geolocator: ^7.7.1
   flutter_svg: ^1.0.3
   google_maps_flutter: ^2.1.1
-  flutter_local_notifications: ^11.0.1
-  timezone: ^0.9.0
+  flutter_local_notifications: ^9.2.0
+  timezone: ^0.8.0
   animated_card: ^2.0.0
   fluttertoast: ^8.0.8
   flutter_native_timezone: ^2.0.0
   rxdart: ^0.27.3
   provider: ^6.0.2
   url_launcher: ^6.0.20
-  alert_dialog: ^1.0.1
+  alert_dialog: ^1.0.1 
   flutter_exit_app: ^1.0.5
   flutter_share: ^2.0.0
-  path_provider: ^2.0.11
-  audio_video_progress_bar: ^0.10.0
+  audio_video_progress_bar: ^0.11.0
   just_audio: ^0.9.29
   just_audio_background: ^0.0.1-beta.7
   audio_session: ^0.1.10
   equatable: ^2.0.5
   flutter_bloc: ^8.1.1
-
+  path_provider: ^2.0.11
+  workmanager: ^0.5.0
+  
 dev_dependencies:
   hive_generator: 
   build_runner: 

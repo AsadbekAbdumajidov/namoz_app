@@ -45,31 +45,30 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                   fontFamily: "Fonts"),
             ),
           ),
-          body: Column(
-            children: [
+          body: 
               Stack(
                 children: [
                   Container(
                     color: const Color.fromRGBO(238, 238, 238, 1),
-                    height: MediaQuery.of(context).size.height * 0.885,
+                    height: MediaQuery.of(context).size.height * 1,
                     width: MediaQuery.of(context).size.width * 1,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           height: MediaQuery.of(context).size.height * 0.7,
-                          width: MediaQuery.of(context).size.width,
+                          width: MediaQuery.of(context).size.width * 1,
                           color: Colors.transparent,
                           child: Padding(
                             padding: EdgeInsets.symmetric(
                                 horizontal: wi(12), vertical: he(16)),
                             child: Column(
                               children: [
-                                Text(
+                                 Text(
                                   DataAboutPage.salom.toString(),
-                                  style: const TextStyle(
+                                  style:  TextStyle(
                                       color: Colors.black,
-                                      fontSize: 18,
+                                      fontSize: he(18),
                                       fontFamily: 'balo'),
                                 ),
                                 TextWidget(
@@ -81,7 +80,8 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                                         DataAboutPage.dasturHaqida.toString(),
                                     icon: const Icon(
                                         Icons.warning_amber_outlined)),
-                              ],
+                              
+                               ],
                             ),
                           ),
                         ),
@@ -100,8 +100,6 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                   const LinkWidget(),
                 ],
               ),
-            ],
-          ),
         ),
       );
 }

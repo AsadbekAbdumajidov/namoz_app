@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
    <application
-        android:label="namoz_najotdir"
+        android:label="Namoz najotdir"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">
         <activity

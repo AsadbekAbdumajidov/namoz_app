@@ -29,7 +29,7 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
               // ! loading_animation_widget paket
               child: LoadingAnimationWidget.hexagonDots(
                 color: Colors.white,
-                size: 50,
+                size: he(50),
               ),
             );
           } else if (snapshot.hasError || ServiceIslam.datas!.isEmpty) {
@@ -37,7 +37,7 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
               // ! loading_animation_widget paket
               child: LoadingAnimationWidget.hexagonDots(
                 color: Colors.white,
-                size: 50,
+                size: he(50),
               ),
             );
           } else {

@@ -84,7 +84,7 @@ packages:
       name: audio_video_progress_bar
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.10.0"
+    version: "0.11.0"
   bloc:
     dependency: transitive
     description:
@@ -327,21 +327,21 @@ packages:
       name: flutter_local_notifications
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "11.0.1"
+    version: "9.9.1"
   flutter_local_notifications_linux:
     dependency: transitive
     description:
       name: flutter_local_notifications_linux
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0"
+    version: "0.5.1"
   flutter_local_notifications_platform_interface:
     dependency: transitive
     description:
       name: flutter_local_notifications_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.0.0"
+    version: "5.0.0"
   flutter_native_timezone:
     dependency: "direct main"
     description:
@@ -881,7 +881,7 @@ packages:
       name: sqflite
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.0+1"
   sqflite_common:
     dependency: transitive
     description:
@@ -909,7 +909,7 @@ packages:
       name: stream_transform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0"
+    version: "2.0.1"
   string_scanner:
     dependency: transitive
     description:
@@ -944,7 +944,7 @@ packages:
       name: timezone
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0"
+    version: "0.8.0"
   timing:
     dependency: transitive
     description:
@@ -1050,6 +1050,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.0"
+  workmanager:
+    dependency: "direct main"
+    description:
+      name: workmanager
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.0"
   xdg_directories:
     dependency: transitive
     description:

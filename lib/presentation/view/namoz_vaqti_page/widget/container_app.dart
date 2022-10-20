@@ -40,13 +40,14 @@ class _ForAppContainerState extends State<ForAppContainer> {
               width: MediaQuery.of(context).size.width,
               color: const Color.fromRGBO(238, 238, 238, 1),
               child: Padding(
-                padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.04),
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height * 0.04),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
                       onTap: () {
-                        Navigator.pushNamed(context, '/home');
+                        Navigator.pop(context);
                       },
                       child: const CircleAvatar(
                         radius: 23,
@@ -59,7 +60,8 @@ class _ForAppContainerState extends State<ForAppContainer> {
                       ),
                     ),
                     Padding(
-                      padding:  EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.005),
+                      padding: EdgeInsets.only(
+                          bottom: MediaQuery.of(context).size.height * 0.005),
                       child: Text(
                         Data.boshMenu[0].toString(),
                         style: const TextStyle(
@@ -139,22 +141,28 @@ class _ForAppContainerState extends State<ForAppContainer> {
           oy = 0;
         }
         Notifications.showNotificationScheduledDailyBasis(
-          id: sanoq,
-          title: "Namozi vaqti: ${ServiceModul.times[sanoq][0]}",
-          body: "Namoz Najotdir dasturidan eslatma !",
-          payload: "Namozda najot top",
-          scheduledDate: DateTime(
-            DateTime.now().year,
-            DateTime.now().month + oy,
-            DateTime.now().day + son,
-            hour,
-            minute,
-          )
-        );
+            id: sanoq,
+            title: "Namozi vaqti: ${ServiceModul.times[sanoq][0]}",
+            body: "Namoz Najotdir dasturidan eslatma !",
+            payload: "Namozda najot top",
+            scheduledDate: DateTime(
+              DateTime.now().year,
+              DateTime.now().month + oy,
+              DateTime.now().day + son,
+              hour,
+              minute,
+            ));
         sanoq += 1;
       }
     }
   }
 
-  avtoNotif() {}
+  avtoNotif() {
+    Notifications.showNotificationScheduledDailyBasis(
+        id: 1,
+        title: "Namozi vaqti: ",
+        body: "Namoz Najotdir dasturidan eslatma !",
+        payload: "Namozda najot top",
+        scheduledDate: DateTime.now());
+  }
 }
