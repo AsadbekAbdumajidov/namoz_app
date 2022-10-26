@@ -50,7 +50,7 @@ class _TahoratOlishState extends State<TahoratOlish> {
                               icon: Icon(
                                 Icons.arrow_back_ios_new,
                                 color: const Color.fromRGBO(12, 114, 100, 1),
-                                size: he(40),
+                                size: he(35),
                               ),
                             ),
                           ),
@@ -71,7 +71,7 @@ class _TahoratOlishState extends State<TahoratOlish> {
                               icon: Icon(
                                 Icons.arrow_forward_ios,
                                 color: const Color.fromRGBO(12, 114, 100, 1),
-                                size: he(40),
+                                size: he(35),
                               ),
                             ),
                           ),
@@ -82,55 +82,4 @@ class _TahoratOlishState extends State<TahoratOlish> {
           ),
         ),
       );
-
-  AppBar appBarim(BuildContext context) {
-    return AppBar(
-      backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
-      elevation: 0,
-      toolbarHeight: he(70),
-      centerTitle: true,
-      leading: Padding(
-        padding: EdgeInsets.only(top: he(5), left: wi(10)),
-        child: CircleAvatar(
-            backgroundColor: Colors.white,
-            child: IconButton(
-              splashRadius: 25,
-              onPressed: () {
-                Navigator.pushNamed(context, '/home');
-              },
-              icon: Icon(
-                Icons.arrow_back_ios_new,
-                color: const Color.fromRGBO(12, 114, 100, 1),
-                size: he(30),
-              ),
-            )),
-      ),
-      title: Text(
-        Data.boshMenu[5].toString(),
-        style: const TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.bold,
-            fontSize: 25,
-            fontFamily: "Fonts"),
-      ),
-      actions: [
-        Padding(
-          padding: EdgeInsets.only(
-            right: wi(10),
-          ),
-          child: IconButton(
-            splashRadius: 25,
-            onPressed: () {
-              Navigator.pushNamed(context, '/haqimizda');
-            },
-            icon: Icon(
-              Icons.help_outline_rounded,
-              size: he(40),
-              color: const Color.fromRGBO(12, 114, 100, 1),
-            ),
-          ),
-        )
-      ],
-    );
-  }
 }

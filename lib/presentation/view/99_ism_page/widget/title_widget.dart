@@ -23,7 +23,7 @@ class _TitleWidgetState extends State<TitleWidget> {
             style:  TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
-                fontSize: he(25),
+                fontSize: he(20),
                 fontFamily: 'fonts'),
           ),
           Text(

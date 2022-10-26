@@ -38,7 +38,7 @@ class CustomSearchAppBar extends StatelessWidget
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   CircleAvatar(
-                    radius: he(30),
+                    radius: he(27),
                       backgroundColor: Colors.white,
                       child: IconButton(
                         splashRadius: 30,
@@ -48,7 +48,7 @@ class CustomSearchAppBar extends StatelessWidget
                         icon:  Icon(
                           Icons.arrow_back_ios_new,
                           color: const Color.fromRGBO(12, 114, 100, 1),
-                          size: he(35),
+                          size: he(30),
                         ),
                       )),
                   Text(
@@ -57,7 +57,7 @@ class CustomSearchAppBar extends StatelessWidget
                     style:  TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: he(35),
+                        fontSize: he(30),
                         fontFamily: "Fonts"),
                   ),
                    SizedBox(width: wi(40))

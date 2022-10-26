@@ -60,14 +60,14 @@ class _IslomState extends State<Islam> {
       centerTitle: true,
       iconTheme: IconThemeData(
         color: const Color.fromRGBO(12, 114, 100, 1),
-        size: he(44),
+        size: he(42),
       ),
       title: Text(
         "Namoz najotdir",
         style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: he(32),
+            fontSize: he(25),
             fontFamily: "Fonts"),
       ),
       actions: [

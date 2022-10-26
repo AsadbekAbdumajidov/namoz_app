@@ -19,7 +19,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
           horizontal: wi(14)),
       child: SlideInLeft(
         child: SizedBox(
-          height: he(770),
+          height: he(780),
           width: MediaQuery.of(context).size.width,
           child: Container(
             width: MediaQuery.of(context).size.width,
@@ -46,7 +46,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
                   ),
                 ),
                 Container(
-                  height: he(685),
+                  height: he(700),
                   width: MediaQuery.of(context).size.width * 0.9,
                   decoration: const BoxDecoration(
                     color: Colors.white,

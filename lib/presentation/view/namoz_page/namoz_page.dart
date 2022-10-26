@@ -56,13 +56,13 @@ class _NamozState extends State<Namoz> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
-                            padding: EdgeInsets.symmetric(vertical: he(7)),
+                            padding: EdgeInsets.symmetric(vertical: he(6)),
                             child: Text(
                               DataNamoz.title[DataNamoz.son],
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
-                                  fontSize: he(34),
+                                  fontSize: he(25),
                                   fontFamily: 'balo'),
                             ),
                           ),
@@ -92,7 +92,7 @@ class _NamozState extends State<Namoz> {
                                 icon: Icon(
                                   Icons.arrow_back_ios_new,
                                   color: Color.fromRGBO(12, 114, 100, 1),
-                                  size: he(40),
+                                  size: he(35),
                                 ),
                               ),
                             ),
@@ -113,7 +113,7 @@ class _NamozState extends State<Namoz> {
                                 icon: Icon(
                                   Icons.arrow_forward_ios,
                                   color: Color.fromRGBO(12, 114, 100, 1),
-                                  size: he(40),
+                                  size: he(35),
                                 ),
                               ),
                             ),

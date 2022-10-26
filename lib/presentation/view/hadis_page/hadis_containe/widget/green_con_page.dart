@@ -18,7 +18,7 @@ class _GreenConWidgetState extends State<GreenConWidget> {
       padding: EdgeInsets.symmetric(horizontal: wi(14)),
       child: SlideInLeft(
         child: SizedBox(
-          height: he(770),
+          height: he(780),
           width: MediaQuery.of(context).size.width,
           child: Container(
             width: MediaQuery.of(context).size.width,
@@ -32,18 +32,18 @@ class _GreenConWidgetState extends State<GreenConWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: he(5)),
+                  padding: EdgeInsets.symmetric(vertical: he(4)),
                   child: Text(
                     "${widget.index + 1}  Hadis",
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: he(35),
+                        fontSize: he(30),
                         fontFamily: 'balo'),
                   ),
                 ),
                 Container(
-                  height: he(685),
+                  height: he(700),
                   width: MediaQuery.of(context).size.width * 0.9,
                   decoration: const BoxDecoration(
                     color: Colors.white,

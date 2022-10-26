@@ -37,8 +37,8 @@ class _SuralarWidgetState extends State<SuralarWidget> {
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 8),
+                        padding:  EdgeInsets.symmetric(
+                            vertical: he(5), horizontal: wi(8)),
                         child: Text(
                           DataNamoz.sura[__],
                           style: const TextStyle(
@@ -48,8 +48,8 @@ class _SuralarWidgetState extends State<SuralarWidget> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 5),
+                        padding:  EdgeInsets.symmetric(
+                            vertical: he(5), horizontal: wi(5)),
                         child: Text(
                           DataNamoz.arabTilida[__],
                           style: const TextStyle(

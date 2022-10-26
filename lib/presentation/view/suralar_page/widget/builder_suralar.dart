@@ -46,7 +46,7 @@ class WidgetBuilderSuralar extends StatelessWidget {
                   style:  TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize: he(25),
+                      fontSize: he(23),
                       fontFamily: 'fonts'),
                 ),
                 trailing: const Icon(

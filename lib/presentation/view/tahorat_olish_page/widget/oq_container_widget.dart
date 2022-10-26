@@ -11,7 +11,7 @@ class OqContainerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: he(620),
+      height: he(635),
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -26,7 +26,7 @@ class OqContainerWidget extends StatelessWidget {
         physics: DataTahoratOlish.son != 9
             ? const NeverScrollableScrollPhysics()
             : const BouncingScrollPhysics(),
-        itemExtent: DataTahoratOlish.son != 9 ? he(620) : he(700),
+        itemExtent: DataTahoratOlish.son != 9 ? he(620) : he(1000),
         itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return Padding(

@@ -13,7 +13,7 @@ class _DuoWidgetState extends State<DuoWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: he(270),
+      height: he(500),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child: ListView.builder(
@@ -23,7 +23,7 @@ class _DuoWidgetState extends State<DuoWidget> {
           return Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(bottom: 15),
+                padding:  EdgeInsets.only(bottom: he(15)),
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -46,7 +46,7 @@ class _DuoWidgetState extends State<DuoWidget> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(top: 10),
+                          padding:  EdgeInsets.only(top: he(10)),
                           child: Text(
                             DataTahoratOlish.manosi[__],
                             style: const TextStyle(

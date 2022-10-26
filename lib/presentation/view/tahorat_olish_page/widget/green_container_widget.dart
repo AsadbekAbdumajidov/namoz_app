@@ -35,13 +35,15 @@ class GreenContainerWidget extends StatelessWidget {
             children: [
               Padding(
                 padding: EdgeInsets.symmetric(
-                    vertical: MediaQuery.of(context).size.height * 0.013),
+                    vertical: he(6)),
                 child: Text(
                   DataTahoratOlish.title[index],
-                  style: const TextStyle(
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 1,
+                  style:  TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 24,
+                      fontSize: he(25),
                       fontFamily: 'balo'),
                 ),
               ),

@@ -13,7 +13,7 @@ class _SalomWidgetState extends State<SalomWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: he(1153),
+      height: he(1160),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child: Column(

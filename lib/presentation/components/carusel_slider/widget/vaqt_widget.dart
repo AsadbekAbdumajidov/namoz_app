@@ -23,16 +23,24 @@ class _VaqtWidgetState extends State<VaqtWidget> {
           children: [
             Text(
               ServiceModul.times[widget.index!][0].toString(),
-              style:  TextStyle(
+              style: TextStyle(
                   color: Colors.white,
-                  fontSize: he(24),
+                  fontSize: widget.index == 0 ||
+                          widget.index == 2 ||
+                          widget.index == 5
+                      ? he(19)
+                      : he(24),
                   fontWeight: FontWeight.bold),
             ),
             Text(
               ServiceModul.times[widget.index!][1].toString().substring(0, 5),
-              style:  TextStyle(
+              style: TextStyle(
                   color: Colors.white70,
-                  fontSize: he(45),
+                  fontSize: widget.index == 0 ||
+                          widget.index == 2 ||
+                          widget.index == 5
+                      ? he(35)
+                      : he(45),
                   fontWeight: FontWeight.bold),
             )
           ],

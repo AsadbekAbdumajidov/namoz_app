@@ -16,7 +16,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: he(620),
+      height: he(635),
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -87,9 +87,9 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
     if (DataNamoz.son == 3 ) {
       return he(2710);
     } else if (DataNamoz.son == 12) {
-      return he(1030);
+      return he(1100);
     }else if (DataNamoz.son == 13) {
-      return he(1585);
+      return he(1750);
     }
     else if (DataNamoz.son == 5) {
       return he(750);

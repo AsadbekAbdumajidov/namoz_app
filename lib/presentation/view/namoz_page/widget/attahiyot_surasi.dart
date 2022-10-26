@@ -13,13 +13,13 @@ class _AttahiyotSurasiState extends State<AttahiyotSurasi> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: he(532),
+      height: he(540),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child:  Column(
             children: [
               Padding(
-                padding:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.030),
+                padding:  EdgeInsets.symmetric(vertical: he(30)),
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border.all(

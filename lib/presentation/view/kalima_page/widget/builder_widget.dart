@@ -65,7 +65,7 @@ class _BuilderwidgetState extends State<Builderwidget> {
                           style:  TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
-                              fontSize: he(25),
+                              fontSize: he(22),
                               fontFamily: 'fonts'),
                         ),
                       ),
