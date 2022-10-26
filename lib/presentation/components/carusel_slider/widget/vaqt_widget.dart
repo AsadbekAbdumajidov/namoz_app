@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/core/services/service_modul_add.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class VaqtWidget extends StatefulWidget {
   final int? index;
@@ -24,14 +25,14 @@ class _VaqtWidgetState extends State<VaqtWidget> {
               ServiceModul.times[widget.index!][0].toString(),
               style:  TextStyle(
                   color: Colors.white,
-                  fontSize: MediaQuery.of(context).size.height * 0.024,
+                  fontSize: he(24),
                   fontWeight: FontWeight.bold),
             ),
             Text(
               ServiceModul.times[widget.index!][1].toString().substring(0, 5),
-              style: const TextStyle(
+              style:  TextStyle(
                   color: Colors.white70,
-                  fontSize: 45,
+                  fontSize: he(45),
                   fontWeight: FontWeight.bold),
             )
           ],

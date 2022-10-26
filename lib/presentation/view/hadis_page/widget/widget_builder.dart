@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:animated_card/animated_card.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/hadis_page/widget/title_widget.dart';
 
 class WidgetBuilderHadis extends StatefulWidget {
@@ -25,9 +26,10 @@ class _WidgetBuilderState extends State<WidgetBuilderHadis> {
           initDelay: const Duration(milliseconds: 0),
           duration: const Duration(seconds: 1),
           child: Padding(
-            padding: const EdgeInsets.only(top: 10),
+            padding:  EdgeInsets.only(top: he(10)),
             child: SlideInLeft(
               child: Card(
+                clipBehavior: Clip.antiAlias,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15),
                     side: BorderSide.none),
@@ -36,7 +38,7 @@ class _WidgetBuilderState extends State<WidgetBuilderHadis> {
                     Navigator.pushNamed(context, "/HadisCon",arguments: __);
                   },
                   leading: CircleAvatar(
-                    radius: 32,
+                    radius: he(35),
                     backgroundImage:
                         const AssetImage("assets/images/aylana.png"),
                     backgroundColor: Colors.white,

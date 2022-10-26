@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:animated_card/animated_card.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class WidgetBuilderSuralar extends StatelessWidget {
   const WidgetBuilderSuralar(
@@ -19,18 +20,19 @@ class WidgetBuilderSuralar extends StatelessWidget {
       initDelay: const Duration(milliseconds: 0),
       duration: const Duration(seconds: 1),
       child: Padding(
-        padding: const EdgeInsets.only(top: 10),
+        padding:  EdgeInsets.only(top: he(10)),
         child: SlideInLeft(
           child: Card(
+            clipBehavior: Clip.antiAliasWithSaveLayer,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15), side: BorderSide.none),
             child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
+              padding:  EdgeInsets.symmetric(vertical: he(10)),
               child: ListTile(
-                onTap: onTap,
+                onTap: onTap, 
                 
                 leading: CircleAvatar(
-                  radius: 32,
+                  radius: he(40),
                   backgroundImage: const AssetImage("assets/images/aylana.png"),
                   backgroundColor: Colors.white,
                   child: Text(
@@ -41,10 +43,10 @@ class WidgetBuilderSuralar extends StatelessWidget {
                 ),
                 title: Text(
                   name,
-                  style: const TextStyle(
+                  style:  TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
-                      fontSize: 18,
+                      fontSize: he(25),
                       fontFamily: 'fonts'),
                 ),
                 trailing: const Icon(

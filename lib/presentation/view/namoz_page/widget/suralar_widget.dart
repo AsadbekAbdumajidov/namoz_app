@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class SuralarWidget extends StatefulWidget {
   const SuralarWidget({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class _SuralarWidgetState extends State<SuralarWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 2.12,
+      height: he(2300),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child: ListView.builder(

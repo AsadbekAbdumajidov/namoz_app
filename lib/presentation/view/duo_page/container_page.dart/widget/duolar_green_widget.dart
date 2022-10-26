@@ -1,10 +1,11 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/duolar_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class DuolarGreenWidget extends StatefulWidget {
-  final int? index;
-  const DuolarGreenWidget({Key? key, this.index}) : super(key: key);
+  final int index;
+  const DuolarGreenWidget({Key? key, required this.index}) : super(key: key);
 
   @override
   State<DuolarGreenWidget> createState() => _GreenConWidgetState();
@@ -15,11 +16,10 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.symmetric(
-          horizontal: MediaQuery.of(context).size.width * 0.04,
-          vertical: MediaQuery.of(context).size.width * 0.03),
+          horizontal: wi(14)),
       child: SlideInLeft(
         child: SizedBox(
-          height: MediaQuery.of(context).size.height * 0.85,
+          height: he(770),
           width: MediaQuery.of(context).size.width,
           child: Container(
             width: MediaQuery.of(context).size.width,
@@ -34,19 +34,19 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
               children: [
                 Padding(
                   padding: EdgeInsets.symmetric(
-                      vertical: MediaQuery.of(context).size.width * 0.03),
+                      vertical: he(5)),
                   child: Text(
-                    Duolar.duolar[widget.index!]["name"].toString(),
+                    Duolar.duolar[widget.index]["name"].toString(),
                     style:  TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.height * 0.024,
+                        fontSize: he(30),
                         fontFamily: 'balo'),
                     maxLines: 1,
                   ),
                 ),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.77,
+                  height: he(685),
                   width: MediaQuery.of(context).size.width * 0.9,
                   decoration: const BoxDecoration(
                     color: Colors.white,
@@ -64,12 +64,12 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
                       return Padding(
                         padding: EdgeInsets.symmetric(
                             horizontal:
-                                MediaQuery.of(context).size.width * 0.03,
-                            vertical: MediaQuery.of(context).size.width * 0.04),
+                                wi(12),
+                            vertical: he(16)),
                         child: Column(
                           children: [
                             Text(
-                              Duolar.duolar[widget.index!]["manosi"].toString(),
+                              Duolar.duolar[widget.index]["manosi"].toString(),
                               style: const TextStyle(
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold,

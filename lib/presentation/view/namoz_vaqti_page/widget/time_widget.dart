@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/kun_widget.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
 
@@ -15,8 +16,8 @@ class _NamozVaqtiTimeState extends State<NamozVaqtiTime> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.194,
-      width: MediaQuery.of(context).size.width * 0.93,
+      height: he(200),
+      width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(
           Radius.circular(15),

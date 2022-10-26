@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/container_white_widget.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
 
@@ -9,33 +10,36 @@ class ContainerGreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height * 0.85,
+      height: he(770),
       width: MediaQuery.of(context).size.width,
       child: Container(
         width: MediaQuery.of(context).size.width,
-        decoration: const BoxDecoration(
-          color: Color.fromRGBO(12, 114, 100, 1),
-          borderRadius: BorderRadius.all(
-            Radius.circular(20),
-          ),
+        decoration:const  BoxDecoration(
+          color:   Color.fromRGBO(12, 114, 100, 1),
+           borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(30),
+          topRight: Radius.circular(30),
+          bottomLeft: Radius.circular(10),
+          bottomRight: Radius.circular(10),
+        ),
         ),
         child: Column(
           children: [
             Padding(
               padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * 0.01),
+                  top: he(10)),
               child: Text(
                 ConstIslam.dataAniqla(),
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: MediaQuery.of(context).size.width * 0.06,
+                    fontSize: he(30),
                     fontFamily: 'balo'),
               ),
             ),
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: MediaQuery.of(context).size.width * 0.03),
+                  horizontal: wi(6)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -44,7 +48,7 @@ class ContainerGreenWidget extends StatelessWidget {
                     style:  TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: MediaQuery.of(context).size.width * 0.06,
+                        fontSize: he(30),
                         fontFamily: 'balo'),
                   ),
                   Row(
@@ -54,7 +58,7 @@ class ContainerGreenWidget extends StatelessWidget {
                         icon: Icon(
                           Icons.calendar_view_day,
                           color: Colors.cyan.shade100,
-                          size: MediaQuery.of(context).size.width * 0.07,
+                          size: he(35),
                         ),
                       ),
                        Text(
@@ -62,7 +66,7 @@ class ContainerGreenWidget extends StatelessWidget {
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: MediaQuery.of(context).size.width * 0.046,
+                            fontSize: he(25),
                             fontFamily: 'balo'),
                       ),
                       IconButton(
@@ -70,7 +74,7 @@ class ContainerGreenWidget extends StatelessWidget {
                         icon: Icon(
                           Icons.calendar_view_day,
                           color: Colors.yellow.shade100,
-                          size: MediaQuery.of(context).size.width * 0.07,
+                          size: he(30),
                         ),
                       ),
                        Text(
@@ -78,7 +82,7 @@ class ContainerGreenWidget extends StatelessWidget {
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: MediaQuery.of(context).size.width * 0.046,
+                            fontSize: he(25),
                             fontFamily: 'balo'),
                       ),
                     ],

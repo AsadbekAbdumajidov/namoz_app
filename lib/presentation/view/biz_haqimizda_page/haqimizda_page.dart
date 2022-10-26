@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/presentation/components/custom_app_bar.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/core/data/data_about_page.dart';
 import 'package:namoz_najotdir/presentation/view/biz_haqimizda_page/widget/link_widget.dart';
@@ -16,48 +17,23 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
   @override
   Widget build(BuildContext context) => SlideInUp(
         child: Scaffold(
-          appBar: AppBar(
-            backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
-            elevation: 0,
-            centerTitle: true,
-            leading: Padding(
-              padding: const EdgeInsets.only(top: 5, left: 15),
-              child: CircleAvatar(
-                backgroundColor: Colors.white,
-                child: IconButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  icon: const Icon(
-                    Icons.arrow_back_ios_new,
-                    color: Color.fromRGBO(12, 114, 100, 1),
-                    size: 25,
-                  ),
-                ),
-              ),
-            ),
-            title: const Text(
-              "Biz haqimizda",
-              style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 25,
-                  fontFamily: "Fonts"),
-            ),
-          ),
+          appBar: const CustomAppbar(
+              statusHeight: 0,
+              onRightTap:null,
+              title: "Biz haqimizda"),
           body: 
               Stack(
                 children: [
                   Container(
                     color: const Color.fromRGBO(238, 238, 238, 1),
-                    height: MediaQuery.of(context).size.height * 1,
-                    width: MediaQuery.of(context).size.width * 1,
+                    height: MediaQuery.of(context).size.height,
+                    width: MediaQuery.of(context).size.width,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
-                          height: MediaQuery.of(context).size.height * 0.7,
-                          width: MediaQuery.of(context).size.width * 1,
+                          height: he(630),
+                          width: MediaQuery.of(context).size.width,
                           color: Colors.transparent,
                           child: Padding(
                             padding: EdgeInsets.symmetric(
@@ -68,7 +44,7 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                                   DataAboutPage.salom.toString(),
                                   style:  TextStyle(
                                       color: Colors.black,
-                                      fontSize: he(18),
+                                      fontSize: he(24),
                                       fontFamily: 'balo'),
                                 ),
                                 TextWidget(
@@ -86,8 +62,8 @@ class _HaqimizdaPageState extends State<HaqimizdaPage> {
                           ),
                         ),
                         Container(
-                          height: MediaQuery.of(context).size.height * 0.17,
-                          width: MediaQuery.of(context).size.width * 1,
+                          height: he(155),
+                          width: MediaQuery.of(context).size.width,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage("assets/images/maschid.jpg"),

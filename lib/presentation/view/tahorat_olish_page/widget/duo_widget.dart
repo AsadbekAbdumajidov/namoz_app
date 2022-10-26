@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class DuoWidget extends StatefulWidget {
   const DuoWidget({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class _DuoWidgetState extends State<DuoWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.4,
+      height: he(270),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child: ListView.builder(

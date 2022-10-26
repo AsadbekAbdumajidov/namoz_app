@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/sana_widget.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/widget_data.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/widget_kun.dart';
@@ -17,15 +18,13 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.72,
-      width: MediaQuery.of(context).size.width * 0.9,
+      height: he(625),
+      width: wi(309),
       decoration: const BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(30),
           topRight: Radius.circular(30),
-          bottomLeft: Radius.circular(20),
-          bottomRight: Radius.circular(20),
         ),
       ),
       child: FutureBuilder(
@@ -44,14 +43,14 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
             return Column(
               children: [
                 SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.07,
+                  height: he(70),
                   width: MediaQuery.of(context).size.width,
                   child: Row(
                     children: [
                      const SanaWidget(),
                       SizedBox(
-                        height: MediaQuery.of(context).size.height * 0.08,
-                        width: MediaQuery.of(context).size.width * 0.75,
+                        height: he(625),
+                        width: wi(257),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemCount: 8,
@@ -65,12 +64,10 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
                   ),
                 ),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.65,
+                  height: he(555),
                   width: MediaQuery.of(context).size.width,
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(20),
-                          bottomRight: Radius.circular(20))),
+                  decoration:  BoxDecoration(
+                      borderRadius: BorderRadius.circular(20)),
                   child: ListView.builder(
                     itemCount: ServiceIslam.datas!.length,
                     physics: const BouncingScrollPhysics(),

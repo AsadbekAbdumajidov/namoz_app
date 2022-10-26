@@ -74,7 +74,7 @@ class _AudioPlayerWidgetState extends State<AudioPlayerWidget> {
     return Stack(
       children: [
         SizedBox(
-          height: he(60),
+          height: he(65),
           child: Padding(
             padding: EdgeInsets.only(left: wi(55), top: he(16)),
             child: _progressBar(),

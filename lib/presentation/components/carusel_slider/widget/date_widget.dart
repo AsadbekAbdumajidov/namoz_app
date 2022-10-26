@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class DateWidget extends StatefulWidget {
   final String? tanlanganRegion;
@@ -35,10 +36,10 @@ class _DateWidgetState extends State<DateWidget> {
                   Icon(Icons.location_on_rounded, color: Colors.red.shade50),
                   Text(
                     "${Hive.box("region").values.toList()[0]} / O'zbekistan",
-                    style: const TextStyle(
+                    style:  TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 12),
+                        fontSize: he(12)),
                   ),
                 ],
               ),

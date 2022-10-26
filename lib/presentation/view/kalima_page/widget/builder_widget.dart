@@ -2,6 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:animated_card/animated_card.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/kalima_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/kalima_page/widget/list_tile.dart';
 
 class Builderwidget extends StatefulWidget {
@@ -20,31 +21,37 @@ class _BuilderwidgetState extends State<Builderwidget> {
       physics: const BouncingScrollPhysics(),
       itemBuilder: (_, __) {
         return Padding(
-          padding: const EdgeInsets.only(top: 10),
+          padding:  EdgeInsets.only(top: he(10)),
           child: SlideInLeft(
-            child: AnimatedCard(
-              curve: Curves.fastOutSlowIn,
-          direction: AnimatedCardDirection.left,
-          initDelay: const Duration(milliseconds: 0),
-          duration: const Duration(seconds: 1),
-              child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 15),
+              child: AnimatedCard(
+            curve: Curves.fastOutSlowIn,
+            direction: AnimatedCardDirection.left,
+            initDelay: const Duration(milliseconds: 0),
+            duration: const Duration(seconds: 1),
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: wi(12)),
               child: Card(
+                clipBehavior: Clip.antiAlias,
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(15),
                     side: BorderSide.none),
                 child: ExpansionTile(
                   controlAffinity: ListTileControlAffinity.trailing,
                   leading: CircleAvatar(
-                    radius: 32,
-                    backgroundImage: const AssetImage("assets/images/aylana.png"),
+                    radius: he(40),
+                    backgroundImage:
+                        const AssetImage("assets/images/aylana.png"),
                     backgroundColor: Colors.white,
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 4),
+                      padding: EdgeInsets.only(top: he(4)),
                       child: Text(
                         "${__ + 1}",
-                        style: const TextStyle(
-                            fontWeight: FontWeight.bold, fontFamily: 'balo',color: Color.fromRGBO(12, 114, 100, 1),fontSize: 18,),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'balo',
+                          color:const Color.fromRGBO(12, 114, 100, 1),
+                          fontSize: he(18),
+                        ),
                       ),
                     ),
                   ),
@@ -52,13 +59,13 @@ class _BuilderwidgetState extends State<Builderwidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding:  EdgeInsets.symmetric(vertical: he(20)),
                         child: Text(
                           DataKalima.name[__],
-                          style: const TextStyle(
+                          style:  TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
-                              fontSize: 20,
+                              fontSize: he(25),
                               fontFamily: 'fonts'),
                         ),
                       ),
@@ -69,8 +76,8 @@ class _BuilderwidgetState extends State<Builderwidget> {
                   ],
                 ),
               ),
-            ),)
-          ),
+            ),
+          )),
         );
       },
     );

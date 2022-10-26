@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/ismlar_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class ListTilewidgetIsmlar extends StatefulWidget {
   final int? indexx;
-  const ListTilewidgetIsmlar({ Key? key,this.indexx }) : super(key: key);
+  const ListTilewidgetIsmlar({Key? key, this.indexx}) : super(key: key);
 
   @override
   State<ListTilewidgetIsmlar> createState() => _ListTilewidgetIsmlarState();
@@ -13,9 +14,8 @@ class _ListTilewidgetIsmlarState extends State<ListTilewidgetIsmlar> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      
       title: Padding(
-        padding: const EdgeInsets.only(bottom: 10),
+        padding: EdgeInsets.only(bottom: he(10)),
         child: Container(
           decoration: BoxDecoration(
             color: Colors.white,
@@ -36,35 +36,31 @@ class _ListTilewidgetIsmlarState extends State<ListTilewidgetIsmlar> {
             ],
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                 const Text(
-                    "Manosi",
-                    style:  TextStyle(
+            padding: EdgeInsets.symmetric(horizontal: wi(16), vertical: he(14)),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const Text(
+                  "Manosi",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'balo'),
+                ),
+                const Divider(
+                  color: Colors.black,
+                ),
+                Padding(
+                  padding: EdgeInsets.only(top: he(10)),
+                  child: Text(
+                    Ismlar.manosi[widget.indexx ?? 0].toString(),
+                    style: const TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'balo'),
                   ),
-                   const Divider(
-                    color: Colors.black,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 10),
-                    child: Text(
-                      Ismlar.manosi[widget.indexx!].toString(),
-                      style: const TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontFamily: 'balo'),
-                    ),
-                  ),
-                  
-                ],
-              ),
+                ),
+              ],
             ),
           ),
         ),

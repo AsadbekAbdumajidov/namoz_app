@@ -30,6 +30,7 @@ class _WidgetBuilderState extends State<WidgetBuilderIsmlar> {
             padding: const EdgeInsets.only(top: 10),
             child: SlideInLeft(
               child: Card(
+                clipBehavior: Clip.antiAlias,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15),
                     side: BorderSide.none),

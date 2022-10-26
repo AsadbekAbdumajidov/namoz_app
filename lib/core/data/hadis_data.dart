@@ -13,7 +13,7 @@ class Hadislar {
 Rasululloh sollallohu alayhi vasallam dedilar...
 
 "Ummatimdan qaysi kishi sunnatimdan qirqta khadisni yod olsa qiyomat kunida uni shafoatim ostiga kiritaman".
-_______________________________________________
+_____________________________
 
  طَلَبُ العِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ.
 
@@ -31,7 +31,7 @@ _______________________________________________
 
 (رواه إمام أبي حنيفة في مسنده عَن أنس بن مَالك، والطبراني عَنْ عَبْدِ اللهِ بْنِ مَسْعُودٍ)
 
-_______________________________________________
+_____________________________
 
 Ilm izlamoq har bir musulmonga farzdir".
 (Imom Abu Hanifa musnadida Anas ibn Molikdan va Tabaroniy Abdullohu ibn Masyud Roziyallohu anhudan rivoyat qilishgan.)
@@ -46,7 +46,7 @@ Sharh: Islomda uzining bilmagan narsasini bilishga harakat qilish har bir musulm
 
 (رواه البيهقي عَنْ أَنَسِ بْنِ مَالِكٍ).
 
-_______________________________________________
+_____________________________
 
 "Ilmni Xitoidan bo'lsa ham borib olinglar, chunki ilm izlash khar bir musulmonga farzdir".
 Bayhaqiy Anas ibn Molik roziyallohu anhudan rivoyat qilgan.
@@ -58,7 +58,7 @@ Sharh: ywlning uzokligiga, khalqning hato bir dinda bilolishiga karamay ilmni qa
       "matni": """ 
 
  اُطْلُبُوا العِلْمَ مٍنَ الْمَهْدِ إلَى اللَّحْدِ.
-_______________________________________________
+_____________________________
 
 Ilmni beshikdan to kabrga qadar izlanglar!
 Sharh: Men karidim, mening vaqtim utdi, deb chech bir vaqt aitib bulmaydi. Insonning eng ohirgi nafasi kolguncha bilimsizlikni ketkazishga harakat qilishi zarur.
@@ -75,7 +75,7 @@ Rasululloh sollallohu alayhi vasallam: "Mumin kishining ohirgi boradigan joyi zh
 
 (أبو نعيم عَن ابْن عَبَّاس، أخرجه أيضًا الديلمي)
 
-_______________________________________________
+_____________________________
 
 Ilm talabidagi bir soat tunni bedor o'tkazgandan yaxshiroqdir. Ilm yo'lidagi bir kun uch oy ruza tutmoqdan hayrliroqdir."""
     },
@@ -96,7 +96,7 @@ Ilm izlash har musulmonga farzdir. Ilm Izlovchi kishi uchun har bir narsa, xatto
 "فَضْلُ الْعِلْمِ أَفْضَلُ مِنَ الْعِبَادَةِ، وَمِلَاكُ الدِّينِ الْوَرَعُ".
 
 (رَوَاهُ الطَّبَرَانِيُّ عَنِ ابْنِ عَبَّاسٍ)
-_______________________________________________
+_____________________________
 
 Ilm (nafl) ibodatdan afzaldir. Dinning asosi parhezkorlikdir."""
     },
@@ -107,7 +107,7 @@ Ilm (nafl) ibodatdan afzaldir. Dinning asosi parhezkorlikdir."""
  "فَضْلُ الْعِلْمِ أَحَبُّ إِلَيَّ مِنْ فَضْلِ الْعِبَادَةِ، وخَيْرُ دِينِكُمُ الْوَرَعُ".
 
 (رواه البيهقي في شعب الإيمان)
-_______________________________________________
+_____________________________
 
 Ilmning fasilati men uchun (nafl) ibodatning fasilatidan suyukliroqdir. Dinlaringizni yakhshisi parghezkorlik, yani harom bulgan narsalardan saklanmoqdir."""
     },
@@ -119,7 +119,7 @@ Ilmning fasilati men uchun (nafl) ibodatning fasilatidan suyukliroqdir. Dinlarin
 
 (رواه البيهقي في شعب الإيمان والطبراني في معجم الأوسط)
 
-_______________________________________________
+_____________________________
 
 Olim bo'l yoki ilm o'rganuvchi bo'l yoki eshituvchi bo'l yoki shularni sevuvchi bo'l. Ammo bularning beshinchisi bulmasa halokatga uchraysan."""
     },
@@ -131,7 +131,7 @@ Olim bo'l yoki ilm o'rganuvchi bo'l yoki eshituvchi bo'l yoki shularni sevuvchi 
 
 (رواه الطبراني)
 
-_______________________________________________
+_____________________________
 
 Ulug'lar bilan o'tiringlar, ulamolardan so'ranglar va hakim-donishmandlar ila aralashib yuringlar."""
     },
@@ -143,7 +143,7 @@ Ulug'lar bilan o'tiringlar, ulamolardan so'ranglar va hakim-donishmandlar ila ar
 
 (رواه الطبراني عَنْ أَنَسِ بْنِ مَالِكٍ، البيهقي عَنْ عُثْمَانَ بْنِ عَفَّانَ)
 
-_______________________________________________
+_____________________________
 
 Sizlarning yaxshilaringiz Kuronni o'rganib, uni (boshqalarga) o'rgatganlaringizdir."""
     },
@@ -155,7 +155,7 @@ Sizlarning yaxshilaringiz Kuronni o'rganib, uni (boshqalarga) o'rgatganlaringizd
 
 (رواه الترمذي و ابن ماجه عَنْ أَبِي هُرَيْرَةَ)
 
-_______________________________________________
+_____________________________
 
 Hikmatlik so'z mo'minning yo'qotganidir, uni kayerdan topsa o'sha narsaga haqliroqdir."""
     },
@@ -166,7 +166,7 @@ Hikmatlik so'z mo'minning yo'qotganidir, uni kayerdan topsa o'sha narsaga haqlir
  مَنِ اغْبَرَّتْ قَدَمَاهُ فِي سَبِيلِ اللَّهِ حَرَّمَهُ اللَّهُ عَلَى النَّارِ.
 
 (رواه البخاري والترمذي والنسائي والبيهقي وابن حبان)
-_______________________________________________
+_____________________________
 
 Kim Allo yulida ikki oyogini chang qilsa Allo taolo uni zhahannamga harom qiladi."""
     },
@@ -177,7 +177,7 @@ Kim Allo yulida ikki oyogini chang qilsa Allo taolo uni zhahannamga harom qiladi
  الْعُلَمَاءُ أُمَنَاءُ الله عَلَى خَلْقِهِ.
 
 (رواه الْقُضَاعِي وَابْن عَسَاكِر عَن أنس)
-_______________________________________________
+_____________________________
 
 Olimlar khalqi ustidagi Allohning ishonchli bandalaridir.
 Ya'ni, xalqlar olimlarining suzlariga quloq solib, ular kursatgan yul bilan yurishlari zarur."""
@@ -189,7 +189,7 @@ Ya'ni, xalqlar olimlarining suzlariga quloq solib, ular kursatgan yul bilan yuri
  قَيِّدُوا الْعِلْمَ بِالْكِتَابِ.
 
 (رواه الخَطِيبُ وَابن العساكر)
-_______________________________________________
+_____________________________
 
 Ya'ni, har bir eshitilgan yaxshi suz xotirada turmay unutilmas bulganidan keyin yozib qo'yinglar! Keyin shunga qarab bilib olasizlar. Buning uchun har kimga, khususan o'quvchilarga o'zi bilan birga yon daftari va kalam olib yurishga odatlanish kerak."""
     },
@@ -198,7 +198,7 @@ Ya'ni, har bir eshitilgan yaxshi suz xotirada turmay unutilmas bulganidan keyin 
       "matni": """ 
 
  آفَةُ الْعِلْمِ النِّسْيَانُ، وَإِضَاعَتُهُ أَنْ تُحَدِّثَ بِهِ غَيْرَ أَهْلِهِ.
-_______________________________________________
+_____________________________
 
 Ilmning ofati unutish va loyik bulmagan kishiga ilmni suzlab zoe qilishdir.
 Yani: o'rganilgan ilmni unutmas va loyik bulmagan odamlarga suzlashdan saklanish zarur."""
@@ -210,7 +210,7 @@ Yani: o'rganilgan ilmni unutmas va loyik bulmagan odamlarga suzlashdan saklanish
  سَلُوا اللهَ عِلْمًا يَنْفَعُ، وَاسْتَعِيذُوا بِاللهِ مِنْ عِلْمٍ لَا يَنْفَعُ.
 
 ( رواه ابن ماجه، والبيهقي عَنْ جَابِرِ بْنِ عَبْدِ اللهِ)
-_______________________________________________
+_____________________________
 
 Allo taolodan (dunyo va ohiratda) foyda keltiradi ilmni so'rab, (na dunyoda, na ohiratda) foyda keltiradi ilmdan Alloh nomi bilan panoh tilanglar."""
     },
@@ -221,7 +221,7 @@ Allo taolodan (dunyo va ohiratda) foyda keltiradi ilmni so'rab, (na dunyoda, na 
  اللهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عِلْمٍ لَا يَنْفَعُ، وَعَمَلٍ لاَ يُرْفَعُ، وَ دُعَاءٍ لَا يُسْمَعُ.
 
 (رواه الطبراني عن ابْنِ عَبَّاسٍ ابن حبان والبيهقي عَنْ أَنَسِ بْنِ مَالِكٍ وابن ماجه عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Allohim! Foyda bermaydigan ilmdan, holis bo'lmagan amaldan, qabul etilmaydigan duodan Sening noming bilan panoh tilayman."""
     },
@@ -233,7 +233,7 @@ Allohim! Foyda bermaydigan ilmdan, holis bo'lmagan amaldan, qabul etilmaydigan d
 
 (رواه الطبراني عن أبى هريرة)
 
-_______________________________________________
+_____________________________
 
 Ilmni o'rganib, boshkalarga o'rgatmagan kishi kwp mol-dunyo to'plab, undan (hech narsa) sarflamagan kishi kabidir.
 Ya'ni, chaqmoq tp'plab, sarflamas kanchalik hunuk bo'lsa, bu ham shunday hunuk ishdir."""
@@ -245,7 +245,7 @@ Ya'ni, chaqmoq tp'plab, sarflamas kanchalik hunuk bo'lsa, bu ham shunday hunuk i
  مَثَلُ الْعَالِمِ الَّذِي يُعَلِّمُ النَّاسَ الْخَيْرَ ويَنْسَى نَفْسَهُ كَمَثَلِ السِّرَاجِ يُضِيءُ لِلنَّاسِ ويُحْرِقُ نَفْسَهُ.
 
 (الطبراني، عن جندب بن عبد الله)
-_______________________________________________
+_____________________________
 
 Odamlarga vaz nasixat qilib, yaxshilik o'rgatsada, o'zini unutib qo'ygan olimning misoli o'zini kuydirib, odamlarga nur sochgan chiroqning misoli kabidir."""
     },
@@ -256,7 +256,7 @@ Odamlarga vaz nasixat qilib, yaxshilik o'rgatsada, o'zini unutib qo'ygan olimnin
  اللَّهُمَّ أَغْنِنِي بِالْعِلْمِ وَزَيِّنِّي بِالْحِلْمِ وَكَرِّمْنِي بِالتَّقْوَى وَجَمِّلْنِي بِالْعَافِيَةِ.
 
 (أخرجه الرافعي القزويني في كتاب "التدوين في أخبار قزوين")
-_______________________________________________
+_____________________________
 
 Allohim! Meni ilm bilan boyit, ilm bilan ziynatla, so bilan hurmatli qil, ofiyat bilan go'zal qil!"""
     },
@@ -266,12 +266,12 @@ Allohim! Meni ilm bilan boyit, ilm bilan ziynatla, so bilan hurmatli qil, ofiyat
 Ikkinchi bob:
 
 Kasb va tijoratga doir
-_______________________________________________
+_____________________________
 
  طَلَبُ الْحَلَالِ وَاجِبٌ عَلَى كُلِّ مُسْلِمٍ.
 
 (رواه الطبراني عَنْ أَنَسِ بْنِ مَالِكٍ)
-_______________________________________________
+_____________________________
 
 Halol rizq izlamok har bir musulmonga vojibdir.
 Ya'ni, peshonamga nima yozilgan bo'lsa uzi keladi, deb harakat qilmay bekor yotish islomda maqbul ish emas. Har bir odam o'zing oilasini to'ydiradigan miqdorda kasb qilish farzdir."""
@@ -283,7 +283,7 @@ Ya'ni, peshonamga nima yozilgan bo'lsa uzi keladi, deb harakat qilmay bekor yoti
  اُحْرُثُوا فإِنَّ الحَرْثَ مُبارَكٌ وأكْثِرُوا فِيهِ مِنَ الجَمَاجِمِ.
 
 (أبو داود فِي مَرَاسِيلِهِ عَن عَلِيِّ بن الحُسَيْنِ مُرْسَلاً)
-_______________________________________________
+_____________________________
 
 Dehqonchilik ishlari, chunki dehqonchilik muborak (barakalik ish) dir.
 Ekkanlaringizga zarar etkazmasligingiz uchun qo'riqchilarni ko'p qilinglar."""
@@ -295,7 +295,7 @@ Ekkanlaringizga zarar etkazmasligingiz uchun qo'riqchilarni ko'p qilinglar."""
  أطْيَبُ الكَسْبِ عَمَلُ الرَّجُلِ بِيَدِهِ وَكلُّ بَيْعٍ مَبْرُورٍ.
 
 (أحمد، والطبراني، والحاكم، والبيهقي عن رافع بن خديج)
-_______________________________________________
+_____________________________
 
 Kasblarning eng yaxshisi, kishining o'z qo'li bilan qilgan kasbidir. Hamda hiyonatsiz va yolgonsiz bulgan savdodir.""",
     },
@@ -306,7 +306,7 @@ Kasblarning eng yaxshisi, kishining o'z qo'li bilan qilgan kasbidir. Hamda hiyon
  أَفْضَلُ الْكَسْبِ بَيْعٌ مَبْرُورٌ، وَعَمَلُ الرَّجُلِ بِيَدِهِ.
 
 (أخرجه الإِمَام أَحْمد وَالطَّبَرَانِيّ فِي الْكَبِير عَن أبي بَرزَة بن نيار الْأنْصَارِيّ رَضِي الله عَنهُ)
-_______________________________________________
+_____________________________
 
 Kasblarning eng afzali hiyonatsiz va yo'lgonsiz bulgan savdo hamda kishining o'z qo'l kuchi bilan ishlab topgan ishidir."""
     },
@@ -317,7 +317,7 @@ Kasblarning eng afzali hiyonatsiz va yo'lgonsiz bulgan savdo hamda kishining o'z
  تِسْعَةُ أعْشَارِ الرِّزْقِ فِي التَّجَارَةِ وَالعُشْرُ فِي الْمَوَاشِي.
 
 (السيوطي في الجامع الضغير عن نعيم بن عبد الرحمن الأزدى معضلاً)
-_______________________________________________
+_____________________________
 
 Rizqning o'n ulushdan to'qqiz ulushi savdoda, bir ulushi chorvachilikdadir.""",
     },
@@ -328,7 +328,7 @@ Rizqning o'n ulushdan to'qqiz ulushi savdoda, bir ulushi chorvachilikdadir.""",
  التَّاجِرُ الجَبَانُ مَحْرُومٌ وَالتَّاجِرُ الجَسُورُ مَرْزُوقٌ.
 
 (الْقُضَاعِي عن أنس مرفوعا)
-_______________________________________________
+_____________________________
 
 Qo'qoq savdogar maxrumdir, ammo jasoratli, qo'rqmas savdogar hamma vaqt rizqlangandir."""
     },
@@ -339,7 +339,7 @@ Qo'qoq savdogar maxrumdir, ammo jasoratli, qo'rqmas savdogar hamma vaqt rizqlang
  عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «التَّاجِرُ الصَّدُوقُ الْأَمِينُ مَعَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ».
 
 (الدارمي وَالدَّارَ قُطْنِيّ والترمذي عَنْ أَبِي سَعِيدٍ)
-_______________________________________________
+_____________________________
 
 Tugriso'z va hiyonatsiz savdogar Paygambarlar, siddiqlar va shahidlar bilan birgadir.""",
     },
@@ -351,7 +351,7 @@ Tugriso'z va hiyonatsiz savdogar Paygambarlar, siddiqlar va shahidlar bilan birg
 
 (ابن عساكر عن أنس).
 
-_______________________________________________
+_____________________________
 
 Kim halol rizq topaman deb, toliqib tunasa gunohlari maqfirat qilinib tong ottiradi.""",
     },
@@ -362,7 +362,7 @@ Kim halol rizq topaman deb, toliqib tunasa gunohlari maqfirat qilinib tong ottir
 الصُّبْحَةُ تَمْنَعُ الرِّزْقَ.
 
 (رواه أحمد والبيهقي عَنْ عُثْمَانَ بْنِ عَفَّانَ)
-_______________________________________________
+_____________________________
 
 Tonggi uyqu rizkni tushadi.
 Ya'ni: yalqovlanib, erta bilan kishilar savdo ishlari bilan mashg'ul bulganda uhlab yotuvchi kishilar kambag'al buladilar demakdir.""",
@@ -374,7 +374,7 @@ Ya'ni: yalqovlanib, erta bilan kishilar savdo ishlari bilan mashg'ul bulganda uh
  اتَّخِذِ الغَنَمَ فَإنَّهُ بَرَكَةٌ.
 
 (رواه ابن ماجه وأحمد)
-_______________________________________________
+_____________________________
 
 Qo'y boqinglar, chunki u barakadir.
 """
@@ -386,7 +386,7 @@ Qo'y boqinglar, chunki u barakadir.
  إِذَا سَبَّبَ اللهُ تَعَالَى لأحَدِكُمْ رِزْقًا مِنْ وَجْهٍ، فَلَا يَدَعْهُ حَتَّى يَتَغَيَّرَ لَهُ.
 
 (رَوَاهُ أَحْمَدُ وَابْنُ مَاجَه)
-_______________________________________________
+_____________________________
 
 Sizlarning biringizga biror tomondan tark rizq kelib turishini Alloh taolo sabab qilgan bwlsa, u o'zi o'zgarmagunicha o'sha ishni qilmasin.""",
     },
@@ -397,7 +397,7 @@ Sizlarning biringizga biror tomondan tark rizq kelib turishini Alloh taolo sabab
  مَنْ رُزِقَ فِي شَيْءٍ فَلْيَلْزَمْهُ.
 
 (رواه البَيْهَقِي عَنْ أَنَسٍ)
-_______________________________________________
+_____________________________
 
 Kim biror narsa bilan rizlangan bulsa uni mahkam tutsin!
 (Bir kishining bir ish, yoki kasb yoki biror savdodan rizqi kelib turgan bulsa, uni tashlamasin shu ishida davom etsin!)"""
@@ -409,7 +409,7 @@ Kim biror narsa bilan rizlangan bulsa uni mahkam tutsin!
  أَبْشِرْ، فَإِنَّ الْجَالِبَ إِلَى سُوقِنَا، كَالْمُجَاهِدِ فِي سَبِيلِ اللَّهِ، وَالْمُحْتَكِرُ فِي سُوقِنَا، كَالْمُلْحِدِ فِي كِتَابِ اللَّهِ»
 
 (رواه الحاكم عن الْيَسَعَ بْنِ الْمُغِيرَةِ مرسلاً)
-_______________________________________________
+_____________________________
 
 (Halqning asosiy ehtiyoji tushadigan un, gusht, utin kwmir kabilarni) bizning bozorimizga olib keluvchilar Alloh yulida jihod kiluvchilar kabidir. (Ammo halqning ehtiyoji tushadigan narsalar) bahosi qimmat bo'lgan sotaman, deb yig'ib qo'yuvchilar Allohning kitobini inkor dahriylar kabidir.""",
     },
@@ -420,7 +420,7 @@ _______________________________________________
  يُحِبُّ الله الْعَامِلَ إِذَا عَمِلَ أَنْ يُحْسِنَ
 
 (رواه الطبراني عن كليب بن شهاب)
-_______________________________________________
+_____________________________
 
 Ishini etibor bilan chiroili bajargan kishini Alloh taolo yaxshi kuradi.""",
     },
@@ -431,7 +431,7 @@ Ishini etibor bilan chiroili bajargan kishini Alloh taolo yaxshi kuradi.""",
  مَا مِنْ مُسْلِمٍ يَزْرَعُ زَرْعًا، أَوْ يَغْرِسُ غَرْسًا، فَيَأْكُلُ مِنْهُ طَيْرٌ، أَوْ إِنْسَانٌ، أَوْ بَهِيمَةٌ إِلَّا كَانَ لَهُ بِهِ صَدَقَةٌ»
 
 (رواه  وأحمد عن أبى الدرداء)
-_______________________________________________
+_____________________________
 
 Biror musulmon kishi ekin exa yoki darakht o'tqazsa undan biorta qush yoki odam yoki hayvon esa, bu o'sha musulmon uchun sadaqa buladi."""
     },
@@ -442,7 +442,7 @@ Biror musulmon kishi ekin exa yoki darakht o'tqazsa undan biorta qush yoki odam 
  لَأَنْ يَأْخُذَ أَحَدُكُمْ حَبْلَهُ ثُمَّ يَغْدُوَ - إِلَى الجَبَلِ - فَيَحْتَطِبَ، فَيَبِيعَ، فَيَأْكُلَ وَيَتَصَدَّقَ، خَيْرٌ لَهُ مِنْ أَنْ يَسْأَلَ النَّاسَ
 
 (رواه البخاري في صحيحه عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Sizlardan biringiz arkonini olib, sungra toga chiqib, utin terib, keyin uni sotib, pulini eyishi va sadaka ishlashi, odamlardan tilanchilik qilib so'rashidan yakhshiroqdir.""",
     },
@@ -453,7 +453,7 @@ Sizlardan biringiz arkonini olib, sungra toga chiqib, utin terib, keyin uni soti
  إِنَّ الْمَسْأَلَةَ لَا تَحِلُّ إِلَّا لِإِحْدَى ثَلَاثٍ: دَمٍ مُوجِعٍ، أَوْ غُرْمٍ مُفْظِعٍ، أَوْ فَقْرٍ مُدْقِعٍ.
 
 (رواه أحمد عن أنس بن مالك)
-_______________________________________________
+_____________________________
 
 Tilanchilik faqat uch kishiga halol buladi. Ular: hun t'o'lovchi, o'gir qarzdor, o'ta kambagal qashshoq.""",
     },
@@ -464,7 +464,7 @@ Tilanchilik faqat uch kishiga halol buladi. Ular: hun t'o'lovchi, o'gir qarzdor,
  اسْتَعِيذُوا بِاللَّهِ مِنَ الْفَقْرِ وَالْعَيْلَةِ، وَمِنْ أَنْ تَظْلِمُوا أَوْ تُظْلَمُوا.
 
 (رَوَاهُ الطَّبَرَانِيُّ عَن عبَادَة بن الصَّامِت)
-_______________________________________________
+_____________________________
 
 Kambagallikdan, muxtojlikdan, birovga zulm kilishdan yoki birovdan zulm ko'rishdan Olloh nomi bilan panoh berishini so'ranglar!"""
     },
@@ -475,7 +475,7 @@ Kambagallikdan, muxtojlikdan, birovga zulm kilishdan yoki birovdan zulm ko'rishd
  اللهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْفَقْرِ وَالْقِلَّةِ وَالذِّلَّةِ، وَأَعُوذُ بِكَ أَنْ أَظْلِمَ أَوْ أُظْلَمَ.
 
 (رواه البخاري في الأدب المفرد وأحمد في مسنده و أبو داود والنسائي في سننهما وابن حبان في صحيحه)
-_______________________________________________
+_____________________________
 
 Hey Robbim! Kambagallikdan, rizqning ozligdan horlikdan, zulm quilishdan yoki birovdan zulm kwrishdan o'z panohinda saqlashingni so'rayman.""",
     },
@@ -486,7 +486,7 @@ Hey Robbim! Kambagallikdan, rizqning ozligdan horlikdan, zulm quilishdan yoki bi
  اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى.
 
 (رواه البخاري في الأدب المفرد ومسلم وأحمد والترمذي وابن ماجه عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ)
-_______________________________________________
+_____________________________
 
 Allohim! Sendan hidoyat, taqvo, chaqir va behojatlikni surayman!"""
     },
@@ -499,7 +499,7 @@ Maktovli axloqqa doir narsalar
  أَفْضَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا.
 
 (رواه أبو يَعْلى عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 Mo'minlarning eng afzali hulqi go'zal bulganidir."""
     },
@@ -510,7 +510,7 @@ Mo'minlarning eng afzali hulqi go'zal bulganidir."""
  أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا، أَحْسَنُهُمْ خُلُقًا.
 
 (رواه الدارمي وأحمد ابو داود والترمذي وابن حبان عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 Mo'minlarning iymon jihatidan eng komili hulqi eng go'zal b'lganidir."""
     },
@@ -521,7 +521,7 @@ Mo'minlarning iymon jihatidan eng komili hulqi eng go'zal b'lganidir."""
  إِنَّ الْمُؤْمِنَ لَيُدْرِكُ بِحُسْنِ خُلُقِهِ دَرَجَةَ قَائِمِ اللَّيْلِ وَصَائِمِ النَّهَارِ.
 
 (رَوَاهُ أَبُو دَاوُدَ وَابن حبان عَنْ عَائِشَةَ - رَضِيَ اللَّهُ عَنْهَا)
-_______________________________________________
+_____________________________
 
 Mo'min kishi chiroyli hulqi tufayli kechasi ibodat bilan mashg'ul bo'lib, kunduzi ruza tutganlar darajasiga erishur."""
     },
@@ -532,7 +532,7 @@ Mo'min kishi chiroyli hulqi tufayli kechasi ibodat bilan mashg'ul bo'lib, kunduz
  مِنْ حُسْنِ إِسْلَامِ الْمَرْءِ تَرْكُهُ مَا لَا يَعْنِيهِ.
 
 (رواه الطبراني والبيهقي عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Foydasi bulmagan narsalarni tark qilish kishining islomi go'zalligiga dalildir.""",
     },
@@ -543,7 +543,7 @@ Foydasi bulmagan narsalarni tark qilish kishining islomi go'zalligiga dalildir."
  إِنَّ اللَّهَ يُحِبُّ مِنْ عِبَادِهِ الْغَيُورَ.
 
 (رواه الطبراني عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ)
-_______________________________________________
+_____________________________
 
 Alloh taolo bandalari orasidan g'ayratli bulganini yaxshi kuradi."""
     },
@@ -554,7 +554,7 @@ Alloh taolo bandalari orasidan g'ayratli bulganini yaxshi kuradi."""
  إِنَّ اللهَ عَفُوٌّ يُحِبُّ الْعَفْوَ
 
 (رواه إمام الأعظم أبو حنيفة في مسنده والطبراني في الأوائل والبيهقي في سنن الكبرى عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Albatta Alloh kechiruvchidir, kechirimlini yaxshi kuradi."""
     },
@@ -565,7 +565,7 @@ Albatta Alloh kechiruvchidir, kechirimlini yaxshi kuradi."""
  إِنَّ اللهَ جَمِيلٌ يُحِبُّ الْجَمَالَ.
 
 (رواه مسلم وأحمد وابن حبان والطبراني عَنْ عَبْدِ اللهِ بْنِ مَسْعُودٍ)
-_______________________________________________
+_____________________________
 
 Allo taolo gozaldir, gozallikni yaxshi kuradi."""
     },
@@ -576,7 +576,7 @@ Allo taolo gozaldir, gozallikni yaxshi kuradi."""
  إِنَّ حُسْنَ الْعَهْدِ مِنَ الْإِيمَانِ.
 
 (رواه الحاكم والديلمي عن عائشة رضي الله عنها)
-_______________________________________________
+_____________________________
 
 Va'dasi ustidan chikish iymondandir."""
     },
@@ -587,7 +587,7 @@ Va'dasi ustidan chikish iymondandir."""
  لَا إِيمَانَ لِمَنْ لَا أَمَانَةَ لَهُ، وَلَا دِينَ لِمَنْ لَا عَهْدَ لَهُ.
 
 (رَوَاهُ الْبَيْهَقِيُّ وأحمد وابن حبان والطبراني عَنْ أَنَسٍ رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Omonatdorligi Bulmagan Kishining Iymoni Yuq, Ahdiga Vafo Bulmagan Kishining Dini Yo'k."""
     },
@@ -598,7 +598,7 @@ Omonatdorligi Bulmagan Kishining Iymoni Yuq, Ahdiga Vafo Bulmagan Kishining Dini
  الْحَيَاءُ مِنَ الْإِيمَانِ.
 
 (متفق عليه)
-_______________________________________________
+_____________________________
 
  Hayo Iymandandir."""
     },
@@ -609,7 +609,7 @@ _______________________________________________
  مَنْ لاَ يَرْحَمُ لاَ يُرْحَمُ.
 
 (مُتَّفَقٌ عَلَيْهِ عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 Kim rahm kilmasa unga ham rahm munosabat."""
     },
@@ -618,7 +618,7 @@ Kim rahm kilmasa unga ham rahm munosabat."""
       "matni": """ 
 
  أَحَبُّ الحَدِيثِ إِلَى اللهِ أَصْدَقُهُ
-_______________________________________________
+_____________________________
 
 Suzlar ichida Allohga eng suyuklisi tugrisidir."""
     },
@@ -629,7 +629,7 @@ Suzlar ichida Allohga eng suyuklisi tugrisidir."""
  مَا مِنْ صَدَقَةٍ أَحَبَّ إِلَى اللهِ مِنْ قَولِ الحَقِّ.
 
 (البيهقي عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Sadaqalar ichida birortasi to'g'ri suzchalik Allohga suyukli emas."""
     },
@@ -640,7 +640,7 @@ Sadaqalar ichida birortasi to'g'ri suzchalik Allohga suyukli emas."""
  إِنَّ اللَّهَ يُحِبُّ الرِّفْقَ فِي الْأَمْرِ كُلِّهِ.
 
 (رواه البخاري ومسلم والترمذي عَنْ عَائِشَةَ)
-_______________________________________________
+_____________________________
 
 Alloh barcha ishda muloyimlikni sevadi."""
     },
@@ -651,7 +651,7 @@ Alloh barcha ishda muloyimlikni sevadi."""
  إِنَّمَا بُعِثْتُ لِأُتَمِّمَ صَالِحَ الْأَخْلَاقِ.
 
 (رَوَاهُ أَحْمَدُ عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 Men yaxshi hulqlarni barkamol etish uchun (paygambar qilib) yuborildim."""
     },
@@ -662,7 +662,7 @@ Men yaxshi hulqlarni barkamol etish uchun (paygambar qilib) yuborildim."""
  إِذَا عَمِلْتَ سَيِّئَةً فَأَتْبِعْهَا حَسَنَةً تَمْحُهَا.
 
 (رواه أحمد والبيهقي عن أبي ذرّ)
-_______________________________________________
+_____________________________
 
 Agar (bandaliginga borib) biror gunoh sodir etsang, uning orqasidan uni yuvib yuboradigan bir yahshi ish qil!"""
     },
@@ -672,7 +672,7 @@ Agar (bandaliginga borib) biror gunoh sodir etsang, uning orqasidan uni yuvib yu
 لَا طَاعَةَ لِأَحَدٍ فِي مَعْصِيَةِ اللَّهِ.
 
 (رواه أَحمد والطبراني عَنِ الْحَكَمَ بْنَ عَمْرٍو وعِمْرَانُ بْنُ حُصَيْنٍ)
-_______________________________________________
+_____________________________
 
 Alloh taologa osiy bo'linadigan ishda biror kishiga itoat qilinmaydi."""
     },
@@ -683,7 +683,7 @@ Alloh taologa osiy bo'linadigan ishda biror kishiga itoat qilinmaydi."""
  استقمْ وليَحْسُنْ خلقُك للناسِ.
 
 (الطبراني، والبيهقي عن ابن عمرو)
-_______________________________________________
+_____________________________
 
 To'g'ri yo'lda yo'r! Odamlarga hulqing chiroyli bo'lsin!"""
     },
@@ -694,7 +694,7 @@ To'g'ri yo'lda yo'r! Odamlarga hulqing chiroyli bo'lsin!"""
  إِنَّ الْفُحْشَ وَالتَّفَحُّشَ لَيْسَا مِنَ الْإِسْلَامِ فِي شَيْءٍ، وَإِنَّ خَيْرَ النَّاسِ إِسْلَامًا أَحْسَنُهُمْ خُلُقًا.
 
 (رواه أَحمد والطبراني عَنْ جَابِرِ بْنِ سَمُرَةَ رضي الله عنه)
-_______________________________________________
+_____________________________
 
 Buzuqlik va buzuqlikni kasb qilish islomdan emas. Odamlar ichida islomi eng chiroili bulgan kishi hulqi eng chiroili bulgandir."""
     },
@@ -705,7 +705,7 @@ Buzuqlik va buzuqlikni kasb qilish islomdan emas. Odamlar ichida islomi eng chir
  اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي.
 
 (رَوَاهُ أَحْمَدُ)
-_______________________________________________
+_____________________________
 
 Allohim! Yaratilishimni chiroyli kilganingdek hulqimni ham chiroili qil!"""
     },
@@ -717,7 +717,7 @@ Yomon xulga doir
  إِيَّاكُمْ وَالْكَذِبَ، فَإِنَّ الْكَذِبَ مُجَانِبٌ لِلْإِيمَانِ.
 
 (رواه أحمد والبيهقي عَنْ قَيْسِ بْنِ أَبِي حَازِمٍ)
-_______________________________________________
+_____________________________
 
 Yolgondan saqlaninglar! Chunky yolgon iymandan uzoqdir. (Yani, yolgon bilan iymon ikkovi bir kishida jamlanmaydi.)"""
     },
@@ -726,7 +726,7 @@ Yolgondan saqlaninglar! Chunky yolgon iymandan uzoqdir. (Yani, yolgon bilan iymo
       "matni": """ 
 
  الْمَكْرُ وَالخَدِيعَةُ وَالْخِيَانَةُ فِي النَّارِ.
-_______________________________________________
+_____________________________
 
 Makr, aldov va hiyonat jahannamdadir."""
     },
@@ -737,7 +737,7 @@ Makr, aldov va hiyonat jahannamdadir."""
  الحَسَدُ يُفْسِدُ الإيمَانَ كَمَا يُفْسِدُ الصَّبْرُ العَسَلَ.
 
 (رَوَاهُ الدَّيْلَمِيُّ عَنْ مُعَاوِيَةَ بْنِ حَيْدَةَ مَرْفُوعًا)
-_______________________________________________
+_____________________________
 
 Sobr (achchiq o'simlik) asalni kanchalik buzsa hasad ham iymonni shunchalik buzadi."""
     },
@@ -748,7 +748,7 @@ Sobr (achchiq o'simlik) asalni kanchalik buzsa hasad ham iymonni shunchalik buza
  لَيْسَ مِنِّي ذُو حَسَدٍ وَلاَ نَمِيمَةٍ وَلاَ كَهَانَةٍ وَلاَ أَنَا مِنْهُ.
 
 (رواه الطبراني عَن عَبْد اللَّهِ بْنَ بُسْرٍ)
-_______________________________________________
+_____________________________
 
 Hasad qiluvchi, gap tashuvchi-chaqimchi va goybdan xabar beruvchi folbin mendan emas, men ham undan emasman."""
     },
@@ -759,7 +759,7 @@ Hasad qiluvchi, gap tashuvchi-chaqimchi va goybdan xabar beruvchi folbin mendan 
 لَيْسَ مِنَّا مَنْ غَشَّ مُسْلِمًا أَوْ ضَرَّهُ أَوْ مَاكَرَهُ.
 
 (رواه الرَّافِعِيّ عَن عَليّ)
-_______________________________________________
+_____________________________
 
 Musulmonni aldagan yoki unga bir zarar etkazgan yoki unga biron bir makr-hiyla ishlatgan bizdan emas."""
     },
@@ -770,7 +770,7 @@ Musulmonni aldagan yoki unga bir zarar etkazgan yoki unga biron bir makr-hiyla i
  لَا تَلَاعَنُوا بِلَعْنَةِ اللَّهِ، وَلَا بِغَضَبِ اللَّهِ، وَلَا بِالنَّارِ.
 
 (رَوَاهُ التِّرْمِذِيُّ وَأَبُو دَاوُدَ عَنْ سَمُرَةَ بْنِ جُنْدُبٍ رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Biringiz bilan “Senga Allohning lanati bulsin”, “Allohning gazabiga duchor bul”, “Joying zhakhannamda bulsin” kabi suzlar bilan lanatlashmanglar!"""
     },
@@ -781,7 +781,7 @@ Biringiz bilan “Senga Allohning lanati bulsin”, “Allohning gazabiga duchor
  لاَ هجْرَ بَعْدَ ثَلاَثٍ.
 
 (المناوي عن أبي هريرة، حم م عَن أبي هُرَيْرَة)
-_______________________________________________
+_____________________________
 
 Islomda uch kundan arazlashish yo'q."""
     },
@@ -792,7 +792,7 @@ Islomda uch kundan arazlashish yo'q."""
  مَنْ هَجَرَ أَخَاهُ سَنَةً، فَهُوَ كَسَفْكِ دَمِهِ.
 
 (رواه البخاري في الأدب المفرد وأحمد وأبو داود عَنْ أَبِي خِرَاشٍ السُّلَمِيِّ)
-_______________________________________________
+_____________________________
  
 Kimki birodari bilan bir yil arazlashib yursa uning qonini tokkaani kabidir."""
     },
@@ -803,7 +803,7 @@ Kimki birodari bilan bir yil arazlashib yursa uning qonini tokkaani kabidir."""
  مَنْ رَمَى مُؤْمِنًا بِكُفْرٍ فَهُوَ كَقَتْلِهِ.
 
 (رواه الطبراني عَنْ هِشَامِ بْنِ عَامِرٍ رَضِيَ اللهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Kimki bir mo'minni sen kofirsan, deb ayblasa, uni o'ldirgani kabidir."""
     },
@@ -814,7 +814,7 @@ Kimki bir mo'minni sen kofirsan, deb ayblasa, uni o'ldirgani kabidir."""
  سِبَابُ الْمُسْلِمِ فُسُوقٌ وَقِتَالُهُ كُفْرٌ.
 
 (مُتَّفَقٌ عَلَيْهِ)
-_______________________________________________
+_____________________________
 
 Musulmonni sukish fosiklik u bilan urishish kofirlikdir."""
     },
@@ -825,7 +825,7 @@ Musulmonni sukish fosiklik u bilan urishish kofirlikdir."""
  خَيْرُ الْمُسْلِمِينَ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسانِهِ وَيَدِهِ.
 
 (رواه مسلم عن ابن عمرو)
-_______________________________________________
+_____________________________
 
 Musulmonlarning eng yaxshisi, musulmonlar uning tili va qulidan omonda bulgan kishidir."""
     },
@@ -836,7 +836,7 @@ Musulmonlarning eng yaxshisi, musulmonlar uning tili va qulidan omonda bulgan ki
  كَفَى بِالْمَرْءِ إِثْمًا أَنْ يُحَدِّثَ بِكُلِّ مَا سَمِعَ.
 
 (رواه أبو داود وابن حبان عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Har bir eshitgan narsani gapiraverish kishining gunoqor ekaniga kifoya qiladi."""
     },
@@ -847,7 +847,7 @@ Har bir eshitgan narsani gapiraverish kishining gunoqor ekaniga kifoya qiladi.""
  اتَّقُوا دَعْوَةَ الْمَظْلُومِ، وَإِنْ كَانَ كَافِرًا، فَإِنَّهُ لَيْسَ دُونَهَا حِجَابٌ.
 
 (رواه أحمد عن أنس)
-_______________________________________________
+_____________________________
 
 Kofir bo'lsa ham mazlumning duosidan saklaninglar! Chunky uning duosining oldida parda y'q."""
     },
@@ -858,7 +858,7 @@ Kofir bo'lsa ham mazlumning duosidan saklaninglar! Chunky uning duosining oldida
  إذَا غَضِبَ أَحَدُكُمْ فَلْيَسْكُتْ.
 
 (أَحْمَدُ عن ابن عباس)
-_______________________________________________
+_____________________________
 
 Agar sizlardan biringiz g'azablansa sukut qilsin!"""
     },
@@ -869,7 +869,7 @@ Agar sizlardan biringiz g'azablansa sukut qilsin!"""
 مَنْ انْتَهَبَ فَلَيْسَ مِنَّا.
 
 (وَرَوَى أَحْمَدُ، وَالتِّرْمِذِيُّ عَنْ أَنَسٍ)
-_______________________________________________
+_____________________________
 
 Kimki talon taroj va bosqichilik qilsa bizdan emas."""
     },
@@ -880,7 +880,7 @@ Kimki talon taroj va bosqichilik qilsa bizdan emas."""
  إِنَّ اللَّهَ يُبْغِضُ الْفَاحِشَ الْمُتَفَحِّشَ.
 
 (رواه ابن حبان عن أُسَامَةَ بْنَ زَيْدٍ)
-_______________________________________________
+_____________________________
 
 Suzida faxsh bo'lgan va o'ziga faxshni lozim ko'rgan kishiga Olloh g'azab qiladi."""
     },
@@ -891,7 +891,7 @@ Suzida faxsh bo'lgan va o'ziga faxshni lozim ko'rgan kishiga Olloh g'azab qiladi
  إِنَّ شَرَّ النَّاسِ مَنْزِلَةً عِنْدَ اللَّهِ يَوْمَ الْقِيَامَةِ، مَنْ يَخَافُ النَّاسُ شَرَّهُ.
 
 (رَوَاهُ الطَّبَرَانِيُّ عَنْ أَنَسِ بْنِ مَالِكٍ)
-_______________________________________________
+_____________________________
 
 Qiyomatda Ollohning oldida manzilati eng yomon bulgan kishi bu dunyoda odamlar uning yomonligidan qo'rqon kishidir."""
     },
@@ -902,7 +902,7 @@ Qiyomatda Ollohning oldida manzilati eng yomon bulgan kishi bu dunyoda odamlar u
  مَنْ أَحَبَّ أَنْ يَتَمَثَّلَ لَهُ الرِّجَالُ بَيْنَ يَدَيْهِ قِيَامًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ.
 
 (رَوَاهُ الطَّبَرَانِيُّ عَنْ عَمْرِو بْنِ مُرَّةَ الْجُهَنِيِّ)
-_______________________________________________
+_____________________________
 
 Kim, odamlar uni kutib olishganida hurmat yuzaga kelgan tik turishlarini yaxshi kursa joyini do'zahdan tayorlab qo'yaversin!"""
     },
@@ -912,7 +912,7 @@ Kim, odamlar uni kutib olishganida hurmat yuzaga kelgan tik turishlarini yaxshi 
  الْبَلَاءُ مُوَكَّلٌ بِالْمَنْطِقِ.
 
 (رواه القضاعي عَنْ عَلِيٍّ رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Balo aytilgan suzga yuk qo'yilgandir.
 Ya'ni, odamning boshiga khar qandai balo kelsa tili orkali gapirgan suzidan keladi."""
@@ -923,7 +923,7 @@ Ya'ni, odamning boshiga khar qandai balo kelsa tili orkali gapirgan suzidan kela
  اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الهَمِّ وَالحَزَنِ، وَالعَجْزِ وَالكَسَلِ، وَالبُخْلِ، وَالجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ.
 
 (متفق عليه)
-_______________________________________________
+_____________________________
 
 Allohim! Sening noming bilan qayg'u-hasratdan, hafalikdan, ojizlik va yalqovlikdan, bakhillik va qo'rkoklikdan, qarzning o'g'irligidan va nohaq odamlarning golib bo'lishidan o'z panohinda saklashingni so'rayman."""
     },
@@ -933,7 +933,7 @@ Allohim! Sening noming bilan qayg'u-hasratdan, hafalikdan, ojizlik va yalqovlikd
  خَيْرُ النَّاسِ أنْفَعُهُمْ لِلنَّاسِ.
 
 (رواه الْقُضَاعِي عَن جَابر)
-_______________________________________________
+_____________________________
 
 Odamlarning eng yaxshisi odamlarga eng manfaatli bulgandir."""
     },
@@ -943,7 +943,7 @@ Odamlarning eng yaxshisi odamlarga eng manfaatli bulgandir."""
   أَحِبَّ لِلنَّاسِ مَا تُحِبُّ لِنَفْسِكَ.
 
 (رواه أحمد والطبراني والبيهقي عن يَزِيدَ بْنِ أَسَدٍ)
-_______________________________________________
+_____________________________
 
 Ozing uchun ravo ko'rgan narsa boshka kishilar uchun ham ravo ko'r!"""
     },
@@ -954,7 +954,7 @@ Ozing uchun ravo ko'rgan narsa boshka kishilar uchun ham ravo ko'r!"""
  الْعَبْدُ مَعَ مَنْ أَحَبَّ.
 
 (رواه أحمد عَنْ جَابِرٍ)
-_______________________________________________
+_____________________________
 
 Banda (Qiyomat kuni) o'zing yahshi ko'rgan kishisi bilan birgadir."""
     },
@@ -965,7 +965,7 @@ Banda (Qiyomat kuni) o'zing yahshi ko'rgan kishisi bilan birgadir."""
 مَنْ أَحَبَّ قَوْمًا حَشَرَهُ اللهُ فِي زُمْرَتِهِمْ.
 
 (رواه الطبراني عن أبى قِرْصافة)
-_______________________________________________
+_____________________________
 
 Kim kaysi qavmni yahshi ko'rsa Alloh (qiyomat kuni) uni usha qavm ichida tiriltiradi."""
     },
@@ -976,7 +976,7 @@ Kim kaysi qavmni yahshi ko'rsa Alloh (qiyomat kuni) uni usha qavm ichida tirilti
  مُدَارَاةُ النَّاسِ صَدَقَةٌ.
 
 (رواه ابن حبان والطبراني والبيهقي عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ)
-_______________________________________________
+_____________________________
 
 Odamlar bilan murosa qilish sadakadir."""
     },
@@ -987,7 +987,7 @@ Odamlar bilan murosa qilish sadakadir."""
  أَنْزِلُوا النَّاسَ مَنَازِلَهُمْ.
 
 (رَوَاهُ أَبُو دَاوُد عَن عَائِشَة)
-_______________________________________________
+_____________________________
 
 (Har bir kishiga o'zining darajasiga qarab hurmat) o'ziga munochib joyga o'tqazinglar."""
     },
@@ -997,7 +997,7 @@ _______________________________________________
  زُرْ غِبًّا تَزْدَدْ حُبًّا.
 
 (رواه أبو داود والطبراني والبيهقي عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 (Qarindosh va dostlaringni) oz ziyorat qil, shunday muhabbat ortadi.
 Izoh: Har kun ziyorat qilib ko'rishilaversa kongil qaytib, muhabbat kamaya boshlaydi"""
@@ -1009,7 +1009,7 @@ Izoh: Har kun ziyorat qilib ko'rishilaversa kongil qaytib, muhabbat kamaya boshl
  أُوصِيكُمْ بِالْجَارِ.
 
 (رواه الطبراني عن أبي أُمَامَة)
-_______________________________________________
+_____________________________
 
 Sizlarga qo'shnilaringiz bilan yaxshi munosabatda bo'lgan narsalarni vasiyat qilaman."""
     },
@@ -1020,7 +1020,7 @@ Sizlarga qo'shnilaringiz bilan yaxshi munosabatda bo'lgan narsalarni vasiyat qil
  لَيْسَ الْمُؤْمِنُ الَّذِي لَا يَأْمَنُ جَارُهُ بَوَائِقَهُ.
 
 (رواه الطبراني عن طَلْق بن علي)
-_______________________________________________
+_____________________________
 
 Qushnisi uning yomonligan hotirjam bo'lmagan kishi haxiqiqiy mo'min emas."""
     },
@@ -1031,7 +1031,7 @@ Qushnisi uning yomonligan hotirjam bo'lmagan kishi haxiqiqiy mo'min emas."""
  إِنَّ الْمُتَحَابِّينَ فِي اللهِ فِي ظِلِّ الْعَرْشِ.
 
 (رواه الطبراني عَنْ مُعَاذِ بْنِ جَبَلٍ)
-_______________________________________________
+_____________________________
 
 Alloh yo'lida bir-birini yaxshi kurib do'stlashganlar Qiyomat kuni arshning soyasida buladilar."""
     },
@@ -1042,7 +1042,7 @@ Alloh yo'lida bir-birini yaxshi kurib do'stlashganlar Qiyomat kuni arshning soya
  أَفْضَلُ الْأَعْمَالِ بَعْدَ الْإِيمَانِ بِاللَّهِ التَّوَدُّدُ إِلَى النَّاسِ.
 
 (رواه الطبراني عَنْ أَبِي هُرَيْرَةَ)
-_______________________________________________
+_____________________________
 
 Allohga iymon keltirgandan keyingi amallarnig eng afzali odamlar bilan dustona munosabatda bo'lishdir."""
     },
@@ -1053,7 +1053,7 @@ Allohga iymon keltirgandan keyingi amallarnig eng afzali odamlar bilan dustona m
 أَفْشُوا السَّلَامَ بَيْنَكُمْ تَحَابُّوا.
 
 (رَوَاهُ الْحَاكِمُ عَنْ أَبِي مُوسَى)  
-_______________________________________________
+_____________________________
 
 Oz oralaringizda salomni yoyinglar, shunda bir biringizni bilan muhabbatli bo'lasizlar."""
     },
@@ -1064,7 +1064,7 @@ Oz oralaringizda salomni yoyinglar, shunda bir biringizni bilan muhabbatli bo'la
  رَدُّ جَوَابِ الْكِتَابِ حَقٌّ كَرَدِّ السَّلَامِ.
 
 (رواه أبو نعيم عن أنس)
-_______________________________________________
+_____________________________
 
 Maktubga javob yozish, salomga alik qaytarish kabi majburiyatdir."""
     },
@@ -1074,7 +1074,7 @@ Maktubga javob yozish, salomga alik qaytarish kabi majburiyatdir."""
  أَنَّ اللَّهَ يُبْغِضُ الْمُعْبِسَ فِي وُجُوهِ إِخْوَانِهِ.
 
 (رَوَى الدَّيْلَمِيُّ فِي مُسْنَدِ الْفِرْدَوْسِ عَنْ عَلِيٍّ رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Birodarlarining oldida peshonasini tirishtirib, qovogini solib turuvchi kishidan Alloh g'azablanadi."""
     },
@@ -1085,7 +1085,7 @@ Birodarlarining oldida peshonasini tirishtirib, qovogini solib turuvchi kishidan
  إنّ الله تَعَالَى يُحِبُّ إِغَاثَةَ اللَّهْفَانِ.
 
 (رواه ابْن عساكر عن أبي هريرة)
-_______________________________________________
+_____________________________
 
 Nochor ahvolga tushib qolgan kishilarga yordam berganni albatta Alloh yaxshi ko'radi."""
     },
@@ -1096,7 +1096,7 @@ Nochor ahvolga tushib qolgan kishilarga yordam berganni albatta Alloh yaxshi ko'
  بِئْسَ القَوْمُ قَوْمٌ لَا يُنْزِلُونَ الضَّيْفَ.
 
 (رواه البيهقي عن عقبة بن عامر)
-_______________________________________________
+_____________________________
 
 Mehmonni qabul qilmasdan hurmat kilmagan qavm bunchcha ham yomon qavmdir."""
     },
@@ -1104,7 +1104,7 @@ Mehmonni qabul qilmasdan hurmat kilmagan qavm bunchcha ham yomon qavmdir."""
       "nomeri": "97 hadis",
       "matni": """
  مَنْ بَرَّ وَالِدَيْهِ طُوبَى لَهُ، زَادَ اللَّهُ فِي عُمْرِهِ.(رواه البخاري في الأدب، والطبراني، والحاكم عن أنس)
-_______________________________________________
+_____________________________
 
 Ota onasiga yaxshilik qilib (Ularning roziligini topishga harakat qilgan) kishiga yahshilik bo'lsin, Alloh umrini ziyoda qilsin!"""
     },
@@ -1115,7 +1115,7 @@ Ota onasiga yaxshilik qilib (Ularning roziligini topishga harakat qilgan) kishig
  الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا.
 
 (مُتَّفَقٌ عَلَيْهِ عَنْ أَبِي مُوسَى رَضِيَ اللَّهُ عَنْهُ)
-_______________________________________________
+_____________________________
 
 Mo'min bir birini ushlab turadigan bino kabidir.
 Izokh: Binodag yogoch va gishtlar bir birini kanday ushlab tursa, mo'minlar ham bir birlarini shunday quvvatlashlari kerak."""
@@ -1127,7 +1127,7 @@ Izokh: Binodag yogoch va gishtlar bir birini kanday ushlab tursa, mo'minlar ham 
  الْمُسْلِمُونَ إِخْوَةٌ لَا فَضْلَ لِأَحَدٍ عَلَى أَحَدٍ إِلَّا بِالتَّقْوَى.
 
 (رَوَاهُ الطَّبَرَانِيُّ)
-_______________________________________________
+_____________________________
 
 Musulmonlar hammasi bir biri bilan birodardir. Birining biridan afzalligi faqat taqvo bilandir."""
     },
@@ -1138,7 +1138,7 @@ Musulmonlar hammasi bir biri bilan birodardir. Birining biridan afzalligi faqat 
  اللَّهُمَّ إِنِّي أَسْأَلُكَ عِيشَةً نَقِيَّةً، وَمِيتَةً سَوِيَّةً، وَمَرَدًّا غَيْرَ مُخْزٍ وَلَا فَاضِحٍ»
 
 (الطبراني عن عبد الله ابن عَمرو)
-_______________________________________________
+_____________________________
 
 Men sendan pokiza hayotni, rohatli o'limni, ohiratda xor va sharmanda bolmaslikni surayman."""
     },

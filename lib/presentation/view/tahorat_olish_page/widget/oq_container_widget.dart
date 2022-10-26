@@ -1,20 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 import 'duo_widget.dart';
 
-class OqContainerWidget extends StatefulWidget {
-  const OqContainerWidget({Key? key}) : super(key: key);
-
-  @override
-  State<OqContainerWidget> createState() => _OqContainerWidgetState();
-}
-
-class _OqContainerWidgetState extends State<OqContainerWidget> {
+class OqContainerWidget extends StatelessWidget {
+  const OqContainerWidget({Key? key, required this.son}) : super(key: key);
+  final int son;
+  
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.69,
+      height: he(620),
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -29,33 +26,31 @@ class _OqContainerWidgetState extends State<OqContainerWidget> {
         physics: DataTahoratOlish.son != 9
             ? const NeverScrollableScrollPhysics()
             : const BouncingScrollPhysics(),
-        itemExtent: DataTahoratOlish.son != 9
-            ? MediaQuery.of(context).size.height * 0.71
-            : MediaQuery.of(context).size.height * 0.87,
+        itemExtent: DataTahoratOlish.son != 9 ? he(620) : he(700),
         itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+            padding: EdgeInsets.symmetric(horizontal: wi(20), vertical: he(15)),
             child: Column(
               children: [
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.3,
-                  width: MediaQuery.of(context).size.width * 0.79,
+                  height: he(300),
+                  width: wi(790),
                   decoration: BoxDecoration(
                     color: Colors.transparent,
                     image: DecorationImage(
                         image: AssetImage(DataTahoratOlish
-                            .gif[DataTahoratOlish.son]
+                            .gif[son]
                             .toString()),
                         fit: BoxFit.contain),
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 40, bottom: 10),
+                  padding: EdgeInsets.only(top: he(15), bottom: wi(10)),
                   child: Text(
-                    DataTahoratOlish.text[DataTahoratOlish.son].toString(),
-                    style: const TextStyle(
-                        fontSize: 16,
+                    DataTahoratOlish.text[son].toString(),
+                    style: TextStyle(
+                        fontSize: he(20),
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: "balo"),

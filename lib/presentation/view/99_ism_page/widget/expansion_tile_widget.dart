@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/99_ism_page/widget/list_tile_widget.dart';
 import 'package:namoz_najotdir/presentation/view/99_ism_page/widget/title_widget.dart';
 
@@ -16,12 +17,12 @@ class _ExpansionTileWidgetState extends State<ExpansionTileWidget> {
     return ExpansionTile(
       controlAffinity: ListTileControlAffinity.trailing,
       leading: CircleAvatar(
-        radius: 32,
+        radius: he(40),
         backgroundImage: const AssetImage("assets/images/aylana.png"),
         backgroundColor: Colors.white,
         child: Center(
             child: Text(
-          "${widget.indexOf!+1}",
+          "${widget.indexOf! + 1}",
           style:
               const TextStyle(fontWeight: FontWeight.bold, fontFamily: 'balo'),
         )),

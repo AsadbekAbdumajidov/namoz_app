@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/ismlar_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class TitleWidget extends StatefulWidget {
   final int? index;
@@ -13,16 +14,16 @@ class _TitleWidgetState extends State<TitleWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 15),
+      padding:  EdgeInsets.symmetric(vertical: he(15)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            Ismlar.name[widget.index!].toString(),
-            style: const TextStyle(
+            Ismlar.name[widget.index??0].toString(),
+            style:  TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
-                fontSize: 20,
+                fontSize: he(25),
                 fontFamily: 'fonts'),
           ),
           Text(
@@ -30,7 +31,7 @@ class _TitleWidgetState extends State<TitleWidget> {
             style:  TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
-                fontSize: widget.index == 84 ? 16 : 20,
+                fontSize: widget.index == 83 ? he(20) : he(22),
                 fontFamily: 'fonts'),
           ),
         ],

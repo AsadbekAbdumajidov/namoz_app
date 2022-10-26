@@ -5,6 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
 import 'package:namoz_najotdir/core/services/service_modul_add.dart';
 import 'package:namoz_najotdir/core/services/service_notification.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class NamozVaqtiBuilder extends StatefulWidget {
   final String? title;
@@ -26,78 +27,78 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
       valueListenable: Hive.box("myBoolean").listenable(),
       builder: (context, box, __) {
         return GridView.builder(
-          padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.01),
+          padding:  EdgeInsets.symmetric(vertical: he(14)),
           scrollDirection: Axis.vertical,
           physics: const BouncingScrollPhysics(),
           itemCount: 9,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            mainAxisExtent: MediaQuery.of(context).size.height * 0.1,
+            mainAxisExtent: he(100),
             crossAxisCount: 1,
           ),
-          itemBuilder: (_, __) => Padding(
-            padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.height * 0.02),
+          itemBuilder: (_, __) =>  Padding(
+            padding:  EdgeInsets.symmetric(horizontal: wi(16)),
             child: Container(
-              margin:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.01),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
-                    spreadRadius: 2,
-                    blurRadius: 7,
-                    offset: const Offset(0, 5),
-                  ),
-                ],
-                borderRadius: const BorderRadius.all(
-                  Radius.circular(20),
-                ),
-              ),
-              child: Padding(
-                padding:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.035),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      ServiceModul.times[__][0].toString(),
-                      style: const TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 22),
+                margin:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.01),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 7,
+                      offset: const Offset(0, 5),
                     ),
-                    SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.31,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Text(
-                            ServiceModul.times[__][1]
-                                .toString()
-                                .substring(0, 5),
-                            style: const TextStyle(
-                                color: Color.fromRGBO(12, 114, 100, 1),
-                                fontWeight: FontWeight.bold,
-                                fontSize: 20),
-                          ),
-                          const Icon(Icons.arrow_right),
-                          InkWell(
-                            onTap: () {
-                              ifels(__);
-                            },
-                            child: Icon(
-                              Hive.box("myBoolean").values.toList()[__] == true
-                                  ? Icons.notifications_none_outlined
-                                  : Icons.notifications_off_outlined,
-                              size: 38,
-                              color: const Color.fromRGBO(12, 114, 100, 1),
-                            ),
-                          ),
-                        ],
-                      ),
-                    )
                   ],
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(20),
+                  ),
+                ),
+                child: Padding(
+                  padding:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.035),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        ServiceModul.times[__][0].toString(),
+                        style: const TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 22),
+                      ),
+                      SizedBox(
+                        width: MediaQuery.of(context).size.width * 0.31,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Text(
+                              ServiceModul.times[__][1]
+                                  .toString()
+                                  .substring(0, 5),
+                              style: const TextStyle(
+                                  color: Color.fromRGBO(12, 114, 100, 1),
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20),
+                            ),
+                            const Icon(Icons.arrow_right),
+                            InkWell(
+                              onTap: () {
+                                ifels(__);
+                              },
+                              child: Icon(
+                                Hive.box("myBoolean").values.toList()[__] == true
+                                    ? Icons.notifications_none_outlined
+                                    : Icons.notifications_off_outlined,
+                                size: 38,
+                                color: const Color.fromRGBO(12, 114, 100, 1),
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
-            ),
           ),
         );
       },

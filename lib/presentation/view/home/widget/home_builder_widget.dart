@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class HomeBuuilder extends StatefulWidget {
   const HomeBuuilder({Key? key}) : super(key: key);
@@ -14,13 +15,12 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
   Widget build(BuildContext context) {
     return GridView.builder(
       shrinkWrap: true,
-      padding:
-          EdgeInsets.only(bottom: MediaQuery.of(context).size.height * 0.04),
+      padding: EdgeInsets.only(bottom: he(40)),
       scrollDirection: Axis.vertical,
       physics: const BouncingScrollPhysics(),
       itemCount: Data.boshMenu.length,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        mainAxisExtent: MediaQuery.of(context).size.height * 0.243,
+        mainAxisExtent: he(230),
         crossAxisCount: 2,
       ),
       itemBuilder: (_, __) => FutureBuilder(
@@ -35,8 +35,8 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
               },
               child: Container(
                 margin: const EdgeInsets.all(20),
-                height: MediaQuery.of(context).size.height * 0.8,
-                width: MediaQuery.of(context).size.height * 0.1,
+                height: he(800),
+                width: wi(100),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -55,8 +55,8 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
-                      height: MediaQuery.of(context).size.height * 0.12,
-                      width: MediaQuery.of(context).size.height * 0.12,
+                      height: he(120),
+                      width: he(120),
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage(Data.boshMenuIcons[__]),
@@ -68,8 +68,7 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
                         style: TextStyle(
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
-                            fontSize:
-                                MediaQuery.of(context).size.height * 0.02),
+                            fontSize:__ == 8 ?he(18) : he(20)),
                         maxLines: 1,
                       ),
                     ),
@@ -102,7 +101,7 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
       return Navigator.pushNamed(context, '/ismlar');
     } else if (__ == 9) {
       return Navigator.pushNamed(context, '/duo');
-    }else if (__ == 10) {
+    } else if (__ == 10) {
       return Navigator.pushNamed(context, '/suralar');
     }
   }

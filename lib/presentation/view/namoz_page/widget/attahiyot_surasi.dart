@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class AttahiyotSurasi extends StatefulWidget {
   const AttahiyotSurasi({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class _AttahiyotSurasiState extends State<AttahiyotSurasi> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.50,
+      height: he(532),
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(15))),
       child:  Column(
@@ -32,8 +33,8 @@ class _AttahiyotSurasiState extends State<AttahiyotSurasi> {
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 8),
+                        padding:  EdgeInsets.symmetric(
+                            vertical: he(5), horizontal: wi(8)),
                         child: Text(
                           DataNamoz.attahiyot[0],
                           style: const TextStyle(
@@ -43,8 +44,8 @@ class _AttahiyotSurasiState extends State<AttahiyotSurasi> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 5),
+                        padding:  EdgeInsets.symmetric(
+                            vertical: he(5), horizontal: wi(8)),
                         child: Text(
                           DataNamoz.attahiyot[2],
                           style: const TextStyle(
@@ -54,8 +55,8 @@ class _AttahiyotSurasiState extends State<AttahiyotSurasi> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 8),
+                        padding:  EdgeInsets.symmetric(
+                            vertical: he(5), horizontal: wi(8)),
                         child: Text(
                           DataNamoz.attahiyot[1],
                           style: const TextStyle(

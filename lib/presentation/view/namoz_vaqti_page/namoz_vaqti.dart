@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/container_app.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/namoz_vaqti_builder.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/time_widget.dart';
@@ -14,7 +15,6 @@ class NamozVaqti extends StatefulWidget {
 }
 
 class _NamozVaqtiState extends State<NamozVaqti> {
-  
   @override
   Widget build(BuildContext context) => SlideInUp(
         child: SlideInUp(
@@ -22,10 +22,17 @@ class _NamozVaqtiState extends State<NamozVaqti> {
             backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
             body: Column(
               children: [
-                const ForAppContainer(),
-                const NamozVaqtiTime(),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: wi(16)),
+                  child: Column(
+                    children: const [
+                      ForAppContainer(),
+                      NamozVaqtiTime(),
+                    ],
+                  ),
+                ),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.686,
+                  height: he(585),
                   color: Colors.transparent,
                   child: FutureBuilder(
                     future: ServiceIslam.getIslamData(),
@@ -51,5 +58,4 @@ class _NamozVaqtiState extends State<NamozVaqti> {
           ),
         ),
       );
-
-  }
+}

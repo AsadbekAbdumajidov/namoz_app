@@ -33,60 +33,57 @@ class _ForAppContainerState extends State<ForAppContainer> {
     return ValueListenableBuilder<Box>(
         valueListenable: Hive.box("check").listenable(),
         builder: (context, box, __) {
-          return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 12),
-            child: Container(
-              height: MediaQuery.of(context).size.height * 0.12,
-              width: MediaQuery.of(context).size.width,
-              color: const Color.fromRGBO(238, 238, 238, 1),
-              child: Padding(
-                padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height * 0.04),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    InkWell(
-                      onTap: () {
-                        Navigator.pop(context);
-                      },
-                      child: const CircleAvatar(
-                        radius: 23,
-                        backgroundColor: Colors.white,
-                        child: Icon(
-                          Icons.arrow_back_ios_new,
-                          color: Color.fromRGBO(12, 114, 100, 1),
-                          size: 25,
-                        ),
+          return Container(
+            height: MediaQuery.of(context).size.height * 0.12,
+            width: MediaQuery.of(context).size.width,
+            color: const Color.fromRGBO(238, 238, 238, 1),
+            child: Padding(
+              padding: EdgeInsets.only(
+                  top: MediaQuery.of(context).size.height * 0.04),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  InkWell(
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                    child: const CircleAvatar(
+                      radius: 23,
+                      backgroundColor: Colors.white,
+                      child: Icon(
+                        Icons.arrow_back_ios_new,
+                        color: Color.fromRGBO(12, 114, 100, 1),
+                        size: 25,
                       ),
                     ),
-                    Padding(
-                      padding: EdgeInsets.only(
-                          bottom: MediaQuery.of(context).size.height * 0.005),
-                      child: Text(
-                        Data.boshMenu[0].toString(),
-                        style: const TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 25,
-                            fontFamily: "Fonts"),
-                      ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(
+                        bottom: MediaQuery.of(context).size.height * 0.005),
+                    child: Text(
+                      Data.boshMenu[0].toString(),
+                      style: const TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 25,
+                          fontFamily: "Fonts"),
                     ),
-                    CupertinoSwitch(
-                      value: Hive.box("check").values.toList()[0],
-                      onChanged: (v) {
-                        setState(() {
-                          Hive.box("check").putAt(0, v);
-                          showToast(Hive.box("check").values.toList()[0]);
-                          check(Hive.box("check").values.toList()[0]);
-                          notif(v);
-                        });
-                      },
-                      thumbColor: Colors.white,
-                      activeColor: const Color.fromRGBO(12, 114, 100, 1),
-                      trackColor: Colors.blueGrey.shade400,
-                    ),
-                  ],
-                ),
+                  ),
+                  CupertinoSwitch(
+                    value: Hive.box("check").values.toList()[0],
+                    onChanged: (v) {
+                      setState(() {
+                        Hive.box("check").putAt(0, v);
+                        showToast(Hive.box("check").values.toList()[0]);
+                        check(Hive.box("check").values.toList()[0]);
+                        notif(v);
+                      });
+                    },
+                    thumbColor: Colors.white,
+                    activeColor: const Color.fromRGBO(12, 114, 100, 1),
+                    trackColor: Colors.blueGrey.shade400,
+                  ),
+                ],
               ),
             ),
           );

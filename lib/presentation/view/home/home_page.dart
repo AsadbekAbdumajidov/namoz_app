@@ -58,22 +58,24 @@ class _IslomState extends State<Islam> {
       backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
       elevation: 0,
       centerTitle: true,
-      iconTheme:
-          const IconThemeData(color: Color.fromRGBO(12, 114, 100, 1), size: 30),
-      title: const Text(
+      iconTheme: IconThemeData(
+        color: const Color.fromRGBO(12, 114, 100, 1),
+        size: he(44),
+      ),
+      title: Text(
         "Namoz najotdir",
         style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 25,
+            fontSize: he(32),
             fontFamily: "Fonts"),
       ),
       actions: [
         PopupMenuButton(
           onSelected: (v) {
-            ayniRegion = v.toString();
-
-            setState(() {});
+            setState(() {
+              ayniRegion = v.toString();
+            });
           },
           child: Padding(
             padding: EdgeInsets.only(
@@ -93,10 +95,12 @@ class _IslomState extends State<Islam> {
             return List.generate(RegionAniqla.region.length, (index) {
               return PopupMenuItem(
                 onTap: () {
-                  ayniRegion = RegionAniqla.region[index];
-                  Hive.box("region").put(0, RegionAniqla.region[index]);
-                  debugPrint(Hive.box("region").values.toList()[0].toString());
-                  setState(() {});
+                  setState(() {
+                    ayniRegion = RegionAniqla.region[index];
+                    Hive.box("region").put(0, RegionAniqla.region[index]);
+                    debugPrint(
+                        Hive.box("region").values.toList()[0].toString());
+                  });
                 },
                 child: SlideInUp(
                   child: Column(

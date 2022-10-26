@@ -27,7 +27,7 @@ class _TextWidgetState extends State<TextWidget> {
               widget.title,
               style: TextStyle(
                   color: Colors.black,
-                  fontSize: he(17),
+                  fontSize: he(20),
                   fontFamily: 'balo'),
             ),
         ],

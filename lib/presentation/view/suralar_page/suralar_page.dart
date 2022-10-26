@@ -88,7 +88,7 @@ class _UstunlarPageState extends State<SuralarPage> {
                                         arguments: __);
                                   },
                                 );
-                              })
+                              }) 
                           : ListView.builder(
                               itemCount: state.searchList.length,
                               physics: const BouncingScrollPhysics(),

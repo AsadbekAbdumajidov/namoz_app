@@ -26,13 +26,9 @@ class CustomSearchAppBar extends StatelessWidget
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Container(
-      decoration: const BoxDecoration(
-        color: Color.fromRGBO(238, 238, 238, 1),
-      ),
+      
       padding: EdgeInsets.only(top: statusHeight),
-      child: Material(
-        color: const Color.fromRGBO(238, 238, 238, 1),
-        child: Padding(
+      child:  Padding(
           padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -42,28 +38,29 @@ class CustomSearchAppBar extends StatelessWidget
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   CircleAvatar(
+                    radius: he(30),
                       backgroundColor: Colors.white,
                       child: IconButton(
-                        splashRadius: he(30),
+                        splashRadius: 30,
                         onPressed: () {
                           Navigator.pushNamed(context, '/home');
                         },
-                        icon: const Icon(
+                        icon:  Icon(
                           Icons.arrow_back_ios_new,
-                          color: Color.fromRGBO(12, 114, 100, 1),
-                          size: 25,
+                          color: const Color.fromRGBO(12, 114, 100, 1),
+                          size: he(35),
                         ),
                       )),
                   Text(
                     title,
                     textAlign: TextAlign.center,
-                    style: const TextStyle(
+                    style:  TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 25,
+                        fontSize: he(35),
                         fontFamily: "Fonts"),
                   ),
-                  const SizedBox(width: 40)
+                   SizedBox(width: wi(40))
                 ],
               ),
               SizedBox(height: he(18)),
@@ -93,12 +90,11 @@ class CustomSearchAppBar extends StatelessWidget
             ],
           ),
         ),
-      ),
     );
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(140);
+  Size get preferredSize => const Size.fromHeight(130);
 
   OutlineInputBorder inputBorder() => OutlineInputBorder(
       borderRadius: BorderRadius.circular(12),

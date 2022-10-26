@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class WidgetTimes extends StatefulWidget {
   final int? index;
@@ -16,7 +17,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
     return Row(
       children: [
         Container(
-          height: MediaQuery.of(context).size.height * 0.07,
+          height: he(70),
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -38,7 +39,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.07,
+          height: he(70),
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -60,7 +61,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.07,
+          height: he(70),
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -82,7 +83,7 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.07,
+          height: he(70),
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
               color: color(widget.index),
@@ -104,15 +105,16 @@ class _WidgetTimesState extends State<WidgetTimes> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * 0.07,
+          height: he(70),
           width: MediaQuery.of(context).size.width * 0.15,
           decoration: BoxDecoration(
-              color: color(widget.index),
-              border: widget.index! == 8
-                  ? Border.all()
-                  : Border.all(width: 0.5, color: Colors.black54)),
+            color: color(widget.index),
+            border: widget.index! == 8
+                ? Border.all()
+                : Border.all(width: 0.5, color: Colors.black54),
+          ),
           child: Padding(
-            padding: const EdgeInsets.only(left: 5),
+            padding: EdgeInsets.only(left: wi(5)),
             child: Center(
               child: Text(
                 ServiceIslam.datas![widget.index!]["timings"]["Isha"]
@@ -130,7 +132,8 @@ class _WidgetTimesState extends State<WidgetTimes> {
       ],
     );
   }
-  color(index) {
+
+  color<Radius>(index) {
     if (ServiceIslam.datas![widget.index!]['date']['gregorian']['date'] ==
         ConstIslam.v) {
       return Colors.cyan.shade50;

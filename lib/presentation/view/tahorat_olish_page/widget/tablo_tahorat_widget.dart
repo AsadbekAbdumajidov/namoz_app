@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
-class TabloWidget extends StatefulWidget {
-  const TabloWidget({Key? key}) : super(key: key);
+class TabloWidget extends StatelessWidget {
+  const TabloWidget({Key? key, required this.index}) : super(key: key);
+  final int index;
 
-  @override
-  State<TabloWidget> createState() => _TabloWidgetState();
-}
-
-class _TabloWidgetState extends State<TabloWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.05,
-      width: MediaQuery.of(context).size.width * 0.3,
+      height: he(50),
+      width: wi(80),
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(
@@ -25,16 +21,16 @@ class _TabloWidgetState extends State<TabloWidget> {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 13),
+        padding: EdgeInsets.symmetric(horizontal: wi(13)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "${DataTahoratOlish.son}",
-              style: const TextStyle(
-                  color: Color.fromRGBO(12, 114, 100, 1),
+              "$index",
+              style: TextStyle(
+                  color: const Color.fromRGBO(12, 114, 100, 1),
                   fontWeight: FontWeight.bold,
-                  fontSize: 20),
+                  fontSize: he(20)),
             ),
             const Text(
               "|",
@@ -43,12 +39,12 @@ class _TabloWidgetState extends State<TabloWidget> {
                   fontSize: 25,
                   fontWeight: FontWeight.bold),
             ),
-            const Text(
+            Text(
               "9",
               style: TextStyle(
                   color: Colors.black54,
                   fontWeight: FontWeight.bold,
-                  fontSize: 20),
+                  fontSize: he(20)),
             ),
           ],
         ),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/presentation/components/custom_app_bar.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/tahorat_olish_page/widget/green_container_widget.dart';
 import 'package:namoz_najotdir/presentation/view/tahorat_olish_page/widget/tablo_tahorat_widget.dart';
 
@@ -15,16 +17,20 @@ class _TahoratOlishState extends State<TahoratOlish> {
   @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
-        appBar: appBarim(context),
+        appBar: CustomAppbar(
+            statusHeight: 0,
+            onRightTap: () {
+              Navigator.pushNamed(context, '/haqimizda');
+            },
+            title: Data.boshMenu[5].toString()),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15),
+          padding: EdgeInsets.symmetric(horizontal: wi(15)),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              // ! const qoyilsa ushu filedagi malumot satstate bolmaydi
-              const GreenContainerWidget(),
+              GreenContainerWidget(index: DataTahoratOlish.son),
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 10),
+                padding: EdgeInsets.symmetric(vertical: he(10)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -36,19 +42,19 @@ class _TahoratOlishState extends State<TahoratOlish> {
                             child: IconButton(
                               onPressed: () {
                                 if (DataTahoratOlish.son != 1) {
-                                  DataTahoratOlish.son -= 1;
-                                  setState(() {});
+                                  setState(() {
+                                    DataTahoratOlish.son -= 1;
+                                  });
                                 }
                               },
-                              icon: const Icon(
+                              icon: Icon(
                                 Icons.arrow_back_ios_new,
-                                color: Color.fromRGBO(12, 114, 100, 1),
-                                size: 30,
+                                color: const Color.fromRGBO(12, 114, 100, 1),
+                                size: he(40),
                               ),
                             ),
                           ),
-                    // ! const qoyilsa ushu filedagi malumot satstate bolmaydi
-                    const TabloWidget(),
+                    TabloWidget(index: DataTahoratOlish.son),
                     DataTahoratOlish.son == 9
                         ? Container()
                         : CircleAvatar(
@@ -57,14 +63,15 @@ class _TahoratOlishState extends State<TahoratOlish> {
                             child: IconButton(
                               onPressed: () {
                                 if (DataTahoratOlish.son != 9) {
-                                  DataTahoratOlish.son += 1;
-                                  setState(() {});
+                                  setState(() {
+                                    DataTahoratOlish.son += 1;
+                                  });
                                 }
                               },
-                              icon: const Icon(
+                              icon: Icon(
                                 Icons.arrow_forward_ios,
-                                color: Color.fromRGBO(12, 114, 100, 1),
-                                size: 30,
+                                color: const Color.fromRGBO(12, 114, 100, 1),
+                                size: he(40),
                               ),
                             ),
                           ),
@@ -80,21 +87,21 @@ class _TahoratOlishState extends State<TahoratOlish> {
     return AppBar(
       backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
       elevation: 0,
-      toolbarHeight: MediaQuery.of(context).size.height * 0.07,
+      toolbarHeight: he(70),
       centerTitle: true,
       leading: Padding(
-        padding: const EdgeInsets.only(top: 5, left: 15),
+        padding: EdgeInsets.only(top: he(5), left: wi(10)),
         child: CircleAvatar(
             backgroundColor: Colors.white,
             child: IconButton(
-              splashRadius: 30,
+              splashRadius: 25,
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },
-              icon: const Icon(
+              icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: Color.fromRGBO(12, 114, 100, 1),
-                size: 25,
+                color: const Color.fromRGBO(12, 114, 100, 1),
+                size: he(30),
               ),
             )),
       ),
@@ -108,15 +115,18 @@ class _TahoratOlishState extends State<TahoratOlish> {
       ),
       actions: [
         Padding(
-          padding: const EdgeInsets.only(right: 10),
+          padding: EdgeInsets.only(
+            right: wi(10),
+          ),
           child: IconButton(
+            splashRadius: 25,
             onPressed: () {
               Navigator.pushNamed(context, '/haqimizda');
             },
-            icon: const Icon(
+            icon: Icon(
               Icons.help_outline_rounded,
-              size: 34,
-              color: Color.fromRGBO(12, 114, 100, 1),
+              size: he(40),
+              color: const Color.fromRGBO(12, 114, 100, 1),
             ),
           ),
         )

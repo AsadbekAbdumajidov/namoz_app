@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/duolar_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/cubit/search_cubit/search_cubit.dart';
 import 'package:namoz_najotdir/presentation/view/duo_page/widget/builder_duolar.dart';
 import 'package:namoz_najotdir/presentation/view/suralar_page/widget/app_bar.dart';
@@ -59,7 +60,7 @@ class _UstunlarPageState extends State<DuoPage> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.17,
+                    height: he(170),
                     decoration: const BoxDecoration(
                       image: DecorationImage(
                           image: AssetImage("assets/images/maschid.jpg"),
@@ -70,7 +71,7 @@ class _UstunlarPageState extends State<DuoPage> {
               ),
               Positioned(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  padding:  EdgeInsets.symmetric(horizontal: wi(10)),
                   child: SizedBox(
                     height: MediaQuery.of(context).size.height,
                     width: MediaQuery.of(context).size.width,

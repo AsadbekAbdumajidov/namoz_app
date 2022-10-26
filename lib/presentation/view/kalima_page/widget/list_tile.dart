@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/kalima_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class ListTileWidget extends StatefulWidget {
   final int? index;
@@ -14,9 +15,8 @@ class _ListTileWidgetState extends State<ListTileWidget> {
   Widget build(BuildContext context) {
     return ListTile(
       title: Padding(
-        padding: const EdgeInsets.only(bottom: 10),
+        padding: EdgeInsets.only(bottom: he(10)),
         child: Container(
-
           decoration: BoxDecoration(
             color: Colors.white,
             border: Border.all(
@@ -36,39 +36,36 @@ class _ListTileWidgetState extends State<ListTileWidget> {
             ],
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    DataKalima.kalimalar[widget.index!],
+            padding: EdgeInsets.symmetric(horizontal: wi(16), vertical: he(14)),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(
+                  DataKalima.kalimalar[widget.index!],
+                  style: const TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'balo'),
+                ),
+                const Divider(
+                  color: Colors.black,
+                ),
+                Padding(
+                  padding: EdgeInsets.only(top: he(10)),
+                  child: Text(
+                    DataKalima.title[widget.index ?? 0],
                     style: const TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'balo'),
                   ),
-                  const Divider(
-                    color: Colors.black,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 10),
-                    child: Text(
-                      DataKalima.title[widget.index!],
-                      style: const TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontFamily: 'balo'),
-                    ),
-                  ),
-                  Text(
-                    DataKalima.manosi[widget.index!],
-                    style: const TextStyle(
-                        color: Colors.black, fontFamily: 'balo'),
-                  )
-                ],
-              ),
+                ),
+                Text(
+                  DataKalima.manosi[widget.index ?? 0],
+                  style:
+                      const TextStyle(color: Colors.black, fontFamily: 'balo'),
+                )
+              ],
             ),
           ),
         ),

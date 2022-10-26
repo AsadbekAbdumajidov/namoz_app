@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_page/widget/attahiyot_surasi.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_page/widget/salom_widget.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_page/widget/suralar_widget.dart';
@@ -15,7 +16,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.685,
+      height: he(620),
       width: MediaQuery.of(context).size.width,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -33,13 +34,13 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
         itemBuilder: (BuildContext context, int index) {
           return Padding(
             padding: EdgeInsets.symmetric(
-                horizontal: MediaQuery.of(context).size.width * 0.03,
-                vertical: MediaQuery.of(context).size.height * 0.02),
+                horizontal: wi(14),
+                vertical: he(12)),
             child: Column(
               children: [
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.3,
-                  width: MediaQuery.of(context).size.width * 0.8,
+                  height: he(300),
+                  width: wi(250),
                   decoration: BoxDecoration(
                     color: Colors.transparent,
                     image: DecorationImage(
@@ -50,7 +51,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
                 ),
                 Padding(
                   padding: EdgeInsets.only(
-                      top: MediaQuery.of(context).size.height * 0.02),
+                      top: he(10)),
                   child: Text(
                     DataNamoz.text[DataNamoz.son].toString(),
                     style: const TextStyle(
@@ -75,7 +76,7 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
   physics() {
     if (DataNamoz.son == 3) {
       return const BouncingScrollPhysics();
-    } else if (DataNamoz.son == 13 || DataNamoz.son == 12) {
+    } else if (DataNamoz.son == 13 || DataNamoz.son == 12||DataNamoz.son == 5) {
       return const BouncingScrollPhysics();
     } else {
       return const NeverScrollableScrollPhysics();
@@ -84,13 +85,16 @@ class _WhiteContainerWidgetState extends State<WhiteContainerWidget> {
 
   itemExtent() {
     if (DataNamoz.son == 3 ) {
-      return MediaQuery.of(context).size.height * 2.55;
+      return he(2710);
     } else if (DataNamoz.son == 12) {
-      return MediaQuery.of(context).size.height * 1.01;
+      return he(1030);
     }else if (DataNamoz.son == 13) {
-      return MediaQuery.of(context).size.height * 1.55;
+      return he(1585);
+    }
+    else if (DataNamoz.son == 5) {
+      return he(750);
     } else {
-      return MediaQuery.of(context).size.height * 0.72;
+      return he(650);
     }
   }
 }
