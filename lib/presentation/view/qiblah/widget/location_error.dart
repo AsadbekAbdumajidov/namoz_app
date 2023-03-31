@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 
 class LocationErrorWidget extends StatelessWidget {
   final String? error;
@@ -31,7 +32,7 @@ class LocationErrorWidget extends StatelessWidget {
 
             ElevatedButton(
               style: OutlinedButton.styleFrom(
-            backgroundColor: const Color.fromRGBO(12, 114, 100, 1),
+            backgroundColor:  AppColors.primaryColor,
             minimumSize: Size(
               MediaQuery.of(context).size.width * 0.3,
               MediaQuery.of(context).size.height * 0.06,

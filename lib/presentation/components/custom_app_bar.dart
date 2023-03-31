@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -17,33 +19,35 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return AppBar(
-      backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+      backgroundColor: AppColors.backgroundColor,
       elevation: 0,
       toolbarHeight: he(70),
       centerTitle: true,
       leading: Padding(
-        padding: EdgeInsets.only(top: he(5), left: wi(10)),
+        padding: EdgeInsets.only(left: wi(10)),
         child: CircleAvatar(
-          radius: he(30),
+            radius: he(30),
             backgroundColor: Colors.white,
-            child: IconButton(
-              splashRadius: 30,
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              icon: Icon(
-                Icons.arrow_back_ios_new,
-                color: const Color.fromRGBO(12, 114, 100, 1),
-                size: he(35),
+            child: Center(
+              child: GestureDetector(
+                onTap: () => Navigator.pop(context),
+                child: Padding(
+                  padding: EdgeInsets.only(right: wi(2)),
+                  child: Icon(
+                    CupertinoIcons.back,
+                    color: AppColors.primaryColor,
+                    size: he(30),
+                  ),
+                ),
               ),
             )),
       ),
       title: Text(
         title,
-        style:  TextStyle(
+        style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: he(30),
+            fontSize: he(26),
             fontFamily: "Fonts"),
       ),
       actions: [
@@ -53,13 +57,12 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
                 padding: EdgeInsets.only(
                   right: wi(10),
                 ),
-                child: IconButton(
-                  splashRadius: 25,
-                  onPressed: onRightTap,
-                  icon: Icon(
+                child: GestureDetector(
+                  onTap: onRightTap,
+                  child: Icon(
                     Icons.help_outline_rounded,
-                    size: he(45),
-                    color: const Color.fromRGBO(12, 114, 100, 1),
+                    size: he(35),
+                    color: AppColors.primaryColor,
                   ),
                 ),
               )

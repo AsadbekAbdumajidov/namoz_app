@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 
 class BoshPageUchun extends StatefulWidget {
   const BoshPageUchun({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class _BoshPageUchunState extends State<BoshPageUchun> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color.fromRGBO(238, 238, 238, 1),
+      color: AppColors.backgroundColor,
       height: MediaQuery.of(context).size.height * 0.885,
       width: MediaQuery.of(context).size.width * 1,
       child: Column(

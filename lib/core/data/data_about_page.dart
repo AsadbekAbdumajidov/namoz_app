@@ -6,5 +6,5 @@ class DataAboutPage {
       "         Assalomu alaykum\nva rahmatulloh va barakatuh !!!";
 
   static String dasturHaqida =
-      "Zero Qur'oni karimda:\n«Namozni mukammal ado etingiz, zakot beringiz\n va ruku qiluvchilar bilan birga ruku qilingiz» \n(Baqara, 43).";
+      "Zero Qur'oni karimda: «Namozni mukammal ado etingiz, zakot beringiz va ruku qiluvchilar bilan birga ruku qilingiz» (Baqara, 43).";
 }

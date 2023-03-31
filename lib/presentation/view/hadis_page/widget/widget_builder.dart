@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:animated_card/animated_card.dart';
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/hadis_page/widget/title_widget.dart';
 
@@ -26,7 +27,7 @@ class _WidgetBuilderState extends State<WidgetBuilderHadis> {
           initDelay: const Duration(milliseconds: 0),
           duration: const Duration(seconds: 1),
           child: Padding(
-            padding:  EdgeInsets.only(top: he(10)),
+            padding: EdgeInsets.only(top: he(10)),
             child: SlideInLeft(
               child: Card(
                 clipBehavior: Clip.antiAlias,
@@ -35,7 +36,7 @@ class _WidgetBuilderState extends State<WidgetBuilderHadis> {
                     side: BorderSide.none),
                 child: ListTile(
                   onTap: () {
-                    Navigator.pushNamed(context, "/HadisCon",arguments: __);
+                    Navigator.pushNamed(context, "/HadisCon", arguments: __);
                   },
                   leading: CircleAvatar(
                     radius: he(35),
@@ -52,7 +53,7 @@ class _WidgetBuilderState extends State<WidgetBuilderHadis> {
                   title: TitleWidgetHadis(index: __),
                   trailing: const Icon(
                     Icons.arrow_forward_ios_rounded,
-                    color: Color.fromRGBO(12, 114, 100, 1),
+                    color: AppColors.primaryColor,
                   ),
                 ),
               ),

@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/container_app.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/namoz_vaqti_builder.dart';
@@ -19,7 +20,7 @@ class _NamozVaqtiState extends State<NamozVaqti> {
   Widget build(BuildContext context) => SlideInUp(
         child: SlideInUp(
           child: Scaffold(
-            backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+            backgroundColor: AppColors.backgroundColor,
             body: Column(
               children: [
                 Padding(
@@ -41,7 +42,7 @@ class _NamozVaqtiState extends State<NamozVaqti> {
                         return Center(
                           // ! loading_animation_widget paket
                           child: LoadingAnimationWidget.hexagonDots(
-                            color: const Color.fromRGBO(12, 114, 100, 1),
+                            color:  AppColors.primaryColor,
                             size: 50,
                           ),
                         );

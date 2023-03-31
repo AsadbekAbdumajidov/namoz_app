@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/sana_widget.dart';
 import 'package:namoz_najotdir/presentation/view/Taqvim_page/widget/widget_data.dart';
@@ -33,7 +34,7 @@ class _ContainerWhiteWidgetState extends State<ContainerWhiteWidget> {
           if (!snapshot.hasData) {
             return Center(
               child: LoadingAnimationWidget.hexagonDots(
-                color: const Color.fromRGBO(12, 114, 100, 1),
+                color:  AppColors.primaryColor,
                 size: 50,
               ),
             );

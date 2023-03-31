@@ -68,7 +68,9 @@ class _HomeBuuilderState extends State<HomeBuuilder> {
                         style: TextStyle(
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
-                            fontSize:__ == 8 ?he(16) : he(20)),
+                            
+                            fontSize:__ == 8 ?he(16) : he(20),fontFamily: "balo"),
+                            
                         maxLines: 1,
                       ),
                     ),

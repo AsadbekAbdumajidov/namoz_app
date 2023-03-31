@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class DuoWidget extends StatefulWidget {
@@ -28,7 +29,7 @@ class _DuoWidgetState extends State<DuoWidget> {
                   decoration: BoxDecoration(
                     border: Border.all(
                       width: 0.5,
-                      color: const Color.fromRGBO(12, 114, 100, 1),
+                      color:  AppColors.primaryColor,
                     ),
                     borderRadius: const BorderRadius.all(
                       Radius.circular(15),

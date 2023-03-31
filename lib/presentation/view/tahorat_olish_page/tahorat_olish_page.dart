@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/custom_app_bar.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/tahorat_olish_page/widget/green_container_widget.dart';
@@ -16,7 +17,7 @@ class TahoratOlish extends StatefulWidget {
 class _TahoratOlishState extends State<TahoratOlish> {
   @override
   Widget build(BuildContext context) => Scaffold(
-        backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+        backgroundColor: AppColors.backgroundColor,
         appBar: CustomAppbar(
             statusHeight: 0,
             onRightTap: () {
@@ -49,7 +50,7 @@ class _TahoratOlishState extends State<TahoratOlish> {
                               },
                               icon: Icon(
                                 Icons.arrow_back_ios_new,
-                                color: const Color.fromRGBO(12, 114, 100, 1),
+                                color:  AppColors.primaryColor,
                                 size: he(35),
                               ),
                             ),
@@ -70,7 +71,7 @@ class _TahoratOlishState extends State<TahoratOlish> {
                               },
                               icon: Icon(
                                 Icons.arrow_forward_ios,
-                                color: const Color.fromRGBO(12, 114, 100, 1),
+                                color:  AppColors.primaryColor,
                                 size: he(35),
                               ),
                             ),

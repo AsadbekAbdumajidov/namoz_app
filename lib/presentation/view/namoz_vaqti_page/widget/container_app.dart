@@ -6,6 +6,8 @@ import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
 import 'package:namoz_najotdir/core/services/service_modul_add.dart';
 import 'package:namoz_najotdir/core/services/service_notification.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class ForAppContainer extends StatefulWidget {
   const ForAppContainer({Key? key}) : super(key: key);
@@ -36,24 +38,25 @@ class _ForAppContainerState extends State<ForAppContainer> {
           return Container(
             height: MediaQuery.of(context).size.height * 0.12,
             width: MediaQuery.of(context).size.width,
-            color: const Color.fromRGBO(238, 238, 238, 1),
+            color: AppColors.backgroundColor,
             child: Padding(
               padding: EdgeInsets.only(
                   top: MediaQuery.of(context).size.height * 0.04),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  InkWell(
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
-                    child: const CircleAvatar(
-                      radius: 23,
+                  GestureDetector(
+                    onTap: () => Navigator.pop(context),
+                    child: CircleAvatar(
+                      radius: 20,
                       backgroundColor: Colors.white,
-                      child: Icon(
-                        Icons.arrow_back_ios_new,
-                        color: Color.fromRGBO(12, 114, 100, 1),
-                        size: 25,
+                      child: Padding(
+                        padding: EdgeInsets.only(right: wi(1)),
+                        child: const Icon(
+                          CupertinoIcons.back,
+                          color: AppColors.primaryColor,
+                          size: 28,
+                        ),
                       ),
                     ),
                   ),
@@ -80,7 +83,7 @@ class _ForAppContainerState extends State<ForAppContainer> {
                       });
                     },
                     thumbColor: Colors.white,
-                    activeColor: const Color.fromRGBO(12, 114, 100, 1),
+                    activeColor: AppColors.primaryColor,
                     trackColor: Colors.blueGrey.shade400,
                   ),
                 ],

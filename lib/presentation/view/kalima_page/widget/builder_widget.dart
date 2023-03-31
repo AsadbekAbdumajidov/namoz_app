@@ -5,6 +5,8 @@ import 'package:namoz_najotdir/core/data/kalima_data.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/kalima_page/widget/list_tile.dart';
 
+import '../../../../core/themes/app_colors.dart';
+
 class Builderwidget extends StatefulWidget {
   const Builderwidget({Key? key}) : super(key: key);
 
@@ -49,7 +51,7 @@ class _BuilderwidgetState extends State<Builderwidget> {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontFamily: 'balo',
-                          color:const Color.fromRGBO(12, 114, 100, 1),
+                          color: AppColors.primaryColor,
                           fontSize: he(18),
                         ),
                       ),

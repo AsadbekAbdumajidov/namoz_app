@@ -8,6 +8,8 @@ import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/core/services/auido_player_manager.dart';
 import 'package:rxdart/rxdart.dart';
 
+import '../../core/themes/app_colors.dart';
+
 class AudioPlayerWidget extends StatefulWidget {
   const AudioPlayerWidget(
       {Key? key, required this.url, required this.index, required this.name})
@@ -101,11 +103,11 @@ class _AudioPlayerWidgetState extends State<AudioPlayerWidget> {
           progress: progress,
           buffered: buffered,
           // timeLabelLocation: TimeLabelLocation.sides,
-          progressBarColor: const Color.fromRGBO(12, 114, 100, 1),
+          progressBarColor:  AppColors.primaryColor,
           bufferedBarColor:
-              const Color.fromRGBO(12, 114, 100, 1).withOpacity(0.4),
-          thumbGlowColor: const Color.fromRGBO(12, 114, 100, 1),
-          thumbColor: const Color.fromRGBO(12, 114, 100, 1),
+               AppColors.primaryColor.withOpacity(0.4),
+          thumbGlowColor:  AppColors.primaryColor,
+          thumbColor:  AppColors.primaryColor,
           thumbGlowRadius: 20,
           timeLabelPadding: 4,
           total: total,
@@ -135,7 +137,7 @@ class _AudioPlayerWidgetState extends State<AudioPlayerWidget> {
               width: he(25),
               height: he(25),
               child: const CircularProgressIndicator(
-                color: Color.fromRGBO(12, 114, 100, 1),
+                color: AppColors.primaryColor,
               ),
             ),
           );

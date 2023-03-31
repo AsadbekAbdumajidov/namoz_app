@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/duolar_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class DuolarGreenWidget extends StatefulWidget {
@@ -15,8 +16,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(
-          horizontal: wi(14)),
+      padding: EdgeInsets.symmetric(horizontal: wi(14)),
       child: SlideInLeft(
         child: SizedBox(
           height: he(780),
@@ -24,7 +24,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
           child: Container(
             width: MediaQuery.of(context).size.width,
             decoration: const BoxDecoration(
-              color: Color.fromRGBO(12, 114, 100, 1),
+              color: AppColors.primaryColor,
               borderRadius: BorderRadius.all(
                 Radius.circular(20),
               ),
@@ -33,11 +33,10 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(
-                      vertical: he(5)),
+                  padding: EdgeInsets.symmetric(vertical: he(5)),
                   child: Text(
                     Duolar.duolar[widget.index]["name"].toString(),
-                    style:  TextStyle(
+                    style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                         fontSize: he(30),
@@ -63,9 +62,7 @@ class _GreenConWidgetState extends State<DuolarGreenWidget> {
                     itemBuilder: (_, __) {
                       return Padding(
                         padding: EdgeInsets.symmetric(
-                            horizontal:
-                                wi(12),
-                            vertical: he(16)),
+                            horizontal: wi(12), vertical: he(16)),
                         child: Column(
                           children: [
                             Text(

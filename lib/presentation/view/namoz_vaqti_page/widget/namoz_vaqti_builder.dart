@@ -5,6 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
 import 'package:namoz_najotdir/core/services/service_modul_add.dart';
 import 'package:namoz_najotdir/core/services/service_notification.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class NamozVaqtiBuilder extends StatefulWidget {
@@ -75,7 +76,7 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
                                   .toString()
                                   .substring(0, 5),
                               style: const TextStyle(
-                                  color: Color.fromRGBO(12, 114, 100, 1),
+                                  color: AppColors.primaryColor,
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20),
                             ),
@@ -89,7 +90,7 @@ class _NamozVaqtiBuilderState extends State<NamozVaqtiBuilder> {
                                     ? Icons.notifications_none_outlined
                                     : Icons.notifications_off_outlined,
                                 size: 38,
-                                color: const Color.fromRGBO(12, 114, 100, 1),
+                                color:  AppColors.primaryColor,
                               ),
                             ),
                           ],

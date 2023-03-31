@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:namoz_najotdir/core/const_islam.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_vaqti_page/widget/kun_widget.dart';
 import 'package:namoz_najotdir/core/services/service_islam.dart';
@@ -71,7 +72,7 @@ class _NamozVaqtiTimeState extends State<NamozVaqtiTime> {
                           return Center(
                             // ! loading_animation_widget paket
                             child: LoadingAnimationWidget.hexagonDots(
-                              color: const Color.fromRGBO(12, 114, 100, 1),
+                              color:  AppColors.primaryColor,
                               size: 20,
                             ),
                           );

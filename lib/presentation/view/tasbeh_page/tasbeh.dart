@@ -152,8 +152,8 @@ class _TasbehState extends State<Tasbeh> {
                       ),
                       Positioned(
                         bottom: he(90),
-                        left: wi(90),
-                        right: wi(90),
+                        left: wi(50),
+                        right: wi(50),
                         child: Container(
                           height: he(250),
                           width: wi(150),

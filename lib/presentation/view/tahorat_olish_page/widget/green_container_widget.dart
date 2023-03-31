@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data_tahorat_olish.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/tahorat_olish_page/widget/oq_container_widget.dart';
 
@@ -25,7 +26,7 @@ class GreenContainerWidget extends StatelessWidget {
                 offset: const Offset(0, 5),
               ),
             ],
-            color: const Color.fromRGBO(12, 114, 100, 1),
+            color:  AppColors.primaryColor,
             borderRadius: const BorderRadius.all(
               Radius.circular(20),
             ),

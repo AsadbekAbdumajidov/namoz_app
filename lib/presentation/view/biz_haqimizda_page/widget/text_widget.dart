@@ -15,23 +15,21 @@ class TextWidget extends StatefulWidget {
 class _TextWidgetState extends State<TextWidget> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.only(
-          top: he(8)),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          widget.icon,
-          SizedBox(width: wi(6)),
-           Text(
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        widget.icon,
+        SizedBox(width: wi(8)),
+         Expanded(
+           child: Text(
               widget.title,
               style: TextStyle(
                   color: Colors.black,
                   fontSize: he(18),
                   fontFamily: 'balo'),
             ),
-        ],
-      ),
+         ),
+      ],
     );
   }
 }

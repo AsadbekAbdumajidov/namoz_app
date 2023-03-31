@@ -5,6 +5,7 @@ import 'package:flutter_qiblah/flutter_qiblah.dart';
 
 import 'package:geolocator/geolocator.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/custom_app_bar.dart';
 import 'package:namoz_najotdir/presentation/view/qiblah/widget/elevated_buttons_widget.dart';
 import 'package:namoz_najotdir/presentation/view/qiblah/widget/qiblah_compas_widget.dart';
@@ -35,13 +36,13 @@ class _QiblahCompassState extends State<QiblahCompass> {
   Widget build(BuildContext context) {
     return SlideInUp(
       child: Scaffold(
-        backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+        backgroundColor: AppColors.backgroundColor,
         appBar: CustomAppbar(
-              statusHeight: 0,
-              onRightTap: () {
-                Navigator.pushNamed(context, '/haqimizda');
-              },
-              title: Data.boshMenu[1].toString()),
+            statusHeight: 0,
+            onRightTap: () {
+              Navigator.pushNamed(context, '/haqimizda');
+            },
+            title: Data.boshMenu[1].toString()),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [

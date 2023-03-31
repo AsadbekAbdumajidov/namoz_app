@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/suralar_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/cubit/search_cubit/search_cubit.dart';
 import 'package:namoz_najotdir/presentation/view/suralar_page/widget/app_bar.dart';
 import 'package:namoz_najotdir/presentation/view/suralar_page/widget/builder_suralar.dart';
@@ -32,10 +33,9 @@ class _UstunlarPageState extends State<SuralarPage> {
     return SlideInUp(
       child: BlocProvider(
         create: (_) => SearchCubit(),
-        child: BlocBuilder<SearchCubit, SearchState>(
-            builder: (context, state) {
+        child: BlocBuilder<SearchCubit, SearchState>(builder: (context, state) {
           return Scaffold(
-            backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+            backgroundColor: AppColors.backgroundColor,
             appBar: CustomSearchAppBar(
               statusHeight: statusHeight,
               focusNode: _focusNode,
@@ -51,7 +51,7 @@ class _UstunlarPageState extends State<SuralarPage> {
                 }
               },
               onChange: (word) {
-                context.read<SearchCubit>().search(word,Suralar.suralar);
+                context.read<SearchCubit>().search(word, Suralar.suralar);
               },
             ),
             body: Stack(
@@ -88,7 +88,7 @@ class _UstunlarPageState extends State<SuralarPage> {
                                         arguments: __);
                                   },
                                 );
-                              }) 
+                              })
                           : ListView.builder(
                               itemCount: state.searchList.length,
                               physics: const BouncingScrollPhysics(),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/ismlar_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class ListTilewidgetIsmlar extends StatefulWidget {
@@ -21,7 +22,7 @@ class _ListTilewidgetIsmlarState extends State<ListTilewidgetIsmlar> {
             color: Colors.white,
             border: Border.all(
               width: 0.5,
-              color: const Color.fromRGBO(12, 114, 100, 1),
+              color:  AppColors.primaryColor,
             ),
             borderRadius: const BorderRadius.all(
               Radius.circular(10),

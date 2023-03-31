@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
+import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class TabloNamozwidget extends StatefulWidget {
   const TabloNamozwidget({Key? key}) : super(key: key);
@@ -12,13 +14,13 @@ class _TabloNamozwidgetState extends State<TabloNamozwidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.05,
-      width: MediaQuery.of(context).size.width * 0.3,
+      height: he(40),
+      width: wi(100),
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(
           width: 0.5,
-          color: const Color.fromRGBO(12, 114, 100, 1),
+          color:  AppColors.primaryColor,
         ),
         borderRadius: const BorderRadius.all(
           Radius.circular(10),
@@ -32,7 +34,7 @@ class _TabloNamozwidgetState extends State<TabloNamozwidget> {
             Text(
               "${DataNamoz.son}",
               style: const TextStyle(
-                  color: Color.fromRGBO(12, 114, 100, 1),
+                  color: AppColors.primaryColor,
                   fontWeight: FontWeight.bold,
                   fontSize: 20),
             ),
@@ -41,7 +43,7 @@ class _TabloNamozwidgetState extends State<TabloNamozwidget> {
               style: TextStyle(
                   color: Colors.black,
                   fontSize: 25,
-                  fontWeight: FontWeight.bold),
+                  fontWeight: FontWeight.normal),
             ),
             const Text(
               "13",

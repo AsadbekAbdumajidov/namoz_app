@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/duolar_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/cubit/search_cubit/search_cubit.dart';
 import 'package:namoz_najotdir/presentation/view/duo_page/widget/builder_duolar.dart';
@@ -33,10 +34,9 @@ class _UstunlarPageState extends State<DuoPage> {
     return SlideInUp(
       child: BlocProvider(
         create: (_) => SearchCubit(),
-        child: BlocBuilder<SearchCubit, SearchState>(
-            builder: (context, state) {
+        child: BlocBuilder<SearchCubit, SearchState>(builder: (context, state) {
           return Scaffold(
-            backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+            backgroundColor: AppColors.backgroundColor,
             appBar: CustomSearchAppBar(
               statusHeight: statusHeight,
               focusNode: _focusNode,
@@ -52,7 +52,7 @@ class _UstunlarPageState extends State<DuoPage> {
                 }
               },
               onChange: (word) {
-                context.read<SearchCubit>().search(word,Duolar.duolar);
+                context.read<SearchCubit>().search(word, Duolar.duolar);
               },
             ),
             body: Stack(children: [
@@ -71,7 +71,7 @@ class _UstunlarPageState extends State<DuoPage> {
               ),
               Positioned(
                 child: Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: wi(10)),
+                  padding: EdgeInsets.symmetric(horizontal: wi(10)),
                   child: SizedBox(
                     height: MediaQuery.of(context).size.height,
                     width: MediaQuery.of(context).size.width,

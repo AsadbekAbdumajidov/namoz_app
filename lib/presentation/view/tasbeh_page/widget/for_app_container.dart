@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 
 class ForAppCont extends StatefulWidget {
   const ForAppCont({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class _ForAppContState extends State<ForAppCont> {
       width: MediaQuery.of(context).size.width,
       color: const Color.fromRGBO(238, 238, 238, 100),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 15,vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.end,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -30,7 +31,7 @@ class _ForAppContState extends State<ForAppCont> {
                 backgroundColor: Colors.white,
                 child: Icon(
                   Icons.arrow_back_ios_new,
-                  color: Color.fromRGBO(12, 114, 100, 1),
+                  color: AppColors.primaryColor,
                   size: 25,
                 ),
               ),
@@ -53,7 +54,7 @@ class _ForAppContState extends State<ForAppCont> {
               icon: const Icon(
                 Icons.help_outline_rounded,
                 size: 36,
-                color: Color.fromRGBO(12, 114, 100, 1),
+                color: AppColors.primaryColor,
               ),
             )
           ],

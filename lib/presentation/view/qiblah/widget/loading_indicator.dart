@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 
 class LoadingIndicator extends StatelessWidget {
   const LoadingIndicator({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class LoadingIndicator extends StatelessWidget {
         ? Center(
             // ! loading_animation_widget paket
             child: LoadingAnimationWidget.hexagonDots(
-              color: const Color.fromRGBO(12, 114, 100, 1),
+              color:  AppColors.primaryColor,
               size: 50,
             ),
           )

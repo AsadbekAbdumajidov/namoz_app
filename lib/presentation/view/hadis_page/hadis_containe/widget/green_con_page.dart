@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/hadis_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 
 class GreenConWidget extends StatefulWidget {
@@ -23,7 +24,7 @@ class _GreenConWidgetState extends State<GreenConWidget> {
           child: Container(
             width: MediaQuery.of(context).size.width,
             decoration: const BoxDecoration(
-              color: Color.fromRGBO(12, 114, 100, 1),
+              color: AppColors.primaryColor,
               borderRadius: BorderRadius.all(
                 Radius.circular(20),
               ),

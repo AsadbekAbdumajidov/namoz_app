@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
 
@@ -25,7 +26,7 @@ class _SalomWidgetState extends State<SalomWidget> {
               decoration: BoxDecoration(
                 border: Border.all(
                   width: 0.5,
-                  color: const Color.fromRGBO(12, 114, 100, 1),
+                  color:  AppColors.primaryColor,
                 ),
                 borderRadius: const BorderRadius.all(
                   Radius.circular(15),
@@ -82,7 +83,7 @@ class _SalomWidgetState extends State<SalomWidget> {
               decoration: BoxDecoration(
                 border: Border.all(
                   width: 0.5,
-                  color: const Color.fromRGBO(12, 114, 100, 1),
+                  color:  AppColors.primaryColor,
                 ),
                 borderRadius: const BorderRadius.all(
                   Radius.circular(15),

@@ -1,9 +1,11 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:animate_do/animate_do.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:namoz_najotdir/core/data/data.dart';
 import 'package:namoz_najotdir/core/data/namoz_data.dart';
+import 'package:namoz_najotdir/core/themes/app_colors.dart';
 import 'package:namoz_najotdir/presentation/components/custom_app_bar.dart';
 import 'package:namoz_najotdir/presentation/components/size_konfig.dart';
 import 'package:namoz_najotdir/presentation/view/namoz_page/widget/tablo_namoz_widget.dart';
@@ -20,7 +22,7 @@ class _NamozState extends State<Namoz> {
   @override
   Widget build(BuildContext context) => SlideInUp(
         child: Scaffold(
-          backgroundColor: const Color.fromRGBO(238, 238, 238, 1),
+          backgroundColor: AppColors.backgroundColor,
           appBar: CustomAppbar(
               statusHeight: 0,
               onRightTap: () {
@@ -47,7 +49,7 @@ class _NamozState extends State<Namoz> {
                             offset: const Offset(0, 5),
                           ),
                         ],
-                        color: Color.fromRGBO(12, 114, 100, 1),
+                        color: AppColors.primaryColor,
                         borderRadius: BorderRadius.all(
                           Radius.circular(20),
                         ),
@@ -82,17 +84,20 @@ class _NamozState extends State<Namoz> {
                           : CircleAvatar(
                               backgroundColor: Colors.white,
                               radius: 25,
-                              child: IconButton(
-                                onPressed: () {
+                              child: GestureDetector(
+                                onTap: () {
                                   if (DataNamoz.son != 1) {
                                     DataNamoz.son -= 1;
                                     setState(() {});
                                   }
                                 },
-                                icon: Icon(
-                                  Icons.arrow_back_ios_new,
-                                  color: Color.fromRGBO(12, 114, 100, 1),
-                                  size: he(35),
+                                child: Padding(
+                                  padding:  EdgeInsets.only(right: wi(2)),
+                                  child: Icon(
+                                    CupertinoIcons.back,
+                                    color: AppColors.primaryColor,
+                                    size: he(35),
+                                  ),
                                 ),
                               ),
                             ),
@@ -102,18 +107,21 @@ class _NamozState extends State<Namoz> {
                           : CircleAvatar(
                               backgroundColor: Colors.white,
                               radius: 25,
-                              child: IconButton(
-                                onPressed: () {
+                              child: GestureDetector(
+                                onTap: () {
                                   if (DataNamoz.son != 13) {
                                     setState(() {
                                       DataNamoz.son += 1;
                                     });
                                   }
                                 },
-                                icon: Icon(
-                                  Icons.arrow_forward_ios,
-                                  color: Color.fromRGBO(12, 114, 100, 1),
-                                  size: he(35),
+                                child: Padding(
+                                  padding:  EdgeInsets.only(left: wi(2)),
+                                  child: Icon(
+                                    CupertinoIcons.forward,
+                                    color: AppColors.primaryColor,
+                                    size: he(35),
+                                  ),
                                 ),
                               ),
                             ),
